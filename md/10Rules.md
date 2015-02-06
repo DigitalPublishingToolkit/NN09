@@ -1,105 +1,108 @@
----
-Pr-id: Network Notebooks
-P-id: Network Notebooks
-A-id: 09
-Type: ((formerly called Item): type of the item)
-Book-type: monograph
-Item-id: (unique no.)
-Article-title: 10 Rules For the New Game
-Article-status: accepted
-Author: Michael Seemann
-Author-email:   (corresponding address)
-Author-bio:  (about the author)
-Abstract:   (short description of the article (100 words))
-Keywords:   (50 keywords for search and indexing)
-Rights: CC BY-NC 4.0
-contributor:
-- Anwen Roberts
-- Miriam Rasch
-- Geert Lovink
-- 'Medamo, Rotterdam'
-- André Castro
-date: '2015-02'
-...
+# 10 Rules For the New Game
 
+# Michael Seemann
 
-# Colophon
-**Original Title:** Das Neue Spiel: Strategien für die Welt nach dem
-digitalen Kontrollverlust\
-**Translation:** Anwen Roberts\
-**Network Notebooks editors:** Geert Lovink and
-Miriam Rasch\
-**Design:** [Medamo](http://medamo.nl/), Rotterdam\
-**ePub development:** André Castro\
-**Printer:** Printvisie\
-**Publisher:** Institute of Network Cultures, Amsterdam\
-**Supported by:** Amsterdam University of Applied Sciences (Hogeschool
-van Amsterdam), Amsterdam Creative Industries Publishing, Stichting
-Democratie en Media, Pacific Northwest College of Art
+Translated from the German by Anwen Roberts
 
-If you want to order copies please contact:\
-Institute of Network Cultures\
-Hogeschool van Amsterdam\
-Rhijnspoorplein 1\
-1091 GC Amsterdam\
-The Netherlands\
-[http://www.networkcultures.org](www.networkcultures.org)\
-books@networkcultures.org\
-t: +31 (0)20 59 51 865
+## Table of Contents
 
-**ePub and PDF editions of this publication are
-freely downloadable from:**
-[http://www.networkcultures.org/publications](publications) 
+## 
 
-This publication is licensed under Creative
-Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND
-3.0) To view a copy of this license, visit
-[creativecommons.org/licenses/by-nc-sa/3.0/](). Regarding the images
-used, all rights belong to their respective owners.
+10 Rules For the New Game 1
 
-Amsterdam, February 2014\
-ISBN ???-??-????-??? (print)\
-ISBN ???-??-????-??? (ePub)
+Michael Seemann 1
 
-![](imgs/file0.jpg) ![](imgs/file1.jpg)
-![](imgs/file2.jpg) ![](imgs/file3.jpg) 
+Table of Contents 2
 
+Acknowledgements 4
 
-## Network Notebook Serie
+Introduction 5
 
-The Network Notebooks series presents new media
-research commissioned by the INC.
+Kontrollverlust: Losing Control 6
 
-PREVIOUSLY PUBLISHED NETWORK NOTEBOOKS:
+The Book 7
 
-**Network Notebooks 08**\
-Brooke Wendt, The Allure of the Selfie: Instagram and the New Self Portrait, 2014.
+The Campaign 7
 
-**Network Notebooks 07**\
-Henry Warwick, Radical Tactics of the Offline Library, 2014.
+The License 7
 
-**Network Notebooks 06**\
-Andreas Treske, The Inner Life of Video Spheres: Theory for the YouTube
-Generation, 2013.
+Strategies 8
 
-**Network Notebooks 05**\
-Eric Kluitenberg, Legacies of Tactical Media, 2011.
+Rule 0: Everything Stays Different 8
 
-**Network Notebooks 04**\
-Rosa Menkman, The Glitch Momentum, 2011.
+Strategies 10
 
-**Network Notebooks 03**\
-Dymtri Kleiner, The Telekommunist Manifesto, 2010.
+Rule 1: You Can’t Fight Kontrollverlust 11
 
-**Network Notebooks 02**\
-Rob van Kranenburg, The Internet of Things, 2008.
+Strategies 12
 
-**Network Notebooks 01**\
-Rosalind Gill, Technobohemians of the New Cybertariat, 2007.
+Rule 2: Surveillance Is Part of the Game 14
 
+Strategies 17
 
-# Contents
-...
+Rule 3: Knowing Is Asking the Right Questions 20
+
+Strategies 22
+
+Rule 4: Organization and Conflict for Free 25
+
+Strategies 27
+
+Rule 5: You Are the Freedom of the Other 29
+
+Strategies 30
+
+Rule 6: Platform Control Is Power 32
+
+Strategies 33
+
+Rule 7: The State Is Part of the Problem, Not Part of the Solution 37
+
+Anti-Net Politics 39
+
+Strategies 40
+
+Recognizing Interests 40
+
+The State as Platform 40
+
+Post-Nationalism 41
+
+Rule 8: Data Control Creates Hegemony 41
+
+Stakeholders Against Kontrollverlust 42
+
+Platform Control and Manipulation 43
+
+Strategies 45
+
+No Copyright 45
+
+The Radical Right of the Other 46
+
+Release All the Data! 46
+
+Rule 9: And the Final Boss Is… Us! 47
+
+The Final Boss Is Not the State 48
+
+The Final Boss Is Not the Secret Service 48
+
+The Final Boss Is Not the Platform 49
+
+The Final Boss Is... Us 49
+
+Strategies 50
+
+Politics of Empathy 50
+
+Learning To Fly 51
+
+References 53
+
+## 
+
+## 
 
 # Acknowledgements
 
@@ -141,7 +144,6 @@ been possible at all.
 control of them.*
 
 Kevin Kelly
-
 
 # Introduction
 
@@ -325,7 +327,7 @@ might look in the New Game.
 So much for my history with *Kontrollverlust* – from this point on,
 let’s follow the rest of the story together.
 
-## Strategies {.strategies}
+## Strategies
 
 Technology neither determines social structures, nor does it govern our
 actions. It defines a room for maneuvering that can be shaped
@@ -469,7 +471,7 @@ realists, but rather between realists and nostalgics. The New Game has
 already begun, it is already changing the world, and change is already a
 reality. It is time to leave the mourners behind.
 
-## Strategies {.strategies}
+## Strategies
 
 Developing strategies against your own biases means closing certain
 doors, and opening others. It means leaving your accustomed standpoint
@@ -551,7 +553,7 @@ ultimately never know who has access to which information. This puts
 into question all those institutions and social procedures that have, so
 far, relied on old forms of information control.
 
-## Strategies {.strategies}
+## Strategies
 
 Nassim Nicholas Taleb’s 2012 book *Antifragile* addressed again the
 question of dealing with ‘Black Swans’ – that is, completely
@@ -677,6 +679,7 @@ ideas. As an activist, you will be able to find like-minded comrades
 faster. Informational openness is an antifragile strategy in times of
 information tailspin.
 
+## 
 
 # Rule 2: Surveillance Is Part of the Game
 
@@ -849,7 +852,7 @@ So there are still many specific dangers, and good reasons, to be cited
 against surveillance, and which is why it is still important to contest
 it.
 
-## Strategies {.strategies}
+## Strategies
 
 The strategies aimed at containing surveillance directly have failed.
 And while there is the occasional message of success (such as the Court
@@ -1200,7 +1203,7 @@ influence, or don’t notice at all, is an entirely different matter. You
 can hardly call it self-determination if your demand for information is
 left up to mechanisms you cannot control.
 
-## Strategies {.strategies}
+## Strategies
 
 There is no better tool for organizing knowledge than the query. This is
 true for a range of distributed realities, from newsfeeds to search
@@ -1491,7 +1494,7 @@ presume these hate mobs will only grow stronger in the future. The open
 web is turning into a no-go zone for more and more people, and so far,
 we do not have the appropriate mechanisms to deal with this.
 
-## Strategies {.strategies}
+## Strategies
 
 ‘Press freedom is the freedom of 200 rich people to express their
 opinion’, journalist Paul Sethe famously wrote in his letter to the
@@ -1664,7 +1667,7 @@ Finally, suppressing certain kinds of information may constrain the
 Other in as-yet unknown ways. Pre-emptively responding to the Other
 should be seen as an act of hospitality.
 
-## Strategies {.strategies}
+## Strategies
 
 The best strategy for end-to-end communication is to adhere to the
 ethics of the Other. The Other’s filter sovereignty starts with the
@@ -1835,7 +1838,7 @@ next platform comes along to replace the old one. But that will only
 defer the problem again. The strategies to deal with the platform will
 therefore have to be political in their very nature.
 
-## Strategies {.strategies}
+## Strategies
 
 In the Old Game, the centers of power had built-in ‘checks and
 balances’, and provided interfaces for citizen intervention or
@@ -2241,7 +2244,7 @@ a dangerous game the state is playing, and its outcome is uncertain. We
 can be sure of one thing though: in terms of internet politics, the
 interests of the state contradict those of civil society.
 
-## Strategies {.strategies}
+## Strategies
 
 Dealing with the state is quite tricky at this stage. The state, we can
 be sure, still has a lot of power; it can enforce policies within its
@@ -2386,7 +2389,7 @@ limiting their interoperability, and reinforcing lock-in effects. Any
 law aimed at regulating platforms will actually work towards
 strengthening their power base.
 
-## Stakeholders Against *Kontrollverlust*
+## Stakeholders Against ***Kontrollverlust***
 
 *Kontrollverlust* is actively being opposed on all levels of society. We
 can identify three drivers, or stakeholders, working against the
@@ -2570,7 +2573,7 @@ democratic debate. An infrastructure, subject to non-transparent
 queries, provided by non-transparent companies with tight connections to
 intelligence services – what could possibly go wrong?
 
-## Strategies {.strategies}
+## Strategies
 
 Privacy advocates often demand better control of these platforms. But in
 fact, the opposite is advisable: it is loss of control –
@@ -2858,7 +2861,7 @@ volatile, and far too dependent on us in return. After all, their
 livelihood ultimately depends on how much power we are prepared to grant
 them.
 
-## The Final Boss Is… Us
+## The Final Boss Is... Us
 
 We are not quite ready yet. Most of us are still stuck firmly in the
 20th century and refuse to acknowledge the rules of the New Game.
@@ -2916,8 +2919,9 @@ for which we have, so far, barely developed any cultural practices. Our
 true final boss is our inability to see ourselves as actual
 beneficiaries of these powers.
 
+## 
 
-## Strategies {.strategies}
+## Strategies
 
 So how do you fight yourself? Preferably in such a way that you are not
 too badly mangled in the process. But that doesn’t help. Under the
