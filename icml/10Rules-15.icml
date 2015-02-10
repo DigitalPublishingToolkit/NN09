@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="8.0" Self="pandoc_doc">
+    <RootCharacterStyleGroup Self="pandoc_character_styles">
+      <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
+      <CharacterStyle Self="CharacterStyle/Italic" Name="Italic" FontStyle="Italic">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+      <CharacterStyle Self="CharacterStyle/Link" Name="Link">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle> 
+    </RootCharacterStyleGroup>
+    <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
+      <ParagraphStyle Self="$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle"
+          SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
+        <Properties>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string"></Leader>
+              <Position type="unit">10</Position> <!-- first tab stop -->
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" LeftIndent="0" PointSize="36">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle> 
+    </RootParagraphStyleGroup>
+    <RootTableStyleGroup Self="pandoc_table_styles">
+      <TableStyle Self="TableStyle/Table" Name="Table" />
+    </RootTableStyleGroup>
+    <RootCellStyleGroup Self="pandoc_cell_styles">
+      <CellStyle Self="CellStyle/Cell" AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Name="Cell" />
+    </RootCellStyleGroup>
+  <Story Self="pandoc_story"
+      TrackChanges="false"
+      StoryTitle=""
+      AppliedTOCStyle="n"
+      AppliedNamedGrid="n" >
+    <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
+
+<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>References</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Bambauer, Jane R. ‘Tragedy of the Data Commons’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Harvard Journal of Law and Technology</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Vol. 25, 2011, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-1" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Bamford, James. ‘The Most Wanted Man in the World’. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Wired</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 13 August 2014, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-2" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.wired.com/2014/08/edward-snowden</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Beresford, Alastair R., Dorothea Kübler, and Sören Preibusch. ‘Unwillingness to pay for privacy: A field experiment’, SFB 649 discussion paper, no. 2011-010, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-3" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Beschizza, Rob. ‘Tourists Deported from U.S. for Twitter Jokes (Updated)’. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>BoingBoing</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 30 January 2013,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-4" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-5" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Brin, David. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Transparent Society: Will Technology Force Us to Choose Between Privacy and Freedom</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>? New York: Perseus, 1998.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Buch: Das Neue Spiel – Nach dem Kontrollverlust’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Startnext</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-6" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-7" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.startnext.de/ctrlverlust/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Burckhardt, Martin. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Digitale Renaissance: Manifest für eine neue Welt</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. Berlin: Metrolit, 2014.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Claus, Robert. ‘Maskulismus: Antifeminismus zwischen vermeintlicher Salonfähigkeit und unverhohlenem Frauenhass’, July 2014,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-8" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-9" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://library.fes.de/pdf-files/dialog/10861.pdf</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Detel, Hanne and Bernhard Pörksen. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Der entfesselte Skandal. Das Ende der Kontrolle im digitalen Zeitalter,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Cologne: Herbert von Halem, 2012.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Detel, Hanne and Bernhard Pörksen. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Unleashed Scandal: The End of Control in the Digital Age</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Exeter: Imprint Academic, 2014.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Duty Calls’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>xkcd</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-10" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-11" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://xkcd.com/386/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-12" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>.</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘E-Mail made in Germany’.</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-13" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-14" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.e-mail-made-in-germany.de/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Ferguson Police Department. ‘Racial Profiling Data/2013’, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-15" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://ago.mo.gov/VehicleStops/2013/reports/161.pdf</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Fryer, Roland G. and Steven D. Levitt. ‘Understanding the Black-White Test Score Gap in the First Two Years of School’. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Review of Economics and Statistics</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Vol. 86.2 (2004): 447-464.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Fryer, Roland G. and Steven D. Levitt. ‘Testing for Racial Differences in the Mental Ability of Young Children’. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>National Bureau of Economic Research</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Working Paper No. 12066, 2006.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Gannes, Liz. ‘SXSW: Shirky’s New Opportunities in Public Sharing’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Gigaom</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 14 March 2010, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-16" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Geuter, Jürgen. ‘Digitale Souveränität’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>connected</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 25 August 2014, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-17" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Gruhnwald, Sylke and Alice Kohli. ‘Die Toten vor Europas Toren’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Neue Zürcher Zeitung</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 2 April 2014,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-18" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-19" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hank, Maike. ‘Normal ist das nicht!’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Kleinerdrei</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 24 January 2013,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-20" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-21" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://kleinerdrei.org/2013/01/normal-ist-das-nicht/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Heidenreich, Stefan. ‘Datendichte und digitale Geschichte’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Docupedia – Zeitgeschichte</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 11 February 2010,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-22" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-23" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-24" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Heller, Christian. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Post-Privacy: Prima leben ohne Privatsphäre,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Munich: C.H. Beck, 2011.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Heller, Christian. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>PlomWiki</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-25" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-26" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.plomlompom.de/PlomWiki/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hermanin, Costanza and Angelina Atanasova. ‘Making “Big Data” Work for Equality’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Open Society Foundations</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 9 September 2013,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-27" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-28" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Himmelreich, Laura. ‘Der Herrenwitz’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Stern</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 1 February 2013, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-29" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hirschman, Albert O. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Harvard University Press, 1970.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>iRights</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (Digital Copyright Information Platform),</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-30" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-31" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://irights.info/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Jarvis, Jeff. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Public Parts: How Sharing in the Digital Age Improves the Way We Work and Live,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> New York: Simon &amp; Schuster, 2011.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>L., Joey. ‘I Was Hidden on this Guy’s Hard Drive for Over 6 Years’, 15 July 2014,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-32" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-33" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Levinas, Emmanuel. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Totalité et Infini: essai sur l’extériorité,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Den Haag: Martinus Nijhoff, 1961.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Meiritz, Annett. ‘Debatte: Man liest ja so einiges über Sie’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Der Spiegel</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 14 January 2013,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-34" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-35" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Masing, Johannes. ‘RiBVerfG Masing: Vorläufige Einschätzung der “Google-Entscheidung” des EuGH’. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>iRights</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 14 August 2014,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-36" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-37" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘On Facebook, People Own and Control Their Information’, 16 February 2009, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Facebook</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-38" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-39" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>OpenDataCity</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. ‘Verräterisches Handy’, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-40" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://opendatacity.de/project/verraeterisches-handy/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>OpenDataCity</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. ‘Geheimer Krieg’,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-41" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-42" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://opendatacity.de/project/geheimer-krieg-2/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Pariser, Eli. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Filter Bubble: What the Internet Is Hiding from You,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> New York: Penguin Press, 2011.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Petzinger, Thomas. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Hard Landing</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, New York: Random House, 1995,</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Reißmann, Ole. ‘Überwachung: BND soll weitgehenden Zugriff auf Internetverkehr in Deutschland haben’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Spiegel Online</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 13 November 2013, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-43" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Roth, Evan.</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-44" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-45" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.evan-roth.com/about</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Schrupp, Antje. ‘Über das Müssen’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Bzw-weiterdenken.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>be, 13 August 2008, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-46" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Sethe, Paul. ‘Stimmen verstummt’. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Der Spiegel</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 40/1967, 25 September 1967, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-47" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.spiegel.de/spiegel/print/d-46353351.html</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Smiers, Joost and Marieke van Schijndel. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>No Copyright: Vom Machtkampf der Kulturkonzerne um das Urheberrecht. Eine Streitschrift,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Cologne: Alexander, 2012.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Snowden, Edward. ‘NSA whistleblower answers reader questions’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Guardian</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 17 June 2013,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-48" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-49" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Taleb, Nassim Nicholas. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Black Swan: The Impact of the Highly Improbable,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> New York: Random House, 2007.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Taleb, Nassim Nicholas. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Antifragile: Things That Gain from Disorder,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> New York: Random House, 2012.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Tante, Ryan. ‘Apple Hides How White It Is’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Gawker</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 9 November 2011, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-50" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://gawker.com/5858020/apple-hides-how-white-it-is</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Tell-All Telephone’. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Zeit Online</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, March 2011,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-51" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-52" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.zeit.de/datenschutz/malte-spitz-data-retention</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Trojanow, Ilija. ‘Willkür und Freiheit’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>FAZ</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 1 October 2013, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-53" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Tufekci, Zeynep. ‘What Happens to #Ferguson Affects Ferguson: Net Neutrality, Algorithmic Filtering and Ferguson’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Medium</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 14 August 2014, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-54" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Vingiano, Alison. ‘This Is How A Woman’s Offensive Tweet Became The World’s Top Story’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Buzzfeed</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 22 December 2013,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-55" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-56" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Von Horst, Nicole. ‘Archäologie von zwei Tagen. Was Brüderle (nicht) mit #aufschrei zu tun hat’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Word Up!</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 24 January 2014,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-57" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-58" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Wegemann, Nikolaus. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Bücherlabyrinthe: Suchen und Finden im alexandrinischen Zeitalter</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. Cologne: Böhler, 2000.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Weiler, Lars. ‘#aufschrei’, August 2013,</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-59" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-60" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://aufschrei.konvergenzfehler.de/timeline/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-61" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>.</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Wikipedia contributors, ‘Leistungsschutzrecht’, 4 March 2013, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-62" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://en.wikipedia.org/wiki/Leistungsschutzrecht</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, accessed 16 January 2015.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>WTFPDL (Modified WTFPL for the Digital Sphere). </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-63" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://wtfpdl.net/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>WTFPL (Original ‘Do what the fuck you want to Public License’).</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-64" Name="" Hidden="false">
+  </HyperlinkTextSource>
+  <HyperlinkTextSource Self="htss-65" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.wtfpl.net/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Wu, Tim. ‘Network Neutrality, Broadband Discrimination’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Journal of Telecommunications and High Technology Law</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Vol. 2, 2003, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-66" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+
+  </Story>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863" Name="link" DestinationURL="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-66" Name="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863" Source="htss-66" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.wtfpl.net/" Name="link" DestinationURL="http://www.wtfpl.net/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-65" Name="http://www.wtfpl.net/" Source="htss-65" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.wtfpl.net/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.wtfpl.net/" Name="link" DestinationURL="http://www.wtfpl.net/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-64" Name="http://www.wtfpl.net/" Source="htss-64" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.wtfpl.net/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://wtfpdl.net/" Name="link" DestinationURL="http://wtfpdl.net/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-63" Name="http://wtfpdl.net/" Source="htss-63" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://wtfpdl.net/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://en.wikipedia.org/wiki/Leistungsschutzrecht" Name="link" DestinationURL="http://en.wikipedia.org/wiki/Leistungsschutzrecht" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-62" Name="http://en.wikipedia.org/wiki/Leistungsschutzrecht" Source="htss-62" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://en.wikipedia.org/wiki/Leistungsschutzrecht</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://aufschrei.konvergenzfehler.de/timeline/" Name="link" DestinationURL="http://aufschrei.konvergenzfehler.de/timeline/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-61" Name="http://aufschrei.konvergenzfehler.de/timeline/" Source="htss-61" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://aufschrei.konvergenzfehler.de/timeline/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://aufschrei.konvergenzfehler.de/timeline/" Name="link" DestinationURL="http://aufschrei.konvergenzfehler.de/timeline/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-60" Name="http://aufschrei.konvergenzfehler.de/timeline/" Source="htss-60" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://aufschrei.konvergenzfehler.de/timeline/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://aufschrei.konvergenzfehler.de/timeline/" Name="link" DestinationURL="http://aufschrei.konvergenzfehler.de/timeline/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-59" Name="http://aufschrei.konvergenzfehler.de/timeline/" Source="htss-59" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://aufschrei.konvergenzfehler.de/timeline/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" Name="link" DestinationURL="http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-58" Name="http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" Source="htss-58" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" Name="link" DestinationURL="http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-57" Name="http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" Source="htss-57" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" Name="link" DestinationURL="http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-56" Name="http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" Source="htss-56" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" Name="link" DestinationURL="http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-55" Name="http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" Source="htss-55" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0" Name="link" DestinationURL="https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-54" Name="https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0" Source="htss-54" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html" Name="link" DestinationURL="http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-53" Name="http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html" Source="htss-53" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.zeit.de/datenschutz/malte-spitz-data-retention" Name="link" DestinationURL="http://www.zeit.de/datenschutz/malte-spitz-data-retention" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-52" Name="http://www.zeit.de/datenschutz/malte-spitz-data-retention" Source="htss-52" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.zeit.de/datenschutz/malte-spitz-data-retention</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.zeit.de/datenschutz/malte-spitz-data-retention" Name="link" DestinationURL="http://www.zeit.de/datenschutz/malte-spitz-data-retention" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-51" Name="http://www.zeit.de/datenschutz/malte-spitz-data-retention" Source="htss-51" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.zeit.de/datenschutz/malte-spitz-data-retention</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://gawker.com/5858020/apple-hides-how-white-it-is" Name="link" DestinationURL="http://gawker.com/5858020/apple-hides-how-white-it-is" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-50" Name="http://gawker.com/5858020/apple-hides-how-white-it-is" Source="htss-50" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://gawker.com/5858020/apple-hides-how-white-it-is</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Name="link" DestinationURL="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-49" Name="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Source="htss-49" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Name="link" DestinationURL="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-48" Name="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Source="htss-48" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.spiegel.de/spiegel/print/d-46353351.html" Name="link" DestinationURL="http://www.spiegel.de/spiegel/print/d-46353351.html" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-47" Name="http://www.spiegel.de/spiegel/print/d-46353351.html" Source="htss-47" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.spiegel.de/spiegel/print/d-46353351.html</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen" Name="link" DestinationURL="http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-46" Name="http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen" Source="htss-46" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.evan-roth.com/about" Name="link" DestinationURL="http://www.evan-roth.com/about" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-45" Name="http://www.evan-roth.com/about" Source="htss-45" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.evan-roth.com/about</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.evan-roth.com/work/" Name="link" DestinationURL="http://www.evan-roth.com/work/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-44" Name="http://www.evan-roth.com/work/" Source="htss-44" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.evan-roth.com/work/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html" Name="link" DestinationURL="http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-43" Name="http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html" Source="htss-43" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://opendatacity.de/project/geheimer-krieg-2/" Name="link" DestinationURL="https://opendatacity.de/project/geheimer-krieg-2/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-42" Name="https://opendatacity.de/project/geheimer-krieg-2/" Source="htss-42" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://opendatacity.de/project/geheimer-krieg-2/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://opendatacity.de/project/geheimer-krieg-2/" Name="link" DestinationURL="https://opendatacity.de/project/geheimer-krieg-2/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-41" Name="https://opendatacity.de/project/geheimer-krieg-2/" Source="htss-41" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://opendatacity.de/project/geheimer-krieg-2/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://opendatacity.de/project/verraeterisches-handy/" Name="link" DestinationURL="https://opendatacity.de/project/verraeterisches-handy/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-40" Name="https://opendatacity.de/project/verraeterisches-handy/" Source="htss-40" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://opendatacity.de/project/verraeterisches-handy/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Name="link" DestinationURL="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-39" Name="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Source="htss-39" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Name="link" DestinationURL="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-38" Name="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Source="htss-38" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Name="link" DestinationURL="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-37" Name="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Source="htss-37" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Name="link" DestinationURL="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-36" Name="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Source="htss-36" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Name="link" DestinationURL="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-35" Name="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Source="htss-35" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Name="link" DestinationURL="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-34" Name="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Source="htss-34" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Name="link" DestinationURL="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-33" Name="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Source="htss-33" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Name="link" DestinationURL="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-32" Name="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Source="htss-32" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://irights.info/" Name="link" DestinationURL="http://irights.info/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-31" Name="http://irights.info/" Source="htss-31" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://irights.info/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://irights.info/" Name="link" DestinationURL="http://irights.info/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-30" Name="http://irights.info/" Source="htss-30" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://irights.info/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html" Name="link" DestinationURL="http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-29" Name="http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html" Source="htss-29" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Name="link" DestinationURL="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-28" Name="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Source="htss-28" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Name="link" DestinationURL="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-27" Name="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Source="htss-27" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.plomlompom.de/PlomWiki/" Name="link" DestinationURL="http://www.plomlompom.de/PlomWiki/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-26" Name="http://www.plomlompom.de/PlomWiki/" Source="htss-26" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.plomlompom.de/PlomWiki/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.plomlompom.de/PlomWiki/" Name="link" DestinationURL="http://www.plomlompom.de/PlomWiki/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-25" Name="http://www.plomlompom.de/PlomWiki/" Source="htss-25" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.plomlompom.de/PlomWiki/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05" Name="link" DestinationURL="http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-24" Name="http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05" Source="htss-24" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Name="link" DestinationURL="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-23" Name="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Source="htss-23" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Name="link" DestinationURL="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-22" Name="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Source="htss-22" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Name="link" DestinationURL="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-21" Name="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Source="htss-21" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://kleinerdrei.org/2013/01/normal-ist-das-nicht/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Name="link" DestinationURL="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-20" Name="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Source="htss-20" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://kleinerdrei.org/2013/01/normal-ist-das-nicht/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Name="link" DestinationURL="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-19" Name="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Source="htss-19" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Name="link" DestinationURL="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-18" Name="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Source="htss-18" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/" Name="link" DestinationURL="https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-17" Name="https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/" Source="htss-17" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/" Name="link" DestinationURL="http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-16" Name="http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/" Source="htss-16" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://ago.mo.gov/VehicleStops/2013/reports/161.pdf" Name="link" DestinationURL="http://ago.mo.gov/VehicleStops/2013/reports/161.pdf" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-15" Name="http://ago.mo.gov/VehicleStops/2013/reports/161.pdf" Source="htss-15" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://ago.mo.gov/VehicleStops/2013/reports/161.pdf</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.e-mail-made-in-germany.de/" Name="link" DestinationURL="https://www.e-mail-made-in-germany.de/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-14" Name="https://www.e-mail-made-in-germany.de/" Source="htss-14" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://www.e-mail-made-in-germany.de/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.e-mail-made-in-germany.de/" Name="link" DestinationURL="https://www.e-mail-made-in-germany.de/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-13" Name="https://www.e-mail-made-in-germany.de/" Source="htss-13" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://www.e-mail-made-in-germany.de/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://xkcd.com/386/" Name="link" DestinationURL="http://xkcd.com/386/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-12" Name="http://xkcd.com/386/" Source="htss-12" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://xkcd.com/386/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://xkcd.com/386/" Name="link" DestinationURL="http://xkcd.com/386/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-11" Name="http://xkcd.com/386/" Source="htss-11" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://xkcd.com/386/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://xkcd.com/386/" Name="link" DestinationURL="http://xkcd.com/386/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-10" Name="http://xkcd.com/386/" Source="htss-10" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://xkcd.com/386/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://library.fes.de/pdf-files/dialog/10861.pdf" Name="link" DestinationURL="http://library.fes.de/pdf-files/dialog/10861.pdf" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-9" Name="http://library.fes.de/pdf-files/dialog/10861.pdf" Source="htss-9" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://library.fes.de/pdf-files/dialog/10861.pdf</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://library.fes.de/pdf-files/dialog/10861.pdf" Name="link" DestinationURL="http://library.fes.de/pdf-files/dialog/10861.pdf" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-8" Name="http://library.fes.de/pdf-files/dialog/10861.pdf" Source="htss-8" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://library.fes.de/pdf-files/dialog/10861.pdf</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.startnext.de/ctrlverlust/" Name="link" DestinationURL="https://www.startnext.de/ctrlverlust/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-7" Name="https://www.startnext.de/ctrlverlust/" Source="htss-7" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://www.startnext.de/ctrlverlust/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.startnext.de/ctrlverlust/" Name="link" DestinationURL="https://www.startnext.de/ctrlverlust/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-6" Name="https://www.startnext.de/ctrlverlust/" Source="htss-6" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://www.startnext.de/ctrlverlust/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Name="link" DestinationURL="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-5" Name="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Source="htss-5" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Name="link" DestinationURL="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-4" Name="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Source="htss-4" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf" Name="link" DestinationURL="https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-3" Name="https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf" Source="htss-3" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.wired.com/2014/08/edward-snowden" Name="link" DestinationURL="http://www.wired.com/2014/08/edward-snowden" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-2" Name="http://www.wired.com/2014/08/edward-snowden" Source="htss-2" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://www.wired.com/2014/08/edward-snowden</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749" Name="link" DestinationURL="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-1" Name="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749" Source="htss-1" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749</Destination>
+    </Properties>
+  </Hyperlink>
+</Document>
