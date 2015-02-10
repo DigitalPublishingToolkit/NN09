@@ -4,7 +4,12 @@
 <Document DOMVersion="8.0" Self="pandoc_doc">
     <RootCharacterStyleGroup Self="pandoc_character_styles">
       <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
-      <CharacterStyle Self="CharacterStyle/Bold Italic" Name="Bold Italic" FontStyle="Bold Italic">
+      <CharacterStyle Self="CharacterStyle/" Name="">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+      <CharacterStyle Self="CharacterStyle/Bold" Name="Bold" FontStyle="Bold">
         <Properties>
           <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
         </Properties>
@@ -91,262 +96,409 @@
 <!-- body needs to be non-indented, otherwise code blocks are indented too far -->
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>10 Rules For the New Game</Content>
+    <Content>Colophon</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Original Title:</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Das Neue Spiel: Strategien für die Welt nach dem digitalen Kontrollverlust</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Translation:</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Anwen Roberts</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Network Notebooks editors:</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Geert Lovink and Miriam Rasch</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Design:</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-1" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>Medamo</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Rotterdam</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>ePub development:</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> André Castro</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Printer:</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Printvisie</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Publisher:</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Institute of Network Cultures, Amsterdam</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Supported by:</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Amsterdam University of Applied Sciences (Hogeschool van Amsterdam), Amsterdam Creative Industries Publishing, Stichting Democratie en Media, Pacific Northwest College of Art</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>If you want to order copies please contact:</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Institute of Network Cultures</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hogeschool van Amsterdam</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Rhijnspoorplein 1</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>1091 GC Amsterdam</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The Netherlands</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-2" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.networkcultures.org</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>books@networkcultures.org</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>t: +31 (0)20 59 51 865</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>ePub and PDF editions of this publication are freely downloadable from:</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-3" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.networkcultures.org/publications</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>This publication is licensed under Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0) To view a copy of this license, visit </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-4" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>creativecommons.org/licenses/by-nc-sa/3.0/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. Regarding the images used, all rights belong to their respective owners.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Amsterdam, February 2014</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>ISBN ???-??-????-??? (print)</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>ISBN ???-??-????-??? (ePub)</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Rectangle Self="uec" ItemTransform="1 0 0 1 75 -50">
+      <Properties>
+        <PathGeometry>
+          <GeometryPathType PathOpen="false">
+            <PathPointArray>
+              <PathPointType Anchor="-75 -50" LeftDirection="-75 -50" RightDirection="-75 -50" />
+              <PathPointType Anchor="-75 50" LeftDirection="-75 50" RightDirection="-75 50" />
+              <PathPointType Anchor="75 50" LeftDirection="75 50" RightDirection="75 50" />
+              <PathPointType Anchor="75 -50" LeftDirection="75 -50" RightDirection="75 -50" />
+            </PathPointArray>
+          </GeometryPathType>
+        </PathGeometry>
+      </Properties>
+      <Image Self="ue6" ItemTransform="1.0 0 0 1.0 -75 -50">
+        <Properties>
+          <Profile type="string">
+            $ID/Embedded
+            <GraphicBounds Left="0" Top="0" Right="150" Bottom="100" />
+          </Profile>
+        </Properties>
+        <Link Self="ueb" LinkResourceURI="imgs/file0.jpg" />
+      </Image>
+    </Rectangle>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Rectangle Self="uec" ItemTransform="1 0 0 1 75 -50">
+      <Properties>
+        <PathGeometry>
+          <GeometryPathType PathOpen="false">
+            <PathPointArray>
+              <PathPointType Anchor="-75 -50" LeftDirection="-75 -50" RightDirection="-75 -50" />
+              <PathPointType Anchor="-75 50" LeftDirection="-75 50" RightDirection="-75 50" />
+              <PathPointType Anchor="75 50" LeftDirection="75 50" RightDirection="75 50" />
+              <PathPointType Anchor="75 -50" LeftDirection="75 -50" RightDirection="75 -50" />
+            </PathPointArray>
+          </GeometryPathType>
+        </PathGeometry>
+      </Properties>
+      <Image Self="ue6" ItemTransform="1.0 0 0 1.0 -75 -50">
+        <Properties>
+          <Profile type="string">
+            $ID/Embedded
+            <GraphicBounds Left="0" Top="0" Right="150" Bottom="100" />
+          </Profile>
+        </Properties>
+        <Link Self="ueb" LinkResourceURI="imgs/file1.jpg" />
+      </Image>
+    </Rectangle>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Rectangle Self="uec" ItemTransform="1 0 0 1 75 -50">
+      <Properties>
+        <PathGeometry>
+          <GeometryPathType PathOpen="false">
+            <PathPointArray>
+              <PathPointType Anchor="-75 -50" LeftDirection="-75 -50" RightDirection="-75 -50" />
+              <PathPointType Anchor="-75 50" LeftDirection="-75 50" RightDirection="-75 50" />
+              <PathPointType Anchor="75 50" LeftDirection="75 50" RightDirection="75 50" />
+              <PathPointType Anchor="75 -50" LeftDirection="75 -50" RightDirection="75 -50" />
+            </PathPointArray>
+          </GeometryPathType>
+        </PathGeometry>
+      </Properties>
+      <Image Self="ue6" ItemTransform="1.0 0 0 1.0 -75 -50">
+        <Properties>
+          <Profile type="string">
+            $ID/Embedded
+            <GraphicBounds Left="0" Top="0" Right="150" Bottom="100" />
+          </Profile>
+        </Properties>
+        <Link Self="ueb" LinkResourceURI="imgs/file2.jpg" />
+      </Image>
+    </Rectangle>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Rectangle Self="uec" ItemTransform="1 0 0 1 75 -50">
+      <Properties>
+        <PathGeometry>
+          <GeometryPathType PathOpen="false">
+            <PathPointArray>
+              <PathPointType Anchor="-75 -50" LeftDirection="-75 -50" RightDirection="-75 -50" />
+              <PathPointType Anchor="-75 50" LeftDirection="-75 50" RightDirection="-75 50" />
+              <PathPointType Anchor="75 50" LeftDirection="75 50" RightDirection="75 50" />
+              <PathPointType Anchor="75 -50" LeftDirection="75 -50" RightDirection="75 -50" />
+            </PathPointArray>
+          </GeometryPathType>
+        </PathGeometry>
+      </Properties>
+      <Image Self="ue6" ItemTransform="1.0 0 0 1.0 -75 -50">
+        <Properties>
+          <Profile type="string">
+            $ID/Embedded
+            <GraphicBounds Left="0" Top="0" Right="150" Bottom="100" />
+          </Profile>
+        </Properties>
+        <Link Self="ueb" LinkResourceURI="imgs/file3.jpg" />
+      </Image>
+    </Rectangle>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Network Notebook Serie</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The Network Notebooks series presents new media research commissioned by the INC.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>PREVIOUSLY PUBLISHED NETWORK NOTEBOOKS:</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Network Notebooks 08</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Brooke Wendt, The Allure of the Selfie: Instagram and the New Self Portrait, 2014.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Network Notebooks 07</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Henry Warwick, Radical Tactics of the Offline Library, 2014.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Network Notebooks 06</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Andreas Treske, The Inner Life of Video Spheres: Theory for the YouTube Generation, 2013.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Network Notebooks 05</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Eric Kluitenberg, Legacies of Tactical Media, 2011.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Network Notebooks 04</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Rosa Menkman, The Glitch Momentum, 2011.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Network Notebooks 03</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Dymtri Kleiner, The Telekommunist Manifesto, 2010.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Network Notebooks 02</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Rob van Kranenburg, The Internet of Things, 2008.</Content>
+  </CharacterStyleRange><Br />
+</ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+    <Content>Network Notebooks 01</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>&#x2028;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Rosalind Gill, Technobohemians of the New Cybertariat, 2007.</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Michael Seemann</Content>
+    <Content>Contents</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Translated from the German by Anwen Roberts</Content>
+    <Content>...</Content>
   </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Table of Contents</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
-  <Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>10 Rules For the New Game 1</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Michael Seemann 1</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Table of Contents 2</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Acknowledgements 4</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Introduction 5</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Kontrollverlust: Losing Control 6</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The Book 7</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The Campaign 7</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The License 7</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Strategies 8</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Rule 0: Everything Stays Different 8</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Strategies 10</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Rule 1: You Can’t Fight Kontrollverlust 11</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Strategies 12</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Rule 2: Surveillance Is Part of the Game 14</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Strategies 17</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Rule 3: Knowing Is Asking the Right Questions 20</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Strategies 22</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Rule 4: Organization and Conflict for Free 25</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Strategies 27</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Rule 5: You Are the Freedom of the Other 29</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Strategies 30</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Rule 6: Platform Control Is Power 32</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Strategies 33</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Rule 7: The State Is Part of the Problem, Not Part of the Solution 37</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Anti-Net Politics 39</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Strategies 40</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Recognizing Interests 40</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The State as Platform 40</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Post-Nationalism 41</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Rule 8: Data Control Creates Hegemony 41</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Stakeholders Against Kontrollverlust 42</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Platform Control and Manipulation 43</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Strategies 45</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>No Copyright 45</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The Radical Right of the Other 46</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Release All the Data! 46</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Rule 9: And the Final Boss Is… Us! 47</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The Final Boss Is Not the State 48</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The Final Boss Is Not the Secret Service 48</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The Final Boss Is Not the Platform 49</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The Final Boss Is... Us 49</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Strategies 50</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Politics of Empathy 50</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Learning To Fly 51</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>References 53</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
-  <Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
-  <Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
@@ -431,7 +583,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>Michael Seemann, ‘Profiling mit Twitter, oder was ist ein Captcha?’, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-1" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-5" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://mspr0.de/?p=568</Content>
           </CharacterStyleRange>
@@ -583,7 +735,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>Michael Seemann, ‘CTRL-Verlust’, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-2" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-6" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.ctrl-verlust.net/</Content>
           </CharacterStyleRange>
@@ -692,7 +844,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>‘Datenschutz-Kritische Spackeria’, &gt; </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-3" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-7" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://spackeria.org/.</Content>
           </CharacterStyleRange>
@@ -777,7 +929,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>My Startnext crowdfunding campaign can be found at &gt; </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-4" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-8" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>https://www.startnext.de/ctrlverlust/</Content>
           </CharacterStyleRange>
@@ -838,7 +990,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content> (Digital Copyright Information Platform), &gt; </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-5" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-9" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://irights.info/</Content>
           </CharacterStyleRange>
@@ -866,7 +1018,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>For the WTFPL, see: </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-6" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-10" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.wtfpl.net/</Content>
           </CharacterStyleRange>
@@ -874,7 +1026,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, and &gt; for the WTFPDL, see: </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-7" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-11" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://wtfpdl.net</Content>
           </CharacterStyleRange>
@@ -1027,7 +1179,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 14 March 2010, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-8" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-12" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/</Content>
           </CharacterStyleRange>
@@ -1072,7 +1224,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>‘Leistungsschutzrecht (translation: ancillary copyright) is a bill in Germany. It would give press agencies the exclusive right to publish press releases for commercial purposes on the Internet and would require search engines such as Google to obtain licenses for using small text passages.’ Wikipedia contributors, ‘Leistungsschutzrecht’, 4 March 2013, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-9" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-13" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://en.wikipedia.org/wiki/Leistungsschutzrecht</Content>
           </CharacterStyleRange>
@@ -1195,11 +1347,11 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 11 February 2010,</Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-10" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-14" Name="" Hidden="false">
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-11" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-15" Name="" Hidden="false">
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-12" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-16" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05</Content>
           </CharacterStyleRange>
@@ -1395,9 +1547,6 @@
     <Content>As an individual, you can expose your works and actions to valuable criticism, thereby making advances in your field. This also applies to programmers, for instance. As a politician, you can generate more trust if you decide to disclose as many processes relating to your activities as possible. As a writer, you will reach a greater audience with your ideas. As an activist, you will be able to find like-minded comrades faster. Informational openness is an antifragile strategy in times of information tailspin.</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
-  <Br />
-</ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Rule 2: Surveillance Is Part of the Game</Content>
@@ -1461,7 +1610,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>Alastair R. Beresford, Dorothea Kübler and Sören Preibusch, ‘Unwillingness to pay for privacy: A field experiment’, SFB 649 discussion paper, no. 2011-010, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-13" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-17" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf</Content>
           </CharacterStyleRange>
@@ -1619,7 +1768,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 1 October 2013, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-14" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-18" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html</Content>
           </CharacterStyleRange>
@@ -1653,7 +1802,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 30 January 2012, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-15" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-19" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html</Content>
           </CharacterStyleRange>
@@ -1814,7 +1963,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-16" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-20" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.plomlompom.de/PlomWiki/</Content>
           </CharacterStyleRange>
@@ -1822,7 +1971,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>.</Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-17" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-21" Name="" Hidden="false">
         </HyperlinkTextSource><Br />
       </ParagraphStyleRange>
     </Footnote>
@@ -1865,9 +2014,9 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 17 June 2013,</Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-18" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-22" Name="" Hidden="false">
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-19" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-23" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower</Content>
           </CharacterStyleRange>
@@ -1921,12 +2070,12 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>Evan Roth, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-20" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-24" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.evan-roth.com/about</Content>
           </CharacterStyleRange>
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-21" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-25" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>.</Content>
           </CharacterStyleRange>
@@ -2125,7 +2274,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 9 November 2011, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-22" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-26" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://gawker.com/5858020/apple-hides-how-white-it-is</Content>
           </CharacterStyleRange>
@@ -2164,7 +2313,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 9 September 2013, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-23" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-27" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0</Content>
           </CharacterStyleRange>
@@ -2203,7 +2352,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, Vol. 25, 2011, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-24" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-28" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749</Content>
           </CharacterStyleRange>
@@ -2236,7 +2385,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>OpenDataCity, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-25" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-29" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>https://opendatacity.de/</Content>
           </CharacterStyleRange>
@@ -2264,7 +2413,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>For the original OpenDataCity project, ‘Verräterisches Handy’, see: </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-26" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-30" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>https://opendatacity.de/project/verraeterisches-handy/</Content>
           </CharacterStyleRange>
@@ -2278,9 +2427,9 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, March 2011,</Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-27" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-31" Name="" Hidden="false">
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-28" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-32" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.zeit.de/datenschutz/malte-spitz-data-retention</Content>
           </CharacterStyleRange>
@@ -2313,12 +2462,12 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>OpenDataCity, ‘Geheimer Krieg’, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-29" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-33" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>https://opendatacity.de/project/geheimer-krieg-2/</Content>
           </CharacterStyleRange>
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-30" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-34" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>.</Content>
           </CharacterStyleRange>
@@ -2441,14 +2590,14 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 24 January 2013,</Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-31" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-35" Name="" Hidden="false">
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-32" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-36" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://kleinerdrei.org/2013/01/normal-ist-das-nicht/</Content>
           </CharacterStyleRange>
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-33" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-37" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>.</Content>
           </CharacterStyleRange>
@@ -2479,7 +2628,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 14 January 2013, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-34" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-38" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html</Content>
           </CharacterStyleRange>
@@ -2519,7 +2668,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 1 February 2013, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-35" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-39" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html</Content>
           </CharacterStyleRange>
@@ -2553,7 +2702,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 24 January 2014, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-36" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-40" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/</Content>
           </CharacterStyleRange>
@@ -2588,7 +2737,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>Lars Weiler compiled an archive of all the #aufschrei tweets, available here: ‘#aufschrei’, August 2013, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-37" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-41" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://aufschrei.konvergenzfehler.de/timeline/</Content>
           </CharacterStyleRange>
@@ -2675,9 +2824,9 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 22 December 2013,</Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-38" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-42" Name="" Hidden="false">
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-39" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-43" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s</Content>
           </CharacterStyleRange>
@@ -2720,7 +2869,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>See Robert Claus, ‘Maskulismus: Antifeminismus zwischen vermeintlicher Salonfähigkeit und unverhohlenem Frauenhass’, July 2014, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-40" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-44" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://library.fes.de/pdf-files/dialog/10861.pdf</Content>
           </CharacterStyleRange>
@@ -2780,12 +2929,12 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 40/1967, 25 September 1967, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-41" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-45" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.spiegel.de/spiegel/print/d-46353351.html</Content>
           </CharacterStyleRange>
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-42" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-46" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>.</Content>
           </CharacterStyleRange>
@@ -3192,7 +3341,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>‘On Facebook, People Own and Control Their Information’, 16 February 2009, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-43" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-47" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130</Content>
           </CharacterStyleRange>
@@ -3308,7 +3457,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, Vol. 2, 2003, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-44" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-48" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863</Content>
           </CharacterStyleRange>
@@ -3470,12 +3619,12 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>‘E-Mail made in Germany’, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-45" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-49" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>https://www.e-mail-made-in-germany.de/</Content>
           </CharacterStyleRange>
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-46" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-50" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>.</Content>
           </CharacterStyleRange>
@@ -3528,7 +3677,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 13 November 2013, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-47" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-51" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html</Content>
           </CharacterStyleRange>
@@ -3711,9 +3860,9 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 2 April 2014,</Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-48" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-52" Name="" Hidden="false">
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-49" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-53" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891</Content>
           </CharacterStyleRange>
@@ -3757,7 +3906,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Stakeholders Against </Content>
   </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold Italic">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
     <Content>Kontrollverlust</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
@@ -3840,7 +3989,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 14 August 2014, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-50" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-54" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838</Content>
           </CharacterStyleRange>
@@ -3934,7 +4083,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>Ferguson Police Department, ‘Racial Profiling Data/2013’, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-51" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-55" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://ago.mo.gov/VehicleStops/2013/reports/161.pdf</Content>
           </CharacterStyleRange>
@@ -3984,7 +4133,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 14 August 2014, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-52" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-56" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0</Content>
           </CharacterStyleRange>
@@ -4231,7 +4380,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>be, 13 August 2008, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-53" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-57" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen</Content>
           </CharacterStyleRange>
@@ -4296,7 +4445,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 13 August 2014, </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-54" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-58" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://www.wired.com/2014/08/edward-snowden/</Content>
           </CharacterStyleRange>
@@ -4343,7 +4492,7 @@
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The Final Boss Is... Us</Content>
+    <Content>The Final Boss Is… Us</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
@@ -4386,14 +4535,14 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>,</Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-55" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-59" Name="" Hidden="false">
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-56" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-60" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://xkcd.com/386/</Content>
           </CharacterStyleRange>
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-57" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-61" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>.</Content>
           </CharacterStyleRange>
@@ -4419,9 +4568,6 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>We will carry on hurting each other for a while, until we finally realize that these new digital tools can only cause so much distress because they have given us new means of control. In a word, we have gained powers that we have not yet learned to wield: powers that are inadequately regulated, offer very few effective control mechanisms, and for which we have, so far, barely developed any cultural practices. Our true final boss is our inability to see ourselves as actual beneficiaries of these powers.</Content>
   </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
-  <Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
@@ -4467,7 +4613,7 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>, 25 August &gt; 2014, &gt; </Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-58" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-62" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/</Content>
           </CharacterStyleRange>
@@ -4528,9 +4674,9 @@
         <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
           <Content>Joey L., ‘I Was Hidden on this Guy’s Hard Drive for Over 6 Years’, 15 July 2014,</Content>
         </CharacterStyleRange>
-        <HyperlinkTextSource Self="htss-59" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-63" Name="" Hidden="false">
         </HyperlinkTextSource>
-        <HyperlinkTextSource Self="htss-60" Name="" Hidden="false">
+        <HyperlinkTextSource Self="htss-64" Name="" Hidden="false">
           <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
             <Content>http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/</Content>
           </CharacterStyleRange>
@@ -4572,7 +4718,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, Vol. 25, 2011, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-61" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-65" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749</Content>
     </CharacterStyleRange>
@@ -4591,7 +4737,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 13 August 2014, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-62" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-66" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.wired.com/2014/08/edward-snowden</Content>
     </CharacterStyleRange>
@@ -4604,7 +4750,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Beresford, Alastair R., Dorothea Kübler, and Sören Preibusch. ‘Unwillingness to pay for privacy: A field experiment’, SFB 649 discussion paper, no. 2011-010, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-63" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-67" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf</Content>
     </CharacterStyleRange>
@@ -4623,9 +4769,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 30 January 2013,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-64" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-68" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-65" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-69" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html</Content>
     </CharacterStyleRange>
@@ -4655,9 +4801,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-66" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-70" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-67" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-71" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>https://www.startnext.de/ctrlverlust/</Content>
     </CharacterStyleRange>
@@ -4681,9 +4827,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Claus, Robert. ‘Maskulismus: Antifeminismus zwischen vermeintlicher Salonfähigkeit und unverhohlenem Frauenhass’, July 2014,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-68" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-72" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-69" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-73" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://library.fes.de/pdf-files/dialog/10861.pdf</Content>
     </CharacterStyleRange>
@@ -4724,14 +4870,14 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-70" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-74" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-71" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-75" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://xkcd.com/386/</Content>
     </CharacterStyleRange>
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-72" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-76" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>.</Content>
     </CharacterStyleRange>
@@ -4741,9 +4887,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>‘E-Mail made in Germany’.</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-73" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-77" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-74" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-78" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>https://www.e-mail-made-in-germany.de/</Content>
     </CharacterStyleRange>
@@ -4756,7 +4902,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Ferguson Police Department. ‘Racial Profiling Data/2013’, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-75" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-79" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://ago.mo.gov/VehicleStops/2013/reports/161.pdf</Content>
     </CharacterStyleRange>
@@ -4797,7 +4943,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 14 March 2010, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-76" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-80" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/</Content>
     </CharacterStyleRange>
@@ -4816,7 +4962,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 25 August 2014, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-77" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-81" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/</Content>
     </CharacterStyleRange>
@@ -4835,9 +4981,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 2 April 2014,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-78" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-82" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-79" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-83" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891</Content>
     </CharacterStyleRange>
@@ -4856,9 +5002,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 24 January 2013,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-80" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-84" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-81" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-85" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://kleinerdrei.org/2013/01/normal-ist-das-nicht/</Content>
     </CharacterStyleRange>
@@ -4877,11 +5023,11 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 11 February 2010,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-82" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-86" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-83" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-87" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-84" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-88" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05</Content>
     </CharacterStyleRange>
@@ -4911,9 +5057,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-85" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-89" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-86" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-90" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.plomlompom.de/PlomWiki/</Content>
     </CharacterStyleRange>
@@ -4932,9 +5078,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 9 September 2013,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-87" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-91" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-88" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-92" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0</Content>
     </CharacterStyleRange>
@@ -4953,7 +5099,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 1 February 2013, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-89" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-93" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html</Content>
     </CharacterStyleRange>
@@ -4980,9 +5126,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content> (Digital Copyright Information Platform),</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-90" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-94" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-91" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-95" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://irights.info/</Content>
     </CharacterStyleRange>
@@ -5006,9 +5152,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>L., Joey. ‘I Was Hidden on this Guy’s Hard Drive for Over 6 Years’, 15 July 2014,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-92" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-96" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-93" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-97" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/</Content>
     </CharacterStyleRange>
@@ -5038,9 +5184,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 14 January 2013,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-94" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-98" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-95" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-99" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html</Content>
     </CharacterStyleRange>
@@ -5059,9 +5205,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 14 August 2014,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-96" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-100" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-97" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-101" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838</Content>
     </CharacterStyleRange>
@@ -5080,9 +5226,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-98" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-102" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-99" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-103" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130</Content>
     </CharacterStyleRange>
@@ -5098,7 +5244,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>. ‘Verräterisches Handy’, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-100" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-104" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>https://opendatacity.de/project/verraeterisches-handy/</Content>
     </CharacterStyleRange>
@@ -5114,9 +5260,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>. ‘Geheimer Krieg’,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-101" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-105" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-102" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-106" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>https://opendatacity.de/project/geheimer-krieg-2/</Content>
     </CharacterStyleRange>
@@ -5157,7 +5303,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 13 November 2013, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-103" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-107" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html</Content>
     </CharacterStyleRange>
@@ -5170,9 +5316,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Roth, Evan.</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-104" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-108" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-105" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-109" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.evan-roth.com/about</Content>
     </CharacterStyleRange>
@@ -5191,7 +5337,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>be, 13 August 2008, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-106" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-110" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen</Content>
     </CharacterStyleRange>
@@ -5210,7 +5356,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 40/1967, 25 September 1967, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-107" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-111" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.spiegel.de/spiegel/print/d-46353351.html</Content>
     </CharacterStyleRange>
@@ -5240,9 +5386,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 17 June 2013,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-108" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-112" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-109" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-113" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower</Content>
     </CharacterStyleRange>
@@ -5283,7 +5429,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 9 November 2011, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-110" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-114" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://gawker.com/5858020/apple-hides-how-white-it-is</Content>
     </CharacterStyleRange>
@@ -5302,9 +5448,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, March 2011,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-111" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-115" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-112" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-116" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.zeit.de/datenschutz/malte-spitz-data-retention</Content>
     </CharacterStyleRange>
@@ -5323,7 +5469,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 1 October 2013, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-113" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-117" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html</Content>
     </CharacterStyleRange>
@@ -5342,7 +5488,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 14 August 2014, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-114" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-118" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0</Content>
     </CharacterStyleRange>
@@ -5361,9 +5507,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 22 December 2013,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-115" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-119" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-116" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-120" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s</Content>
     </CharacterStyleRange>
@@ -5382,9 +5528,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, 24 January 2014,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-117" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-121" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-118" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-122" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/</Content>
     </CharacterStyleRange>
@@ -5408,14 +5554,14 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Weiler, Lars. ‘#aufschrei’, August 2013,</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-119" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-123" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-120" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-124" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://aufschrei.konvergenzfehler.de/timeline/</Content>
     </CharacterStyleRange>
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-121" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-125" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>.</Content>
     </CharacterStyleRange>
@@ -5425,7 +5571,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Wikipedia contributors, ‘Leistungsschutzrecht’, 4 March 2013, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-122" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-126" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://en.wikipedia.org/wiki/Leistungsschutzrecht</Content>
     </CharacterStyleRange>
@@ -5438,7 +5584,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>WTFPDL (Modified WTFPL for the Digital Sphere). </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-123" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-127" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://wtfpdl.net/</Content>
     </CharacterStyleRange>
@@ -5451,9 +5597,9 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>WTFPL (Original ‘Do what the fuck you want to Public License’).</Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-124" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-128" Name="" Hidden="false">
   </HyperlinkTextSource>
-  <HyperlinkTextSource Self="htss-125" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-129" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>http://www.wtfpl.net/</Content>
     </CharacterStyleRange>
@@ -5472,7 +5618,7 @@
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>, Vol. 2, 2003, </Content>
   </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-126" Name="" Hidden="false">
+  <HyperlinkTextSource Self="htss-130" Name="" Hidden="false">
     <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
       <Content>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863</Content>
     </CharacterStyleRange>
@@ -5484,885 +5630,913 @@
 
   </Story>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863" Name="link" DestinationURL="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-126" Name="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863" Source="htss-126" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-130" Name="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863" Source="htss-130" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.wtfpl.net/" Name="link" DestinationURL="http://www.wtfpl.net/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-125" Name="http://www.wtfpl.net/" Source="htss-125" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-129" Name="http://www.wtfpl.net/" Source="htss-129" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.wtfpl.net/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.wtfpl.net/" Name="link" DestinationURL="http://www.wtfpl.net/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-124" Name="http://www.wtfpl.net/" Source="htss-124" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-128" Name="http://www.wtfpl.net/" Source="htss-128" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.wtfpl.net/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://wtfpdl.net/" Name="link" DestinationURL="http://wtfpdl.net/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-123" Name="http://wtfpdl.net/" Source="htss-123" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-127" Name="http://wtfpdl.net/" Source="htss-127" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://wtfpdl.net/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://en.wikipedia.org/wiki/Leistungsschutzrecht" Name="link" DestinationURL="http://en.wikipedia.org/wiki/Leistungsschutzrecht" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-122" Name="http://en.wikipedia.org/wiki/Leistungsschutzrecht" Source="htss-122" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-126" Name="http://en.wikipedia.org/wiki/Leistungsschutzrecht" Source="htss-126" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://en.wikipedia.org/wiki/Leistungsschutzrecht</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://aufschrei.konvergenzfehler.de/timeline/" Name="link" DestinationURL="http://aufschrei.konvergenzfehler.de/timeline/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-121" Name="http://aufschrei.konvergenzfehler.de/timeline/" Source="htss-121" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-125" Name="http://aufschrei.konvergenzfehler.de/timeline/" Source="htss-125" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://aufschrei.konvergenzfehler.de/timeline/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://aufschrei.konvergenzfehler.de/timeline/" Name="link" DestinationURL="http://aufschrei.konvergenzfehler.de/timeline/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-120" Name="http://aufschrei.konvergenzfehler.de/timeline/" Source="htss-120" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-124" Name="http://aufschrei.konvergenzfehler.de/timeline/" Source="htss-124" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://aufschrei.konvergenzfehler.de/timeline/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://aufschrei.konvergenzfehler.de/timeline/" Name="link" DestinationURL="http://aufschrei.konvergenzfehler.de/timeline/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-119" Name="http://aufschrei.konvergenzfehler.de/timeline/" Source="htss-119" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-123" Name="http://aufschrei.konvergenzfehler.de/timeline/" Source="htss-123" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://aufschrei.konvergenzfehler.de/timeline/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" Name="link" DestinationURL="http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-118" Name="http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" Source="htss-118" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-122" Name="http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" Source="htss-122" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" Name="link" DestinationURL="http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-117" Name="http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" Source="htss-117" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-121" Name="http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/" Source="htss-121" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" Name="link" DestinationURL="http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-116" Name="http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" Source="htss-116" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-120" Name="http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" Source="htss-120" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" Name="link" DestinationURL="http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-115" Name="http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" Source="htss-115" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-119" Name="http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s" Source="htss-119" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0" Name="link" DestinationURL="https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-114" Name="https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0" Source="htss-114" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-118" Name="https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0" Source="htss-118" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html" Name="link" DestinationURL="http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-113" Name="http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html" Source="htss-113" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-117" Name="http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html" Source="htss-117" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.zeit.de/datenschutz/malte-spitz-data-retention" Name="link" DestinationURL="http://www.zeit.de/datenschutz/malte-spitz-data-retention" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-112" Name="http://www.zeit.de/datenschutz/malte-spitz-data-retention" Source="htss-112" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-116" Name="http://www.zeit.de/datenschutz/malte-spitz-data-retention" Source="htss-116" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.zeit.de/datenschutz/malte-spitz-data-retention</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.zeit.de/datenschutz/malte-spitz-data-retention" Name="link" DestinationURL="http://www.zeit.de/datenschutz/malte-spitz-data-retention" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-111" Name="http://www.zeit.de/datenschutz/malte-spitz-data-retention" Source="htss-111" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-115" Name="http://www.zeit.de/datenschutz/malte-spitz-data-retention" Source="htss-115" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.zeit.de/datenschutz/malte-spitz-data-retention</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://gawker.com/5858020/apple-hides-how-white-it-is" Name="link" DestinationURL="http://gawker.com/5858020/apple-hides-how-white-it-is" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-110" Name="http://gawker.com/5858020/apple-hides-how-white-it-is" Source="htss-110" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-114" Name="http://gawker.com/5858020/apple-hides-how-white-it-is" Source="htss-114" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://gawker.com/5858020/apple-hides-how-white-it-is</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Name="link" DestinationURL="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-109" Name="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Source="htss-109" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-113" Name="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Source="htss-113" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Name="link" DestinationURL="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-108" Name="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Source="htss-108" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-112" Name="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Source="htss-112" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.spiegel.de/spiegel/print/d-46353351.html" Name="link" DestinationURL="http://www.spiegel.de/spiegel/print/d-46353351.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-107" Name="http://www.spiegel.de/spiegel/print/d-46353351.html" Source="htss-107" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-111" Name="http://www.spiegel.de/spiegel/print/d-46353351.html" Source="htss-111" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.spiegel.de/spiegel/print/d-46353351.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen" Name="link" DestinationURL="http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-106" Name="http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen" Source="htss-106" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-110" Name="http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen" Source="htss-110" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.evan-roth.com/about" Name="link" DestinationURL="http://www.evan-roth.com/about" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-105" Name="http://www.evan-roth.com/about" Source="htss-105" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-109" Name="http://www.evan-roth.com/about" Source="htss-109" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.evan-roth.com/about</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.evan-roth.com/work/" Name="link" DestinationURL="http://www.evan-roth.com/work/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-104" Name="http://www.evan-roth.com/work/" Source="htss-104" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-108" Name="http://www.evan-roth.com/work/" Source="htss-108" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.evan-roth.com/work/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html" Name="link" DestinationURL="http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-103" Name="http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html" Source="htss-103" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-107" Name="http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html" Source="htss-107" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://opendatacity.de/project/geheimer-krieg-2/" Name="link" DestinationURL="https://opendatacity.de/project/geheimer-krieg-2/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-102" Name="https://opendatacity.de/project/geheimer-krieg-2/" Source="htss-102" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-106" Name="https://opendatacity.de/project/geheimer-krieg-2/" Source="htss-106" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://opendatacity.de/project/geheimer-krieg-2/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://opendatacity.de/project/geheimer-krieg-2/" Name="link" DestinationURL="https://opendatacity.de/project/geheimer-krieg-2/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-101" Name="https://opendatacity.de/project/geheimer-krieg-2/" Source="htss-101" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-105" Name="https://opendatacity.de/project/geheimer-krieg-2/" Source="htss-105" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://opendatacity.de/project/geheimer-krieg-2/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://opendatacity.de/project/verraeterisches-handy/" Name="link" DestinationURL="https://opendatacity.de/project/verraeterisches-handy/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-100" Name="https://opendatacity.de/project/verraeterisches-handy/" Source="htss-100" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-104" Name="https://opendatacity.de/project/verraeterisches-handy/" Source="htss-104" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://opendatacity.de/project/verraeterisches-handy/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Name="link" DestinationURL="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-99" Name="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Source="htss-99" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-103" Name="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Source="htss-103" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Name="link" DestinationURL="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-98" Name="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Source="htss-98" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-102" Name="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Source="htss-102" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Name="link" DestinationURL="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-97" Name="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Source="htss-97" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-101" Name="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Source="htss-101" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Name="link" DestinationURL="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-96" Name="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Source="htss-96" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-100" Name="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Source="htss-100" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Name="link" DestinationURL="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-95" Name="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Source="htss-95" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-99" Name="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Source="htss-99" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Name="link" DestinationURL="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-94" Name="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Source="htss-94" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-98" Name="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Source="htss-98" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Name="link" DestinationURL="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-93" Name="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Source="htss-93" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-97" Name="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Source="htss-97" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Name="link" DestinationURL="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-92" Name="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Source="htss-92" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-96" Name="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Source="htss-96" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://irights.info/" Name="link" DestinationURL="http://irights.info/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-91" Name="http://irights.info/" Source="htss-91" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-95" Name="http://irights.info/" Source="htss-95" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://irights.info/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://irights.info/" Name="link" DestinationURL="http://irights.info/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-90" Name="http://irights.info/" Source="htss-90" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-94" Name="http://irights.info/" Source="htss-94" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://irights.info/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html" Name="link" DestinationURL="http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-89" Name="http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html" Source="htss-89" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-93" Name="http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html" Source="htss-93" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Name="link" DestinationURL="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-88" Name="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Source="htss-88" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-92" Name="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Source="htss-92" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Name="link" DestinationURL="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-87" Name="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Source="htss-87" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-91" Name="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Source="htss-91" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.plomlompom.de/PlomWiki/" Name="link" DestinationURL="http://www.plomlompom.de/PlomWiki/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-86" Name="http://www.plomlompom.de/PlomWiki/" Source="htss-86" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-90" Name="http://www.plomlompom.de/PlomWiki/" Source="htss-90" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.plomlompom.de/PlomWiki/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.plomlompom.de/PlomWiki/" Name="link" DestinationURL="http://www.plomlompom.de/PlomWiki/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-85" Name="http://www.plomlompom.de/PlomWiki/" Source="htss-85" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-89" Name="http://www.plomlompom.de/PlomWiki/" Source="htss-89" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.plomlompom.de/PlomWiki/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05" Name="link" DestinationURL="http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-84" Name="http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05" Source="htss-84" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-88" Name="http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05" Source="htss-88" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Name="link" DestinationURL="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-83" Name="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Source="htss-83" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-87" Name="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Source="htss-87" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Name="link" DestinationURL="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-82" Name="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Source="htss-82" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-86" Name="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Source="htss-86" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Name="link" DestinationURL="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-81" Name="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Source="htss-81" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-85" Name="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Source="htss-85" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://kleinerdrei.org/2013/01/normal-ist-das-nicht/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Name="link" DestinationURL="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-80" Name="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Source="htss-80" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-84" Name="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Source="htss-84" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://kleinerdrei.org/2013/01/normal-ist-das-nicht/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Name="link" DestinationURL="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-79" Name="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Source="htss-79" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-83" Name="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Source="htss-83" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Name="link" DestinationURL="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-78" Name="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Source="htss-78" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-82" Name="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Source="htss-82" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/" Name="link" DestinationURL="https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-77" Name="https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/" Source="htss-77" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-81" Name="https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/" Source="htss-81" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/" Name="link" DestinationURL="http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-76" Name="http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/" Source="htss-76" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-80" Name="http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/" Source="htss-80" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://ago.mo.gov/VehicleStops/2013/reports/161.pdf" Name="link" DestinationURL="http://ago.mo.gov/VehicleStops/2013/reports/161.pdf" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-75" Name="http://ago.mo.gov/VehicleStops/2013/reports/161.pdf" Source="htss-75" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-79" Name="http://ago.mo.gov/VehicleStops/2013/reports/161.pdf" Source="htss-79" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://ago.mo.gov/VehicleStops/2013/reports/161.pdf</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.e-mail-made-in-germany.de/" Name="link" DestinationURL="https://www.e-mail-made-in-germany.de/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-74" Name="https://www.e-mail-made-in-germany.de/" Source="htss-74" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-78" Name="https://www.e-mail-made-in-germany.de/" Source="htss-78" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.e-mail-made-in-germany.de/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.e-mail-made-in-germany.de/" Name="link" DestinationURL="https://www.e-mail-made-in-germany.de/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-73" Name="https://www.e-mail-made-in-germany.de/" Source="htss-73" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-77" Name="https://www.e-mail-made-in-germany.de/" Source="htss-77" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.e-mail-made-in-germany.de/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://xkcd.com/386/" Name="link" DestinationURL="http://xkcd.com/386/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-72" Name="http://xkcd.com/386/" Source="htss-72" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-76" Name="http://xkcd.com/386/" Source="htss-76" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://xkcd.com/386/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://xkcd.com/386/" Name="link" DestinationURL="http://xkcd.com/386/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-71" Name="http://xkcd.com/386/" Source="htss-71" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-75" Name="http://xkcd.com/386/" Source="htss-75" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://xkcd.com/386/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://xkcd.com/386/" Name="link" DestinationURL="http://xkcd.com/386/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-70" Name="http://xkcd.com/386/" Source="htss-70" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-74" Name="http://xkcd.com/386/" Source="htss-74" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://xkcd.com/386/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://library.fes.de/pdf-files/dialog/10861.pdf" Name="link" DestinationURL="http://library.fes.de/pdf-files/dialog/10861.pdf" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-69" Name="http://library.fes.de/pdf-files/dialog/10861.pdf" Source="htss-69" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-73" Name="http://library.fes.de/pdf-files/dialog/10861.pdf" Source="htss-73" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://library.fes.de/pdf-files/dialog/10861.pdf</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://library.fes.de/pdf-files/dialog/10861.pdf" Name="link" DestinationURL="http://library.fes.de/pdf-files/dialog/10861.pdf" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-68" Name="http://library.fes.de/pdf-files/dialog/10861.pdf" Source="htss-68" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-72" Name="http://library.fes.de/pdf-files/dialog/10861.pdf" Source="htss-72" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://library.fes.de/pdf-files/dialog/10861.pdf</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.startnext.de/ctrlverlust/" Name="link" DestinationURL="https://www.startnext.de/ctrlverlust/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-67" Name="https://www.startnext.de/ctrlverlust/" Source="htss-67" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-71" Name="https://www.startnext.de/ctrlverlust/" Source="htss-71" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.startnext.de/ctrlverlust/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.startnext.de/ctrlverlust/" Name="link" DestinationURL="https://www.startnext.de/ctrlverlust/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-66" Name="https://www.startnext.de/ctrlverlust/" Source="htss-66" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-70" Name="https://www.startnext.de/ctrlverlust/" Source="htss-70" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.startnext.de/ctrlverlust/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Name="link" DestinationURL="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-65" Name="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Source="htss-65" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-69" Name="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Source="htss-69" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Name="link" DestinationURL="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-64" Name="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Source="htss-64" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-68" Name="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Source="htss-68" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf" Name="link" DestinationURL="https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-63" Name="https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf" Source="htss-63" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-67" Name="https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf" Source="htss-67" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.wired.com/2014/08/edward-snowden" Name="link" DestinationURL="http://www.wired.com/2014/08/edward-snowden" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-62" Name="http://www.wired.com/2014/08/edward-snowden" Source="htss-62" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-66" Name="http://www.wired.com/2014/08/edward-snowden" Source="htss-66" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.wired.com/2014/08/edward-snowden</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749" Name="link" DestinationURL="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-61" Name="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749" Source="htss-61" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-65" Name="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749" Source="htss-65" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html" Name="link" DestinationURL="http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-60" Name="http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html" Source="htss-60" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-64" Name="http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html" Source="htss-64" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.zeit.de/datenschutz/malte-spitz-data-retention" Name="link" DestinationURL="http://www.zeit.de/datenschutz/malte-spitz-data-retention" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-59" Name="http://www.zeit.de/datenschutz/malte-spitz-data-retention" Source="htss-59" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-63" Name="http://www.zeit.de/datenschutz/malte-spitz-data-retention" Source="htss-63" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.zeit.de/datenschutz/malte-spitz-data-retention</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.zeit.de/datenschutz/malte-spitz-data-retention" Name="link" DestinationURL="http://www.zeit.de/datenschutz/malte-spitz-data-retention" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-58" Name="http://www.zeit.de/datenschutz/malte-spitz-data-retention" Source="htss-58" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-62" Name="http://www.zeit.de/datenschutz/malte-spitz-data-retention" Source="htss-62" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.zeit.de/datenschutz/malte-spitz-data-retention</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://gawker.com/5858020/apple-hides-how-white-it-is" Name="link" DestinationURL="http://gawker.com/5858020/apple-hides-how-white-it-is" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-57" Name="http://gawker.com/5858020/apple-hides-how-white-it-is" Source="htss-57" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-61" Name="http://gawker.com/5858020/apple-hides-how-white-it-is" Source="htss-61" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://gawker.com/5858020/apple-hides-how-white-it-is</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Name="link" DestinationURL="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-56" Name="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Source="htss-56" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-60" Name="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Source="htss-60" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Name="link" DestinationURL="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-55" Name="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Source="htss-55" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-59" Name="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower" Source="htss-59" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.spiegel.de/spiegel/print/d-46353351.html" Name="link" DestinationURL="http://www.spiegel.de/spiegel/print/d-46353351.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-54" Name="http://www.spiegel.de/spiegel/print/d-46353351.html" Source="htss-54" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-58" Name="http://www.spiegel.de/spiegel/print/d-46353351.html" Source="htss-58" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.spiegel.de/spiegel/print/d-46353351.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen" Name="link" DestinationURL="http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-53" Name="http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen" Source="htss-53" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-57" Name="http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen" Source="htss-57" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.evan-roth.com/about" Name="link" DestinationURL="http://www.evan-roth.com/about" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-52" Name="http://www.evan-roth.com/about" Source="htss-52" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-56" Name="http://www.evan-roth.com/about" Source="htss-56" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.evan-roth.com/about</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.evan-roth.com/work/" Name="link" DestinationURL="http://www.evan-roth.com/work/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-51" Name="http://www.evan-roth.com/work/" Source="htss-51" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-55" Name="http://www.evan-roth.com/work/" Source="htss-55" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.evan-roth.com/work/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html" Name="link" DestinationURL="http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-50" Name="http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html" Source="htss-50" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-54" Name="http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html" Source="htss-54" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://opendatacity.de/project/geheimer-krieg-2/" Name="link" DestinationURL="https://opendatacity.de/project/geheimer-krieg-2/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-49" Name="https://opendatacity.de/project/geheimer-krieg-2/" Source="htss-49" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-53" Name="https://opendatacity.de/project/geheimer-krieg-2/" Source="htss-53" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://opendatacity.de/project/geheimer-krieg-2/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://opendatacity.de/project/geheimer-krieg-2/" Name="link" DestinationURL="https://opendatacity.de/project/geheimer-krieg-2/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-48" Name="https://opendatacity.de/project/geheimer-krieg-2/" Source="htss-48" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-52" Name="https://opendatacity.de/project/geheimer-krieg-2/" Source="htss-52" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://opendatacity.de/project/geheimer-krieg-2/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://opendatacity.de/project/verraeterisches-handy/" Name="link" DestinationURL="https://opendatacity.de/project/verraeterisches-handy/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-47" Name="https://opendatacity.de/project/verraeterisches-handy/" Source="htss-47" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-51" Name="https://opendatacity.de/project/verraeterisches-handy/" Source="htss-51" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://opendatacity.de/project/verraeterisches-handy/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Name="link" DestinationURL="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-46" Name="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Source="htss-46" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-50" Name="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Source="htss-50" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Name="link" DestinationURL="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-45" Name="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Source="htss-45" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-49" Name="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130" Source="htss-49" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Name="link" DestinationURL="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-44" Name="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Source="htss-44" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-48" Name="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Source="htss-48" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Name="link" DestinationURL="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-43" Name="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Source="htss-43" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-47" Name="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838" Source="htss-47" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Name="link" DestinationURL="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-42" Name="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Source="htss-42" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-46" Name="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Source="htss-46" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Name="link" DestinationURL="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-41" Name="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Source="htss-41" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-45" Name="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html" Source="htss-45" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Name="link" DestinationURL="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-40" Name="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Source="htss-40" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-44" Name="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Source="htss-44" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Name="link" DestinationURL="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-39" Name="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Source="htss-39" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-43" Name="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/" Source="htss-43" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://irights.info/" Name="link" DestinationURL="http://irights.info/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-38" Name="http://irights.info/" Source="htss-38" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-42" Name="http://irights.info/" Source="htss-42" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://irights.info/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://irights.info/" Name="link" DestinationURL="http://irights.info/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-37" Name="http://irights.info/" Source="htss-37" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-41" Name="http://irights.info/" Source="htss-41" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://irights.info/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html" Name="link" DestinationURL="http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-36" Name="http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html" Source="htss-36" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-40" Name="http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html" Source="htss-40" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Name="link" DestinationURL="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-35" Name="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Source="htss-35" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-39" Name="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Source="htss-39" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Name="link" DestinationURL="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-34" Name="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Source="htss-34" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-38" Name="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0" Source="htss-38" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.plomlompom.de/PlomWiki/" Name="link" DestinationURL="http://www.plomlompom.de/PlomWiki/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-33" Name="http://www.plomlompom.de/PlomWiki/" Source="htss-33" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-37" Name="http://www.plomlompom.de/PlomWiki/" Source="htss-37" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.plomlompom.de/PlomWiki/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.plomlompom.de/PlomWiki/" Name="link" DestinationURL="http://www.plomlompom.de/PlomWiki/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-32" Name="http://www.plomlompom.de/PlomWiki/" Source="htss-32" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-36" Name="http://www.plomlompom.de/PlomWiki/" Source="htss-36" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.plomlompom.de/PlomWiki/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05" Name="link" DestinationURL="http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-31" Name="http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05" Source="htss-31" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-35" Name="http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05" Source="htss-35" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Name="link" DestinationURL="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-30" Name="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Source="htss-30" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-34" Name="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Source="htss-34" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Name="link" DestinationURL="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-29" Name="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Source="htss-29" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-33" Name="http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05" Source="htss-33" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://docupedia.de/zg/Blog:%2522Datendichte_und_digitale_Geschichte%2522_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%25C3%25A4sentation_am_11.02.2010_2010/03/05</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Name="link" DestinationURL="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-28" Name="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Source="htss-28" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-32" Name="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Source="htss-32" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://kleinerdrei.org/2013/01/normal-ist-das-nicht/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Name="link" DestinationURL="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-27" Name="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Source="htss-27" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-31" Name="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/" Source="htss-31" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://kleinerdrei.org/2013/01/normal-ist-das-nicht/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Name="link" DestinationURL="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-26" Name="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Source="htss-26" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-30" Name="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Source="htss-30" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Name="link" DestinationURL="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-25" Name="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Source="htss-25" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-29" Name="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Source="htss-29" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/" Name="link" DestinationURL="https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-24" Name="https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/" Source="htss-24" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-28" Name="https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/" Source="htss-28" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/" Name="link" DestinationURL="http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-23" Name="http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/" Source="htss-23" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-27" Name="http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/" Source="htss-27" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://ago.mo.gov/VehicleStops/2013/reports/161.pdf" Name="link" DestinationURL="http://ago.mo.gov/VehicleStops/2013/reports/161.pdf" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-22" Name="http://ago.mo.gov/VehicleStops/2013/reports/161.pdf" Source="htss-22" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-26" Name="http://ago.mo.gov/VehicleStops/2013/reports/161.pdf" Source="htss-26" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://ago.mo.gov/VehicleStops/2013/reports/161.pdf</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.e-mail-made-in-germany.de/" Name="link" DestinationURL="https://www.e-mail-made-in-germany.de/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-21" Name="https://www.e-mail-made-in-germany.de/" Source="htss-21" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-25" Name="https://www.e-mail-made-in-germany.de/" Source="htss-25" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.e-mail-made-in-germany.de/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.e-mail-made-in-germany.de/" Name="link" DestinationURL="https://www.e-mail-made-in-germany.de/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-20" Name="https://www.e-mail-made-in-germany.de/" Source="htss-20" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-24" Name="https://www.e-mail-made-in-germany.de/" Source="htss-24" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.e-mail-made-in-germany.de/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://xkcd.com/386/" Name="link" DestinationURL="http://xkcd.com/386/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-19" Name="http://xkcd.com/386/" Source="htss-19" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-23" Name="http://xkcd.com/386/" Source="htss-23" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://xkcd.com/386/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://xkcd.com/386/" Name="link" DestinationURL="http://xkcd.com/386/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-18" Name="http://xkcd.com/386/" Source="htss-18" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-22" Name="http://xkcd.com/386/" Source="htss-22" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://xkcd.com/386/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://xkcd.com/386/" Name="link" DestinationURL="http://xkcd.com/386/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-17" Name="http://xkcd.com/386/" Source="htss-17" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-21" Name="http://xkcd.com/386/" Source="htss-21" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://xkcd.com/386/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://library.fes.de/pdf-files/dialog/10861.pdf" Name="link" DestinationURL="http://library.fes.de/pdf-files/dialog/10861.pdf" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-16" Name="http://library.fes.de/pdf-files/dialog/10861.pdf" Source="htss-16" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-20" Name="http://library.fes.de/pdf-files/dialog/10861.pdf" Source="htss-20" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://library.fes.de/pdf-files/dialog/10861.pdf</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://library.fes.de/pdf-files/dialog/10861.pdf" Name="link" DestinationURL="http://library.fes.de/pdf-files/dialog/10861.pdf" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-15" Name="http://library.fes.de/pdf-files/dialog/10861.pdf" Source="htss-15" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-19" Name="http://library.fes.de/pdf-files/dialog/10861.pdf" Source="htss-19" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://library.fes.de/pdf-files/dialog/10861.pdf</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.startnext.de/ctrlverlust/" Name="link" DestinationURL="https://www.startnext.de/ctrlverlust/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-14" Name="https://www.startnext.de/ctrlverlust/" Source="htss-14" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-18" Name="https://www.startnext.de/ctrlverlust/" Source="htss-18" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.startnext.de/ctrlverlust/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.startnext.de/ctrlverlust/" Name="link" DestinationURL="https://www.startnext.de/ctrlverlust/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-13" Name="https://www.startnext.de/ctrlverlust/" Source="htss-13" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-17" Name="https://www.startnext.de/ctrlverlust/" Source="htss-17" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.startnext.de/ctrlverlust/</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Name="link" DestinationURL="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-12" Name="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Source="htss-12" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-16" Name="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Source="htss-16" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Name="link" DestinationURL="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-11" Name="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Source="htss-11" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-15" Name="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Source="htss-15" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf" Name="link" DestinationURL="https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-10" Name="https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf" Source="htss-10" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-14" Name="https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf" Source="htss-14" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/http://www.wired.com/2014/08/edward-snowden" Name="link" DestinationURL="http://www.wired.com/2014/08/edward-snowden" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-9" Name="http://www.wired.com/2014/08/edward-snowden" Source="htss-9" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-13" Name="http://www.wired.com/2014/08/edward-snowden" Source="htss-13" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/http://www.wired.com/2014/08/edward-snowden</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749" Name="link" DestinationURL="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-8" Name="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749" Source="htss-8" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-12" Name="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749" Source="htss-12" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/endnotes.xml" Name="link" DestinationURL="endnotes.xml" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-7" Name="endnotes.xml" Source="htss-7" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-11" Name="endnotes.xml" Source="htss-11" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/endnotes.xml</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/footnotes.xml" Name="link" DestinationURL="footnotes.xml" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-6" Name="footnotes.xml" Source="htss-6" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-10" Name="footnotes.xml" Source="htss-10" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/footnotes.xml</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/webSettings.xml" Name="link" DestinationURL="webSettings.xml" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-5" Name="webSettings.xml" Source="htss-5" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-9" Name="webSettings.xml" Source="htss-9" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/webSettings.xml</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/settings.xml" Name="link" DestinationURL="settings.xml" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-4" Name="settings.xml" Source="htss-4" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-8" Name="settings.xml" Source="htss-8" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/settings.xml</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/stylesWithEffects.xml" Name="link" DestinationURL="stylesWithEffects.xml" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-3" Name="stylesWithEffects.xml" Source="htss-3" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-7" Name="stylesWithEffects.xml" Source="htss-7" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/stylesWithEffects.xml</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/styles.xml" Name="link" DestinationURL="styles.xml" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-2" Name="styles.xml" Source="htss-2" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-6" Name="styles.xml" Source="htss-6" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/styles.xml</Destination>
     </Properties>
   </Hyperlink>
   <HyperlinkURLDestination Self="HyperlinkURLDestination/numbering.xml" Name="link" DestinationURL="numbering.xml" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-1" Name="numbering.xml" Source="htss-1" Visible="true" DestinationUniqueKey="1">
+  <Hyperlink Self="uf-5" Name="numbering.xml" Source="htss-5" Visible="true" DestinationUniqueKey="1">
     <Properties>
       <BorderColor type="enumeration">Black</BorderColor>
       <Destination type="object">HyperlinkURLDestination/numbering.xml</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/" Name="link" DestinationURL="" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-4" Name="" Source="htss-4" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/publications" Name="link" DestinationURL="publications" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-3" Name="publications" Source="htss-3" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/publications</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/www.networkcultures.org" Name="link" DestinationURL="www.networkcultures.org" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-2" Name="www.networkcultures.org" Source="htss-2" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/www.networkcultures.org</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://medamo.nl/" Name="link" DestinationURL="http://medamo.nl/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-1" Name="http://medamo.nl/" Source="htss-1" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http://medamo.nl/</Destination>
     </Properties>
   </Hyperlink>
 </Document>
