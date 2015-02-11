@@ -24,6 +24,18 @@ markdowns:$(alldocx) # convert docx to md
 	done
 
 
+icmls: $(allmarkdown)
+	for i in $(allmarkdown) ; \
+	do icml=icml/`basename $$i .md`.icml ; \
+	./scripts/md_stripmetada.py $$i > md/tmp.md ; \
+	pandoc md/tmp.md \
+		--from=markdown \
+		--to=icml \
+		--self-contained \
+		-o $$icml ; \
+	done
+
+
 book.md: $(allmarkdown)
 	for i in $(allmarkdown) ; \
 	do ./scripts/md_stripmetada.py $$i >> md/book.md ; \
