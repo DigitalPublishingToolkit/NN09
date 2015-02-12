@@ -1457,8 +1457,7 @@ Tiger Woods’ sex addiction to Abu Ghraib, the authors derive a formula
 that they call the ‘Categorical Imperative of the Digital Age’: ‘Always
 act in such a way as to make the public effects of your actions appear
 defensible at all times.’ But they immediately follow that up with:
-‘However, do not expect that it will be of any use.’ [footnote with page
-number needed: Detel and Pörksen, *The Unleashed Scandal,* p. 213.]
+‘However, do not expect that it will be of any use.’ [^extra]
 
 # Rule 5: You Are the Freedom of the Other
 
@@ -3185,6 +3184,8 @@ Research*, Working Paper No. 12066, 2006.
     Ende der Kontrolle im digitalen Zeitalter*. Cologne: Herbert von
     Halem, 2012. English translation: *The Unleashed Scandal: The End of
     Control in the Digital Age*, Exeter: Imprint Academic, 2014.
+    
+    [^extra]: Detel and Pörksen, *The Unleashed Scandal,* p. 213.]
 
 [^40]: Emmanuel Levinas, *Totalité et Infini: essai sur l’extériorité,*
     Den Haag: Martinus Nijhoff, 1961.
