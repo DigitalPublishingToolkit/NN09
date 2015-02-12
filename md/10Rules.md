@@ -189,7 +189,7 @@ digital tailspin that awaits us.
 
 2.  A computer will make copies of all the data it operates with, and so the internet is basically a huge assemblage of copying machines. In the digital world, practically everything we come into contact with is a copy. This huge copying apparatus is growing more powerful every year, and will keep on replicating more and more data everywhere. We can no longer control where our data travels.
 
-3.  Some say that these huge quantities of data spinning around have become far too vast for anyone to evaluate any more. That is not true. Thanks to Big Data and machine learning algorithms, even the most mundane data can be turned into useful information. In this way, conclusions can be drawn from data that we never would have guessed it contained. We can no longer control how our data is interpreted.
+3.  Some say that these huge quantities of data spinning around have become far too vast for anyone to evaluate any more. That is not true. Thanks to Big Data and machine learning algorithms, even the most mundane data can be turned into useful information. In this way, conclusions can be drawn from data that we never would have guessed it contained. We can no longer anticipate how our data is interpreted.
 
 In other words, data we never knew existed will find channels that were
 not intended and reveal information that we would never have thought of
@@ -1204,8 +1204,7 @@ gaining control through communication. In the New Game, the query makes
 networking, transparency, and organization simpler and cheaper than ever
 before. This has some benefits, but also brings new problems.*
 
-Nicole von Horst was only venting her anger when she tweeted the
-following in January 2013: ‘The doctor who patted my bum when I was in
+Nicole von Horst was only venting her anger when tweeting in January 2013: ‘The doctor who patted my bum when I was in
 hospital after a suicide attempt.’ It was past one o’clock at night, so
 most of her Twitter followers were already asleep. Still, it struck a
 nerve. There had been some previous discussions on the German web about
@@ -1215,7 +1214,7 @@ journalist Annett Meiritz[^31] dissected the misogyny she had
 encountered in the German Pirate Party. These were followed by a *Stern*
 magazine article by Laura Himmelreich, where she described some of the
 inappropriate remarks Rainer Brüderle, former head of the German liberal
-party FDP, had made,.[^32] So the everyday sexism topic was already in
+party FDP, had made.[^32] So the everyday sexism topic was already in
 the air when von Horst posted her tweet, at which point blogger Anne
 Wizorek came up with the idea to collect these experiences under the
 hashtag \#aufschrei (‘outcry’).[^33]
@@ -1235,14 +1234,14 @@ perhaps just waiting for the right medium – one that has enough room for
 smaller stories, for all those moments of everyday oppression and
 humiliation. Like the internet itself, sexism is an event that is
 decentralized, dispersed far and wide, and in a way, ‘everywhere at
-once’. On Twitter, all these little waves of everyday sexism add up to
+once’. On Twitter, all these little waves of everyday sexism added up to
 the massive flood that was the \#aufschrei hashtag.[^34]
 
 In the end, the mass media could no longer ignore the topic. The
 protagonists of the campaign (which had never been a campaign in the
 first place) were invited to speak on TV talk shows and publish their
 experiences in newspaper articles. And yet, all these cross-media
-translations seemed to fail in a peculiar way. The essence of
+translations seemed to fail. The essence of
 \#aufschrei was always lost somehow.
 
 In traditional journalism, events are typically broken down to a single
@@ -1286,7 +1285,7 @@ There will be coordination meetings, or nowadays, teleconferences. A
 campaign will choose a name, and adopt decision-making procedures, be
 they democratic or autocratic. Participants will make appointments,
 paint protest signs, inform the media, articulate demands, and
-eventually start the campaign.
+eventually start campaigning.
 
 None of this happened with \#aufschrei. The only thing participants did
 here was respond to the query publics with a uniting hashtag; everything
@@ -1302,7 +1301,7 @@ An action like \#aufschrei is unpredictable. An event like this is not
 thrive in. By now we should be able to deal with the loss of control; to
 accept the fact that a movement like this has no ‘boss’. The \#aufschrei
 hashtag did not exclude anyone, it did not suppress communication, but
-rather, was a very straightforward way of collecting, aggregating, and
+rather was a very straightforward way of collecting, aggregating, and
 coordinating relevant contents.
 
 ## Query Wars And Shitstorms
@@ -1333,7 +1332,7 @@ constant to-and-fro between agreement and disagreement can cause
 estrangement and breakups in friendships, interest groups, and shared
 projects alike. The query creates structures (friendships and networks)
 just as readily as it destroys them, and alienates people from each
-other just as readily as it aligns them.
+other just as easily as it aligns them.
 
 A darker aspect of the connective power of the query shows that it is
 hardly limited to emancipatory or progressive forces, but to their
@@ -1364,7 +1363,7 @@ we do not have the appropriate mechanisms to deal with this.
 ## Strategies {.strategies}
 
 ‘Press freedom is the freedom of 200 rich people to express their
-opinion’, journalist Paul Sethe famously wrote in his letter to the
+opinion,’ journalist Paul Sethe famously wrote in his letter to the
 editors of German weekly *Der Spiegel* in 1967.[^37] Now, with
 communication costs plummeting almost to zero, for the first time in
 history we need to cope with real freedom of expression.
@@ -1381,7 +1380,7 @@ It is all too easy to dismiss the benefits of the cohesive forces of the
 query as mere consumerism or convenience. Certainly, everyday
 consumption also becomes more effective, faster, and often cheaper, when
 you can connect with a wide range of services, stores, and individuals
-at any time. However, positive filter sovereignty also extends the
+at any time. However, positive filter sovereignty also extends to the
 political, cultural, and social operating range of the individual. You
 can follow people from conflict zones on Twitter for a personal
 perspective on events beyond your own horizon. You can listen to the
@@ -1407,8 +1406,7 @@ availability. Positive filter sovereignty is my mental exoskeleton.
 ### Negative Filter Sovereignty
 
 Negative filter sovereignty is the only antifragile strategy that
-shields us against hatred and conflict, and it is likely to increasingly
-gain in its practical significance. With customized settings, tools, and
+shields us against hatred and conflict, and it is likely to increase its practical significance. With customized settings, tools, and
 filters, it is already possible to mute individual trolls and
 hatemongers. You can block certain Twitter and Facebook accounts if you
 feel harassed. However, particularly passionate trolls may create a
@@ -1424,7 +1422,7 @@ will probably not be limited to blocking tools. Ever more complex
 algorithmic heuristics may be able to prohibit even more specific forms
 of communication: certain modes of speech and address, or even entire
 topics, could be anticipated and blocked in advance. The powers of the
-query are potentially limitless here.
+query are potentially limitless.
 
 ### Minimizing Conflict
 
@@ -1436,8 +1434,7 @@ be gained in such a situation. There is no authority that will end a
 dispute and declare one of the parties the winner. There are no time
 limitations, because participants are at each other’s communicative
 disposal at all times. Conflicts therefore always result in losses on
-both sides. The only question is how high the price is. No one benefits
-from public arguments on the internet. But if the battle has already
+both sides. The only question is how high the price is. If the battle has already
 begun, then it is in the interest of both parties to end the dispute as
 quickly as possible, regardless of how much the fighters think they are
 right.
@@ -1461,7 +1458,7 @@ that they call the ‘Categorical Imperative of the Digital Age’: ‘Always
 act in such a way as to make the public effects of your actions appear
 defensible at all times.’ But they immediately follow that up with:
 ‘However, do not expect that it will be of any use.’ [footnote with page
-number needed]
+number needed: Detel and Pörksen, *The Unleashed Scandal,* p. 213.]
 
 # Rule 5: You Are the Freedom of the Other
 
@@ -1471,7 +1468,7 @@ a new information ethics to reflect this change.*
 
 The Old Game relied on central mediators: the bank, the library, the
 authorities, newspapers, corporations, and universities were the ones
-deciding exactly who was to receive which information and when; the ones
+deciding who was to receive which information and when; the ones
 making ​​choices about data processing for many others. In the New Game,
 we can recognize just how patronizing this approach is, and try to
 conquer it.
@@ -1514,8 +1511,8 @@ Levinas’ concept of ‘the Other’ breaks down the ethics of the community
 to an ethics of the counterpart. In this sense, Levinas personalized the
 social sphere, reducing it to its most basic components: the
 relationship to, and the responsibility for, the Other. At the same
-time, the Other always keeps this somewhat abstract quality of the
-unknown, unknowable, and un-ownable. The Other is a Black Swan, an
+time, the Other always retains this somewhat abstract quality of the
+unknown, unknowable, and un-ownable. The Other is a black swan, an
 unforeseen event. On these terms, the Other is structurally analogous to
 *Kontrollverlust* and the query: Levinas’ Other is always radically
 Other, and so the Other will always disrupt any preconceived notion we
@@ -1595,11 +1592,11 @@ acknowledge. Instead they insist on detailed notability guidelines. If
 an article does not comply with the rules, it is discarded. As a result,
 the German Wikipedia tends to include fewer contemporary or pop-culture
 phenomena than its English counterpart, which follows a more inclusive
-policy in this regard.
+policy.
 
-The point is the following: first, if we no longer need to justify the
+The point is the following: if we first no longer need to justify the
 existence of information due to the affordability of storage space; and
-second, if we assume that the number of queries applicable to a certain
+second assume that the number of queries applicable to a certain
 dataset is basically infinite, then there is no legitimate authority
 that could decide for us just how important or irrelevant, how good or
 bad, a piece of information is. To this effect, the setup and
@@ -1656,7 +1653,7 @@ institution in the ‘next society’.[^42]
 
 Platforms cater to our demands without tying us down: if access to a car
 is more important to us than owning one, we can carpool. We can rent out
-our room for a few days because Airbnb, and similar outlets, make it
+our room for a few days because Airbnb and similar outlets make it
 easy for us to arrange. We can trade unwanted items on Ebay, where
 buyers can be found for practically anything. And while Facebook has
 become an internet identification service of sorts, Twitter serves us
@@ -1671,7 +1668,7 @@ standardization are the platform-typical methods used to connect
 literally everything with everything else.
 
 The most important feature of these platforms is the unlimited,
-miscellaneous network effects they can have. We are on Facebook because
+manifold network effects they can have. We are on Facebook because
 everyone else is on Facebook. We shop on Amazon because of its sheer
 inexhaustible stock. We use an Android phone or an iPhone because we
 favor certain apps that they offer. It’s difficult for a messaging
@@ -1734,15 +1731,12 @@ speak out (‘voice’). Both options come at a certain price, so there will
 have to be some kind of trade-off. Hirschman, at that time, was clearly
 not thinking of social networks, but of companies, clubs, and political
 parties, where abandonment could entail the loss of employment, loss of
-political agency, or loss of access to certain localities.
-
-This thought is perfectly valid for platforms too. The cost of leaving a
+political agency, or loss of access to certain localities. This thought is perfectly valid for platforms too. The cost of leaving a
 platform is largely determined by the strength of its network effects.
 Quitting Facebook can literally mean you lose the most important channel
 to connect with your friends. Still, many respond to this kind of
 criticism of Facebook, Google, or Twitter with only a succinct: ‘Well,
-you don’t *have* to join…’ ‘Voice’ is a more political alternative,
-compared to ‘exit’. Speaking out about injustice from within the
+you don’t *have* to join…’ Compared to ‘exit’ ‘voice’ is a more political alternative. Speaking out about injustice from within the
 platform can be just as efficient a way of addressing, and redressing,
 common grievances. Besides, the ‘voice’ option will become more and more
 relevant as ‘exit’ costs continue to rise.
@@ -1771,12 +1765,11 @@ Frontier Foundation in the United States, and the European Digital
 Rights Initiative (EDRi) at the European level, to name but a few. These
 NGOs are lobbying for a free and open web, talking to governments and
 parliaments, and arranging highly visible publicity campaigns. Even so,
-it is time that the representatives of digital civil society direct
+it is time for the representatives of digital civil society to direct
 their attention not only to the states, but also to platform operators.
 
 There are signs that this is happening. The aforementioned Facebook
-group, ‘Facebook Bill of Rights and Responsibilities’, is one example
-here. Even Twitter is increasingly forced to respond to users’ wishes,
+group, ‘Facebook Bill of Rights and Responsibilities’, is one example. Even Twitter is increasingly forced to respond to users’ wishes,
 following a wave of complaints against the company’s laissez-faire
 attitude to online harassment. Projects like ‘Europe Vs. Facebook’,
 initiated by Max Schrempp from Austria, try to hold platform operators
@@ -1821,11 +1814,11 @@ advocates as being the closest thing to actual net neutrality. It means
 that data packets are delivered and routed as quickly as possible and
 without making distinctions between the types of data transmitted. This
 is roughly the way the internet has been working so far, i.e. without
-any intervention. However, today we have applications, which are popular
+any intervention. However, today we have applications that are popular
 in present-day network management, that call for faster reaction times.
 Coordinating multi-user games, online phone calls, or remote IT
 maintenance services, all require a particularly short response time, or
-as the techies say, *latency*. These demanding processes will not be
+as the techies say, *latency*. Such processes will not be
 well served in an internet that is merely ‘best effort’.
 
 Those demanding net neutrality often assume that the current state of
@@ -1867,7 +1860,7 @@ they are exerting this control.
 ### Multihoming
 
 As the name implies, multihoming means that whenever possible,
-applications, services, or data resources, are not made available on
+applications, services, or data resources are not made available on
 only one platform, but on several. If there is a certain chat app I want
 to use that only works on the iPhone, then the iPhone platform is
 imprisoning me. In this case, the lock-in effect can be alleviated
@@ -1900,15 +1893,15 @@ nothing more than a protocol (HTTP, or Hypertext Transfer Protocol) and
 a descriptive language for the actual contents (HTML, or Hypertext
 Markup Language). Even the internet itself is a conglomeration of a few
 loose standards (especially TCP / IP – Transmission Control Protocol /
-Internet Protocol), which everyone can contribute to. You have access to
+Internet Protocol) that everyone can contribute to. You have access to
 the entire net, independent of which access point you choose. In this
 sense, distributed platforms are the most radical form of multihoming.
 
-However, it is not so easy to just find a decentralized substitute to,
+However, it is not easy to find a decentralized substitute to,
 for example, Facebook. Facebook has a considerable technological
 advantage that is difficult, but not impossible, to draw level with.
 Technically speaking, it is quite feasible to recreate the same features
-in a decentralized form. But the existing network effects still remain a
+in a decentralized form. But the existing network effects remain a
 difficulty. Platforms like Facebook and Google+ have such a strong
 gravitational force that it takes a lot of strength to compromise them
 in the slightest. The attempts at building decentralized platforms have
@@ -1918,7 +1911,7 @@ you join an alternative platform if the people you want to communicate
 with aren’t there?
 
 One of these platforms, however, almost succeeded in deflecting
-Facebook’s power – until Facebook finally bought it themselves out of
+Facebook’s power – until Facebook bought it themselves out of
 sheer necessity. The messaging application WhatsApp doesn’t do much more
 than let users send each other messages, and yet it became a serious
 threat for Facebook. The app, available for both iPhone and Android, had
@@ -1936,7 +1929,7 @@ asking – and will then upload it to the WhatsApp servers. In this way,
 WhatsApp was able to gather millions of address books in a short period
 of time, and identify with whom users were connected and which of their
 contacts also used WhatsApp. New users immediately see a list of people
-they could text right away: a strategic move that has not only brought
+they can text right away: a strategic move that has not only brought
 WhatsApp harsh criticism from privacy advocates, but also incredible
 success.
 
@@ -1952,10 +1945,10 @@ were already there.
 This brings us to the design flaw in many decentralized approaches, like
 the social network Diaspora for example. These platforms frequently try
 to position themselves as a particularly privacy-friendly alternative to
-Facebook. Their privacy settings will often be much stricter, thereby
+Facebook. Their privacy settings will often be strict, thereby
 shutting their users off from one another. It is difficult, if not
 impossible, to find friends and contacts on platforms like these. If
-anything, in concept these decentralized approaches most resemble
+anything, conceptually these decentralized approaches resemble
 *anti*-social networks.
 
 WhatsApp, in contrast, got a lot of things right, although it
@@ -1969,7 +1962,7 @@ on top of the existing decentralized social networks and still have made
 the data available to third parties.
 
 Decentralized approaches will only work if you keep the data open. Only
-open data manages to be centrally queryable and to avoid
+open data can be centrally queryable and avoid
 misappropriation at the same time. Just like Google makes the web
 searchable, but cannot stop others from doing the same; just like the
 BitTorrent search engine Pirate Bay will track all available torrents,
@@ -1977,15 +1970,15 @@ but not exclusively; just like any RSS reader will compile the content
 of blogs individually, without preventing others from presenting the
 same content in an entirely different way.
 
-# Rule 7: The State Is Part of the Problem, Not Part of the Solution
+# Rule 7: The State Is Part of the Problem, Not of the Solution
 
-*Proposition: As in the Old Game, we are still accustomed to identify as
-being part of a state that protects us from life’s adversities. In the
+*Proposition: In the Old Game, we are accustomed to see ourselves as
+part of a state that protects us from life’s adversities. In the
 New Game, however, the state itself is affected by the loss of control,
-and pursues its own agenda. And that runs counter to the interests of
+and pursues its own agenda. One that runs counter to the interests of
 civil society.*
 
-Just a few months after the first Snowden leaks, the following phrase
+Just a few months after the first Snowden leaks, the phrase
 started popping up everywhere: ‘We need our own network
 infrastructures.’ Who this ‘we’ was referring to, however, seemed to
 oscillate between ‘we Germans’ and ‘we Europeans’.
@@ -1993,7 +1986,7 @@ oscillate between ‘we Germans’ and ‘we Europeans’.
 The conservative daily *FAZ* repeated its calls for a European search
 engine. It let experts explain how important it was, now more than ever,
 that Germany, or at least the European Union, would finally build its
-own net infrastructure, and it did not tire of laying part of the blame
+own net infrastructure. It did not tire of laying at least part of the blame
 for secret services’ surveillance on platform operators like Facebook
 and Google. Rene Obermann, former head of German telecommunications
 provider Deutsche Telekom, called for a statutory ‘Schengen Routing’ in
@@ -2017,8 +2010,8 @@ web, these proposals have since been parodied under the hashtag
 of ‘Deutschland’, and ‘ChinaNet’, a common term for China’s highly
 regulated and monitored national web infrastructure.
 
-This was not too surprising in itself, as it was essentially an easy
-promotion campaign to give German companies some competitive edge. But
+This was not too surprising, as the campaign was essentially an easy
+promotion to give German companies some competitive edge. But
 the important question of how providers could increase the level of
 security for their users remained unanswered. It would certainly be
 welcome for German providers to finally draw level with international
@@ -2082,15 +2075,15 @@ what Edward Snowden intended?
 
 ‘Schlandnet’, data retention, web blocking policies, abolishment of net
 neutrality, ancillary copyright laws, the ‘right to be forgotten’,
-DE-mail, user-unfriendly and unrealistic ideas on protecting minors, and
+DE-mail, user-unfriendly and unrealistic ideas on protecting minors,
 tightening copyright laws… Experience has shown that, what in Germany is
 called ‘*Netzpolitik*’, i.e. internet policymaking, is almost
-exclusively *anti* net politics. There is not much use in repeatedly
+exclusively *anti*-net politics. There’s not much use in repeatedly
 blaming the issue on politicians who are supposedly too ignorant, too
 old, or not tech-savvy enough. It is time to acknowledge that the
 problem is systemic.
 
-But the systematics here are not too hard to pinpoint: boundless
+The systematics here are not too hard to pinpoint: boundless
 networks of people, information, and algorithms are by now questioning
 the states’ claims to power on a daily basis. Like it or not, the state
 and the internet are so difficult to reconcile structurally, that they
@@ -2271,7 +2264,7 @@ being turned into a flat rate, with restricted access organized over
 platforms: the developments are the same, whether it concerns music
 (Spotify, Pandora), movies and TV series (Watchever, Netflix), or books
 (Amazon is currently planning a flat rate for e-books). Rights
-exploiters also are harming themselves in the process of becoming
+exploiters are also harming themselves in the process of becoming
 platforms, but first and foremost, they are harming creators. The works
 of artists remain stuck in digital silos, and alternative usage is ever
 more rarely permitted, even while the price of cultural goods keeps
@@ -2304,9 +2297,7 @@ In fact, converting platforms to informal instances of the law achieves
 the opposite of what the enemies of the platform intended. This is best
 illustrated with the ‘right to be forgotten’, where the idea of filter
 sovereignty directly collides with the established right to
-‘informational self-determination’.
-
-In mid-2014, the European Court of Justice ruled that, under certain
+‘informational self-determination’. In mid-2014, the European Court of Justice ruled that, under certain
 circumstances, people may put in claims to have specific links removed
 from the indexes of search engines like Google, if these links come up
 when searching for that person’s name. If links that appear there
@@ -2320,7 +2311,7 @@ concerned would just be indexed again the next time the search engine’s
 bots crawl it. This, in turn, means that companies like Google have to
 keep account of a comprehensive hidden index, which explicitly links to
 content that has been flagged as compromising. Is there any greater
-power we could afford to a company than this?
+power we could afford a company than this?
 
 In the end, the ‘right to be forgotten’ leads to an alarming
 intensification of the concentration of power: our increasingly
@@ -2328,8 +2319,7 @@ non-transparent queries are subject to filtering, by way of secret lists
 of things we mustn’t know about, and the explicit request for oblivion
 makes search engines act as prosecutor and judge rolled into one when
 confronted with ambiguous legal questions. Johannes Masing, judge at the
-German Federal Constitutional Court, aptly put it this way in his
-analysis:
+German Federal Constitutional Court, aptly put it this way:
 
 > By making search engine operators responsible for cancellation
 > requests, the decision of the European Court of Justice elevates them
@@ -2344,14 +2334,13 @@ management, such as the termination of stalking or harassing accounts.
 But the privacy requirements that users would like to have enforced
 against all other users, and even personal acquaintances, are often the
 basis for legitimizing closed platform structures and centralized
-control mechanisms. In the United States, even more so than in Europe,
+control mechanisms. In the United States even more so than in Europe,
 there is a tendency to expect a ‘clean Facebook experience’ that doesn’t
 allow, for example, naked female breasts. And in Germany, many users
 would like to see right-wing sites disappear from view.
 
 Whether we like it or not, in these indeterminate realms of the law in
-particular, we are using platform operators as a new kind of, all in
-one, police, court, and prison. In this manner, we authorize them to
+particular, we are using platform operators as a new kind of all-in-one, police, court, and prison. In this manner, we authorize them to
 enforce a platform-based power monopoly that vastly extends their
 existing powers.
 
@@ -2361,7 +2350,7 @@ When air travel became a mass market in the 1950s, IBM, together with
 the US Air Force, had already developed the so-called SAGE system. SAGE
 was a computerized anti-aircraft defense system that collected data from
 different radar stations and transmitted it to central locations.
-Remarkably, SAGE seemed to also have precisely the features that were
+Remarkably, SAGE also seemed to have precisely the features that were
 interesting for booking procedures in civil aviation. So IBM, in
 cooperation with American Airlines, went on to develop SABRE
 (Semi-Automated Business Research Environment), a booking system that
@@ -2369,15 +2358,13 @@ could transmit data on flight itineraries over long distances, and
 coordinate and perform seat reservations. This system turned out to be a
 great success, and travel agents started using it to book flights for
 various airlines. SABRE can be seen as one of the first digitized
-networked platforms, and all sorts of travel agencies and airlines
-joined the system and began carrying out their reservations over the
-platform too.
+networked platforms.
 
 Then, in 1983, it was revealed that the flight reservation algorithms
 were manipulated in such a way as to favor American Airlines flights.
 For instance, even if an AA flight was entered into the system later
 than others, it was displayed at the top of the list – and travel agents
-tended to mainly observe the topmost entries, just like Google users do
+tended to mainly notice the topmost entries, just like Google users do
 today. Additionally, special offers or discounts from competitors were
 simply censored out of the system. In the US Congress inquiry into the
 allegations in 1983, Bob Crandall, president of American Airlines,
@@ -2401,26 +2388,26 @@ a result of the struggle. Brown then fled the scene and was shot six
 times from behind. Michael Brown was unarmed. And he was black.
 
 A police report for the state of Missouri had already caused some
-controversy in the year before, as it showed that the likelihood of
+controversy the year before, as it showed that the likelihood of
 being arrested when stopped by police was twice as high for blacks as it
 was for whites.[^51] Racial profiling by police is all too commonplace
 in the US; black citizens are regularly put under general suspicion.
 
-The next day, the black population of Ferguson in particular, assembled
+The next day, the black population of Ferguson in particular assembled
 for a peaceful vigil and was immediately met by 150 police officers in
-full riot gear. The atmosphere grew increasingly tense, and the
+full riot gear. The atmosphere grew increasingly tense and the
 situation got out of hand. Riots, looting, and street fights started to
 take place. On August 11 and 12, police forces began using armored
 vehicles, stun grenades, smoke-bombs, tear gas, and rubber projectiles
-against the protesters, thereby escalating the situation even more.
-Soon, the images of Ferguson’s police presence, enforcing martial law,
+against the protesters, escalating the situation even more.
+Soon, the images of Ferguson’s police presence enforcing martial law
 started spreading all over the world, all over the media and, of course,
 all over the social networks.
 
 But the images didn’t spread in the same extent in all social networks.
 In a blog post published on the news website *Medium*, researcher Zeynep
 Tufekci, who works on the influence of algorithmic news filters on
-political power, noted that the events in Ferguson were presented very
+political power, notes that the events in Ferguson were presented very
 differently on Facebook than on Twitter.[^52] Ferguson had hardly
 featured in her Facebook stream, while there had been talk of nearly no
 other subject on Twitter. This clearly wasn’t due to the fact that
@@ -2436,7 +2423,7 @@ We don’t have to construe any conspiracy in order to admit that there is
 a problem here. If we consider that platforms are turning into the most
 important infrastructure for social discourse, then their streamlined
 queries become a political matter, a critical infrastructure for
-democratic debate. An infrastructure, subject to non-transparent
+democratic debate. An infrastructure subject to non-transparent
 queries, provided by non-transparent companies with tight connections to
 intelligence services – what could possibly go wrong?
 
@@ -2452,7 +2439,7 @@ Only if we grant these platforms as little control over the flow of
 information as possible, or none at all, will they be able to become a
 real infrastructure rather than an unrestrained apparatus of power.
 
-That is to say, the informational tailspin is on our side, and it calls
+That is to say, the informational tailspin is on our side and it calls
 for Open Data. The platforms will forfeit their power only if their data
 can be evaluated with various, ideally unlimited, numbers of external
 queries. They lose the power to exclude users, because those users can
@@ -2461,9 +2448,7 @@ because users themselves can perform queries on the data and make their
 own judgments. They lose the power to lock users in, because they can no
 longer prevent users from parsing their data, forwarding it, and
 evaluating it in other ways. Open Data is the only way of escaping the
-trap that platforms will set otherwise.
-
-But this freedom comes at a price. In the long term, we will have to do
+trap that platforms will set otherwise. But this freedom comes at a price. In the long term, we will have to do
 away with centralized controls on various levels, be it privacy,
 copyright, community management, or law enforcement.
 
@@ -2471,19 +2456,18 @@ copyright, community management, or law enforcement.
 
 *No Copyright* is the title of a critical analysis of copyright laws by
 political scientist Joost Smiers and business economist Marieke van
-Schijndel.[^53] In their book, the authors blame copyright for the
-concentration of the cultural marketplace, and the resulting
-‘blockbuster’ culture. They argue that the monopoly of rights
+Schijndel.[^53] They argue that the monopoly of rights
 exploiters, legitimized by copyright laws, is what leads to an
 increasing concentration of the global culture industry, which favors
-only a few large corporations. The authors make a radical case for the
+only a few large corporations and the resulting
+‘blockbuster’ culture. The authors make a radical case for the
 abolition of copyright, in the hope of decentralizing this cultural
 consolidation.
 
 Many of the political attempts to monitor and control the internet are
-owed to copyright directly. But trying to reconcile the internet with
+connected to copyright directly. But trying to reconcile the internet with
 copyright is like flying a glider through a vacuum: impossible.
-Nonetheless, this doesn’t stop some from trying with sheer force. As
+Nonetheless, this doesn’t stop some from trying with force. As
 long as copyright exists, people with enough money and influence will
 attempt to repurpose the internet into a control society. In the short
 term, we have no choice but to use free and open licensing models,
@@ -2507,7 +2491,7 @@ thought, every word, and every image, all over the world. Imagine a
 genuine information society. The chance is definitely there. If the
 prices for cultural goods continue to decline, this will take the
 financial pressure out of the copyright debate. This, in turn, will only
-be encouraged if we file share diligently, and distribute our
+be encouraged if we file share diligently and distribute our
 intellectual and creative products under free licenses.
 
 ### The Radical Right of the Other
@@ -2523,7 +2507,7 @@ filter sovereignty is constructed from end-to-end, i.e., also achieved
 in decentralized ways. In the future, we will come to rely on this
 autonomy and be empowered to connect with everything and everyone we
 like, just as we will be able to effectively block out everything and
-everyone we like, or dislike, for that matter. Presently, such practices
+everyone we dislike, for that matter. Presently, such practices
 are still only developing rudimentarily, and mostly with recourse to
 centralized platform structures, as, for example, with the blocking and
 unfollowing mechanisms on Twitter. Technically speaking, however, there
@@ -2551,7 +2535,7 @@ form here:
 > coped with this cheerfully, for it was a gentle land where familiar
 > chores changed little from day to day.
 >
-> Furthermore, about one person in a hundred did have eyesight. These
+> About one person in a hundred did have eyesight. These
 > specialists took care of jobs like policing, shouting directions, or
 > reporting when something new was going on. The sighted ones weren’t
 > superior. They acquired vision by eating a certain type of extremely
@@ -2579,10 +2563,10 @@ form here:
 
 Institutional regulatory instances fail in the face of the platforms’
 rising powers. We are dependent on the platforms, just as the blind
-people in the tale are dependent on the sighted. But there is still a
+people in the tale are dependent on the sighted. But there is a
 way out. Only the query can control the query. For that to work,
 however, the data needs to be open, and so we too, will have to
-relinquish some control. Sooner or later, we will have to eat this
+relinquish some control. Sooner or later, we will have to eat the
 bitter fruit; we will have to open all data up for unguarded aggregation
 and analysis.
 
@@ -2593,11 +2577,11 @@ well advised to distrust it deeply. Thus far, though, everyone can
 create an index of the web and organize it at discretion, provided they
 have the appropriate technical and financial resources. And plenty of
 them do: Microsoft’s Bing, DuckDuckGo, Wolfram Alpha, and many others,
-work in more or less the same way as Google. Market share, in that
-sense, hardly matters, as long as there is the option of crosschecking
+work in more or less the same way as Google. Market share in that
+sense hardly matters, as long as there is the option of crosschecking
 queries. As long as competing queries can test whether Google is abusing
-its powers of the query on a grand scale, these powers are, at least to
-some extent, contained.
+its powers of the query on a grand scale, these powers are at least to
+some extent contained.
 
 However, in order for these reliability checks to remain in place, data
 needs to be queryable by everyone. Thanks to the open web, this is still
@@ -2651,7 +2635,7 @@ challenge of making do without them.
 The power of the state is notably decreasing even today, and in matters
 of internet policy, it has already made itself dispensable as a dialogue
 partner. State institutions will be increasingly and effectively
-circumvented in the future, and politicians will accept it without
+circumvented in the future, and politicians will accept without
 objection. The state will not disappear entirely, but fade into the
 background. Institutionalized politics, meanwhile, is trying to weave
 the old order into transnational and European-level governance, and can
@@ -2675,10 +2659,9 @@ and in such a way that their inner workings and activities are
 systematically called into question. There is credible evidence that
 Edward Snowden is not the only whistleblower supplying the public with
 classified information. Most likely there is a second anonymous
-source,[^56] and some observers already speculate about a third
-informer.
+source,[^56] and some observers already speculate about a third.
 
-NSA, GCHQ and BND are accumulating greater intelligence and data
+NSA, GCHQ, and BND are accumulating greater intelligence and data
 analysis capacities by the hour, but their modus operandi is fragile.
 The informational tailspin ensures that now their operations are less
 undisturbed than before, and the climate of mutual suspicion within
@@ -2746,8 +2729,8 @@ are asserting our so-called rights to make these demands, but ignore the
 fact that we are dealing with separate players and conflicting
 interests. Unfortunately, this approach puts us in jeopardy ourselves:
 we are encouraging those we fear, and happily relinquishing our tools of
-self-determination. This strategy is eventually doomed to failure, and
-at worst, may even lead to an uncontainable imbalance of power.
+self-determination. This strategy is eventually doomed to fail, and
+at worst may even lead to an uncontainable imbalance of power.
 
 Meanwhile, we are particularly unable to cope even with ourselves. We go
 along with shitstorms, intent on tormenting each other – hey, it’s free
@@ -2758,11 +2741,11 @@ the lifestyles, convictions, cultural backgrounds, and principles of
 others, and are rarely willing to inform them of our point of view
 before berating them.
 
-Let’s face the facts: Digital tools have empowered the individual – and
+Let’s face the facts: digital tools have empowered the individual – and
 civil society. We have all gained more opportunities: to communicate and
 affiliate with others, to assert our interests, to organize ourselves.
 Sadly, we seize these opportunities in order to prevent one another from
-making progress. The NSA may, in theory, have the power to pressure,
+making progress. The NSA may in theory have the power to pressure,
 intimidate, and terrorize each and every one of us. This is exactly what
 happens to a lot of people who are silenced on a daily basis – not at
 the hands of the NSA, but at the hands of trolls, ‘Men’s Rights
@@ -2790,7 +2773,7 @@ beneficiaries of these powers.
 ## Strategies {.strategies}
 
 So how do you fight yourself? Preferably in such a way that you are not
-too badly mangled in the process. But that doesn’t help. Under the
+too badly mangled in the process. Under the
 end-to-end paradigm of the New Game, everyone has to take on more
 responsibility. Otherwise, the others will take over: the platforms, the
 secret services, the nation states. And that would probably not end
@@ -2801,7 +2784,7 @@ well.
 The liberal / libertarian model of freedom as independence and
 self-reliance is finished. It may take some time, though, before certain
 people recover from this insult to humanity and realize that it actually
-yields new liberty: the positive freedom of connectivity, interaction,
+yields a new liberty: the positive freedom of connectivity, interaction,
 and involvement. Freedom, however, that comes at the price of greater
 responsibility. In his column ‘Connected’, the computer scientist and
 internet scholar Jürgen Geuter writes:
@@ -2848,7 +2831,7 @@ Twitter message from Anthony Kurtz. He doesn’t know Kurtz in person,
 only from Twitter. Kurtz asks whether he was in India in 2007 – seven
 years ago. Puzzled, Joey L. replies that yes, he had been to India: in
 Varanasi, a historic town on the Ganges river, frequented by pilgrims
-and tourists. The stranger sends a picture taken back in 2007, and asks
+and tourists. Kurz sends a picture taken back in 2007, and asks
 whether that is him. The photo is a long shot of the historic buildings
 on the banks of the Ganges, as seen from the river. There are a lot of
 people in the image: boats filled with locals lining the shore, women
@@ -2863,11 +2846,11 @@ Then, on one of the images, he discovers himself taking a photograph of
 two women who are sitting nearby and drawing. He recovers the photo that
 he must have taken in that moment. His own image, in turn, shows the
 Ganges in the background, with all the boats from which people are
-taking their own pictures. One of them had to be Anthony Kurtz. There
-are many ways to respond to *Kontrollverlust*. Joey L. writes an ardent
+taking their own pictures. One of them had to be Anthony Kurtz. Joey L. writes an ardent
 blog post about his experience, and is delighted at how the internet has
 shrunk his world: ‘I Was Hidden on this Guy’s Hard Drive for Over 6
-Years’.[^59]
+Years’.[^59] There
+are many ways to respond to *Kontrollverlust*.
 
 In the future, these kinds of stories shouldn’t surprise us much. The
 world has become transparent unto itself, simultaneously visible from
