@@ -1,9 +1,8 @@
 # Colophon
 **Network Notebook #09**  
-**Michael Seemann, Title............**
+**Michael Seemann, Digital Tailspin: Ten Rules for the Internet After Snowden**
 
-This text is a translated and updated version of *Das Neue Spiel: Strategien für die Welt nach dem digitalen Kontrollverlust*, Freiburg: Orange Press, 2014.  
-Translated from the German by Anwen Roberts  
+This text is a translated and updated excerpt of *Das Neue Spiel: Strategien für die Welt nach dem digitalen Kontrollverlust*, Freiburg: Orange Press, 2014. Translated from the German by Anwen Roberts  
 
 **Network Notebooks editors:** Geert Lovink and
 Miriam Rasch  
@@ -31,8 +30,8 @@ WTFPDL – Do What the Fuck You Want to Public Digital License,
 [http://wtfpdl.net/](http://wtfpdl.net/)
 
 Amsterdam, March 2015  
-ISBN ???-??-????-??? (print)  
-ISBN ???-??-????-??? (EPUB)
+ISBN 978-90-822345-8-9 (print)  
+ISBN 978-90-822345-9-6 (EPUB)
 
 ![](imgs/file0.jpg) ![](imgs/file1.jpg)
 ![](imgs/file2.jpg) ![](imgs/file3.jpg) 
