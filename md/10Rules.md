@@ -37,13 +37,14 @@ been possible at all.
 
 
 
+
+
+# Introduction
+
 *Yet as we unleash living forces into our created machines, we lose
 control of them.*
 
 Kevin Kelly
-
-
-# Introduction
 
 In 2008, although I had been an active blogger for three years, I had
 only quite recently joined the online messaging service Twitter. It was
@@ -78,7 +79,7 @@ sent people birthday wishes on Twitter. He would use the hashtag
 \#hpybdy in his congratulatory tweet and in that way create a birthday
 calendar of his own along the way.
 
-In the article, I tried to envision the impacts of this kind of behavior.
+In my article, I tried to envision the impacts of this kind of behavior.
 With sufficiently powerful data analytics, it would have been easy to
 create a profile of @moeffju’s working hours. Future clients or
 employers could take one look at his schedule and draw
@@ -92,31 +93,30 @@ those people who wanted to travel the web anonymously.
 Ordinary social practices that seem innocent at first glance may have
 unexpected consequences as soon as they are made searchable and
 connectable. ‘I do not yet know what all of this means for me and my
-tweeting’, was how I ended the article at the time. Today, I know this
+tweeting,’ was how I ended the article at the time. Today, I know this
 was the starting point of a broader contemplation of the matter, which
-has, with some diversions, led up to the *10 Rules of the New Game*.
+has, with some diversions, led up to *Digital Tailspin: Ten Rules for the Internet After Snowden*.
 
 First, I pursued my thoughts about *Kontrollverlust*, the loss of
 control in the digital world, only casually.[^2] But when Frank
 Schirrmacher, the late editor of German daily *Frankfurter Allgemeine
 Zeitung* (FAZ), asked me if I wanted to write a blog for the FAZ website
 in early 2010, I knew this would be my topic. My blog was aptly named
-‘CTRL-Verlust’. Unfortunately the collaboration ended after about six
+‘CTRL-Verlust’. Unfortunately, the collaboration ended after about six
 months due to a conflict of opinions with the editors, but I continued
 the blog by myself at *ctrl-verlust.net*.[^3]
 
 ## The Book 
 
-Over the past four years, I had occasionally thought about turning my
+Over the past four years I had occasionally thought about turning my
 increasingly extensive body of reflections on the digital information
 tailspin into a book. But somehow, the final incentive was missing. What
 tipped the scale were Edward Snowden’s revelations in 2013. The monstrosity of this gigantic project – nothing less than the
 observation of the entire planet – made me realize just how small I had
 been thinking until then. So far, I had regarded *Kontrollverlust* as an
 everyday phenomenon that was still quite rare, but might impact one
-person or another. That this loss of control had long become the
-totalitarian reality of every single person on the internet did, in
-fact, surprise me.
+person or another. That it had long become the
+totalitarian reality of every single person on the internet surprised me.
 
 I’m certainly not the first one to regard this framework as a ‘game
 changer’: a shift in circumstances with the power to modify the
@@ -124,7 +124,7 @@ coordinates of the world and radically change the rules of the game. But
 I may be the first one trying to formalize these new rules. The German
 title of my book, *Das Neue Spiel: Strategien für die Welt nach dem
 digitalen Kontrollverlust*, translates to *The New Game: Strategies for
-the World After the Digital Tailspin*. The *10 Rules* you have in hand
+the World After the Digital Tailspin*. The *Ten Rules* you have in hand
 are a modified version of the second half of the book.
 
 ## The Campaign
@@ -135,22 +135,22 @@ assume that data is uncontrollable, I can’t just go to some publishing
 house and publish a book under the usual conditions of copyright. A
 different solution had to be found. I devised a crowdfunding campaign
 that allowed me to collect money before publication; enabling me to
-write the book without any advance payment from a publisher.[^6]
+write the book without any advance payment from a publisher.[^4]
 
 The campaign cost a lot of time and effort, but it was worth it. Instead
 of the 8,000 euros I had set as a target, I collected a total of more
 than 20,000 euros, making the campaign the third most successful
 crowdfunded German-language book project at the time. The edition at
-hand is borne of this success: the translation of my *10 Rules* was a
-so-called ‘stretched goal’, one to be realized in case I reached the
-20,000 euro mark.
+hand is borne of this success: the translation of my *Ten Rules* was a
+so-called ‘stretched goal’, one to be realized in case the
+20,000 euro mark was reached.
 
 ## The License
 
-As part of the campaign, I designed a license for the book and the *10
-Rules* in collaboration with iRights.info.[^7] The license is called
+As part of the campaign, I designed a license for the book and the *Ten
+Rules* in collaboration with iRights.info.[^5] The license is called
 the WTFPDL, a derivative of the WTFPL, the ‘Do What The Fuck You Want To
-Public License’.[^8] My extension basically consisted of inserting the
+Public License’.[^6] My extension basically consisted of inserting the
 D, for ‘Digital’. While the original license model literally permits any
 conceivable use, my extended version grants this right in the digital
 domain only. In the physical world, for printed books for example, the
@@ -163,7 +163,7 @@ masses and bodies – the old rules apply: copyright laws. In the New Game
 control comes into full force, unrestrained.
 
 The book, the crowdfunding campaign, the license, as well as the English
-version of the *10 Rules*, are all part of the same work. All these
+version of the *Ten Rules*, are all part of the same work. All these
 elements respond to the challenges of the digital tailspin in their own
 way, and are intended as guidance to, or examples of, how the future
 might look in the New Game.
@@ -195,12 +195,12 @@ In other words, data we never knew existed will find channels that were
 not intended and reveal information that we would never have thought of
 on our own. And this is substantially changing the world.
 
-My theses are highly controversial within the German digital community,
+My theses are controversial within the German digital community,
 not least because they unveil the irretrievable end of privacy and are
 thus threatening one of the main pillars of a shared canon of values.
 But I haven’t been entirely alone with this discourse: Christian
-Heller’s concrete ideas pertaining to a post-privacy world,[^4] as well
-as the formation of the ‘privacy-critical alliance’ Spackeria,[^5] have
+Heller’s concrete ideas pertaining to a post-privacy world,[^7] as well
+as the formation of the ‘privacy-critical alliance’ Spackeria,[^8] have
 in recent years repeatedly led to heated debates within the German net
 scene.
 
@@ -226,13 +226,13 @@ in the New Game than others.
 *Proposition: In the New Game, many timeworn certainties have been
 rendered invalid. In order for us to understand and profit from new
 opportunities, and identify new threats, we need to actively unlearn the
-old, and engage with the new wholeheartedly.*
+old and engage with the new wholeheartedly.*
 
 First things first. The rule preceding the rule. Programmers commonly
 start counting at zero, instead of at one. Zero is the blank slate; the
 empty set that makes sure we do not yet know where we are going. Because
-normally, we will already be somewhere, we will have preconceptions, and
-that is precisely the problem. Therefore, Rule Zero. Before we begin, we
+normally we will already be somewhere, we will have preconceptions, and
+that is precisely the problem. Therefore, Rule Zero. Before we begin we
 first need to take a step backwards, away from the first step, away from
 our misconceptions, and go back to zero.
 
@@ -249,7 +249,7 @@ past in order to predict the future. What could possibly go wrong?
 
 Researcher of randomness and former financial analyst Nassim Nicholas
 Taleb alerted the world to the major role of unpredictability in his
-2007 book, *The Black Swan*.[^9] In his book, Taleb demonstrates how
+2007 book *The Black Swan*.[^9] In his book, Taleb demonstrates how
 rare and improbable events, typically not covered in any plan or
 scenario, have repeatedly become major turning points in history,
 often with disastrous effects. To paraphrase Donald Rumsfeld,
@@ -260,7 +260,7 @@ should know about. This is what the eponymous ‘black swan’ refers to:
 before the European exploration of Australia in the 17th century, no one
 in Europe even knew that black swans existed, since local everyday
 observation suggested that ‘white’ was one of swans’ defining
-properties. So when black swans were finally documented, this was
+properties. So when black swans were finally documented it was
 clearly a turning point in terms of swan research, moreover, an event
 calling the entire concept of swans into question.
 
@@ -281,9 +281,9 @@ ourselves from our prejudice against the new, and forget what we once
 thought was true. Let us scrutinize everything, take nothing for
 granted, and distrust those who claim to have ‘known all along’. In the
 New Game, the rules have changed so fundamentally that many aspects need
-rethinking. In such situations, a certain reluctance to get off the
+rethinking. In such situations a certain reluctance to get off the
 beaten track is quite natural. But what was good before may suddenly
-turn stale. What used to promise freedom could be a new kind of prison
+turn stale. What used to be a promise of freedom could be a new kind of prison
 today – or vice versa.
 
 ## The Empire Strikes Back
@@ -307,7 +307,7 @@ forced to oblige: public broadcasters are now permitted to make
 their content available online only for a certain time. News items will
 usually disappear from the web after seven days. *Depublizieren*
 (un-publish) is the peculiar term coined specifically to refer to this
-practice of rendering published content, largely financed by the German
+practice of rendering published content, which is largely financed by the German
 public through license fees, inaccessible again. The news media even
 managed to lobby their way into federal legislation with the infamous
 *Leistungsschutzrecht*, an ancillary copyright law specific to German
@@ -319,7 +319,7 @@ worst enemies of the public.
 
 We should start to purposefully distrust the old. The old ways will
 always consider themselves indispensable. The old will always try to
-prove that, without it, the decline of the West, or democracy, or the
+prove that without it the decline of the West, or democracy, or the
 world in general, is nigh. It would be a mistake to listen to the ones
 losing out in this situation of upheaval. We must be wary of placing the
 individual cases of a privileged few above the common good. And we must
@@ -328,7 +328,7 @@ anyway, will never return.
 
 ## New Threats
 
-If you take such a dispassionate look at this disruption of the old, you
+If you take such a dispassionate look at the disruption of the old, you
 are quickly accused of being a naive internet utopian, expediently
 choosing to see only the good parts. That is not the case. To recognize
 the new as being new, and to stop mourning the outmoded, does not
@@ -337,39 +337,38 @@ the contrary. There are many new hazards brewing in the New Game. But
 alarmists, instead of observing the situation closely and articulating
 legitimate criticism, tend to obstruct our view of the real challenges.
 That is to say, the challenge at hand is not just the demise of the old.
-We do not need to worry about there being no more music, or no more
+We do not need to worry about there being no more music or no more
 journalism.
 
 It is evident that change not only yields new opportunities, but also
-brings new dangers – dangers that are not recognized as such, precisely
+brings new dangers – dangers that are not recognized as such precisely
 because of their novelty; they are black swans. We need an
 unclouded view to be able to recognize these threats, just as well as the
 opportunities. The struggle so far has not been between utopians and
 realists, but rather between realists and nostalgics. The New Game has
-already begun, it is already changing the world, and change is already a
+already begun, it is already changing the world, change is already a
 reality. It is time to leave the mourners behind.
 
 ## Strategies {.strategies}
 
 Developing strategies against your own biases means closing certain
-doors, and opening others. It means leaving your accustomed standpoint
-and taking an unusual stance. Two strategies can help.
+doors and opening others. It means leaving your accustomed standpoint behind and taking an unusual stance. Two strategies can help.
 
 ### Sinking Ships
 
 In his book *Digital Renaissance*, the literary scholar Martin
 Burckhardt suggested that when dealing with the digital shift, we should
 adhere to a lesson provided by Spanish conquistador Hernán Cortés. As
-soon as his expedition had arrived in South America, he sank the ships
+soon as his expedition had arrived in South America he sank the ships
 they had come on, right in front of his crew. That would leave them with
-no hope of ever returning to the old world – and with a blank slate
+no hope of ever returning to the old world – and with a blank slate,
 providing the mental state for them to deal with the new continent.[^12]
 
 Figuratively speaking, we need to demolish all hope of returning to the
 Old Game. The New Game is clearly not paradise on earth, is not
 inherently better than the old, but it is exciting and full of
 opportunities. New worlds entail risks that differ from those dragons of
-old. By mentally detaching from our old world, we can free our minds to
+old. By mentally detaching from our old world we can free our minds to
 those new opportunities and challenges, as well as risks, that await us
 in the New Game.
 
@@ -377,21 +376,18 @@ in the New Game.
 
 One interesting way of liberating our understanding of the present from
 the adhesiveness of current experience was presented by German media
-theorist Stefan Heidenreich. He invites us to participate in the
-following thought experiment:
+theorist Stefan Heidenreich. He invites us to participate in a thought experiment:
 
-> Let’s try out the following to see what will become of our story.
 > Imagine yourself in ten years, looking back at what is now the
 > present. The year is 2020, and maybe you will remember this text you
 > read or heard a decade ago, maybe not. Maybe you were traveling. Maybe
 > there is a picture that a stranger took of you on the street.[^13]
 
-In the year 2020, face recognition algorithms will be ubiquitous, so we
+In the year 2020 face recognition algorithms will be ubiquitous, so we
 will easily be able to reconstruct random encounters we had on the
 street. We can determine who else has read the same text, because we
 will all have left our digital traces. We will know a lot more about the
-past – that is, about today – than we know about our past today. But
-when we look back even further, we are taken aback:
+past – that is, about today – than we know about our past today. Then we look back even further:
 
 > Looking further back into the past, into the years 2009, 2008 or 2007,
 > you will find the light cone of data fading. You will find yourself on
@@ -403,7 +399,7 @@ when we look back even further, we are taken aback:
 > this area of darkness now, in our current years.
 
 In other words: our future selves will experience a similar feeling of
-gloom assessing our present as we might today when, for instance, looking at
+gloom assessing our present as we might today when looking at
 the Middle Ages. And in much the same way as we can barely
 understand today how people used to live in a feudal system, our future
 selves will not understand why some of us were so strongly opposed to
@@ -422,7 +418,7 @@ organizations – these were well-negotiated, well-structured, and
 culturally ingrained procedures for a good reason. Data protection,
 legal protection of minors, censorship issues, state secrets, copyright,
 trade secrets, public relations strategies, etc., are all still based on
-these old, and rather stolid, mechanics of information exchange. Alas,
+these old and rather stolid mechanics of information exchange. Alas,
 these strategies are increasingly denying us service.
 
 In the New Game, knowledge is created much faster and spreads
@@ -473,15 +469,15 @@ abuse has turned out to be naive. On the contrary, if there is anything
 to worry about, then it is precisely those national and supranational
 organizations (the intelligence services are, in their present form, an
 inextricable meshwork of over- and intergovernmental threads) that defy
-any law anyway. Data protection presents itself today as an exclusive
+any law regardless. Data protection presents itself today as an exclusive
 state monopoly of access and assessment privileges. The state is allowed
 virtually anything, while civil society is regulated.
 
-Along with data protection, the concept of privacy settings, as
+Along with data protection the concept of privacy settings, as
 publicized by social networks, has also outstayed its welcome. Even if I
 only share my photos with friends, I’m sharing them with the network (such as Facebook) and
 with the NSA. If I chat with a friend online, I’m chatting with a
-friend, and GCHQ. When I send an unencrypted email, I’m sending it to
+friend and GCHQ. When I send an unencrypted email, I’m sending it to
 the recipient and to the BND.
 
 Likewise, the whole idea of limiting ​​cultural goods and knowledge in
@@ -508,15 +504,15 @@ a target for smear campaigns. Gaining a reputation of any kind will make
 you more vulnerable to people who insult, harass, or even stalk you.
 
 An ideal, antifragile business model isn’t based on scarcity. Take
-crowdfunding: you can present a project or enterprise you are planning,
-and have it pre-financed by the ‘crowd’, by, for instance, selling
+crowdfunding: you can present a project or enterprise you are planning
+and have it pre-financed by the ‘crowd’, for instance, by selling
 copies of a book before it is published. This book is an example of that
 itself. Moreover, it is being released under a free license. File
 sharing won’t hurt it, because shared copies have already been priced
 in. The money has already been made. File sharing is not able to take
 away funds collected in advance.
 
-Societies intolerant of differences in lifestyle are also fragile in
+Societies that are intolerant of differences in lifestyle are also fragile in
 times of lost informational control. The struggles against homophobia,
 racism, and prejudice enhance the robustness of the individual in the
 information tailspin because there is less to lose if everything can be
@@ -549,13 +545,13 @@ network with others, and it can be worthwhile to actively surrender to
 *Kontrollverlust*.
 
 As an individual, you can expose your works and actions to valuable
-criticism, thereby making advances in your field. This also applies to
+criticism, thereby making advances in your field. This already applies to
 programmers, for instance. As a politician, you can generate more trust
 if you decide to disclose as many processes relating to your activities
 as possible. As a writer, you will reach a greater audience with your
 ideas. As an activist, you will be able to find like-minded comrades
 faster. Informational openness thus is an antifragile strategy in times of
-information tailspin.
+the digital tailspin.
 
 
 # Rule 2: Surveillance Is Part of the Game
@@ -601,7 +597,7 @@ hardly stop hyperventilating, while the greatest privacy disaster
 imaginable was taking its course, the general public seemed to take
 little interest in the matter.
 
-In Germany, the conservative party CDU, which had responded to the
+In Germany the conservative party CDU, which had responded to the
 scandal in the most graceless and sedate manner imaginable, actually
 ended up gaining votes in the general elections, while the other acting
 government party at the time, the liberal FDP, which had shown at least
@@ -623,7 +619,7 @@ carrying on pretending nothing happened.
 The outcome of the German elections calls to mind a phenomenon that
 scholars have termed the ‘privacy paradox’. The paradox lies in the
 observation that, in surveys and interviews, privacy is always mentioned
-as being extremely important to respondents, while at the same time,
+as being extremely important to respondents, while at the same time
 this rarely prompts people to do the slightest thing about it.
 
 For a study[^15] into the matter, researchers created two fictitious
@@ -680,7 +676,7 @@ we have been doing so for more than ten years.
 
 Although many of the dramatizations and horror scenarios have turned out
 to be exaggerated, surveillance – state surveillance in particular –
-remains a social problem as it is still a danger to democracy and
+remains a social problem, as it is still a danger to democracy and
 community. J. Edgar Hoover is a key witness to this effect. The first
 director of the FBI amassed files on everything and everyone, and had
 soon collected enough material to blackmail practically all the powers
@@ -709,8 +705,8 @@ are fighting immigrant streams with high technology.
 Even in Germany, it is not too hard to be caught in the crossfire of
 overzealous officials, especially for politically active individuals.
 This is what happened to Andrej Holm, an urban sociologist with a focus
-on gentrification, who was held in custody for weeks, and although
-innocent, stayed under observation, along with his entire family, for
+on gentrification who was held in custody for weeks, and although
+innocent stayed under observation, along with his entire family, for
 months. Both the German Federal Criminal Police Office, BKA, and the
 *Verfassungsschutz*, the Federal Office for the Protection of the
 Constitution, have time and again tried to infiltrate and demoralize
@@ -762,10 +758,10 @@ cases, this is precisely the point where mere observation turns into
 systematic surveillance.
 
 Although we are now aware that Google may be forwarding our data to the
-NSA, we have no qualms, for instance, in sending private information to
+NSA, we have no qualms in sending private information to
 friends via Google Mail. To use an analogy, although passersby could
 notify authorities if they noticed you violating parking rules, you
-would do it in front of them anyway - but maybe not in front of a police
+would do it in front of them anyway – but maybe not in front of a police
 officer. Risk is a concept that is perpetually calculated and
 recalculated, taking into account the likelihood and intensity of
 expected punishments. In the same way that we distinguish between a
@@ -791,7 +787,7 @@ color in particular, as part of the efforts to monitor the motions of a
 group of refugees from Lampedusa. This is generally called ‘racial
 profiling’. Skin color is clearly no private matter. The British
 tourists who made a joke on Twitter about wanting to dig up Marilyn
-Monroe, and were then interrogated for hours by US border
+Monroe, and who were then interrogated for hours by US border
 officials,[^17] didn’t owe their mistreatment to any violations of
 privacy.
 
@@ -817,11 +813,11 @@ jeopardize freedom by way of surveillance.
 
 Trevor Paglen, an artist and activist from New York, practices his very
 own form of counter-surveillance. Many of his projects make the secret
-activities of intelligence more tangible. He has, for instance, located
+activities of intelligence more tangible. He has located
 secret agency bases and taken pictures of reconnaissance satellites. He
 collects rank insignia and documents their iconography, or tracks the
-routes of CIA aircraft on their way to detention camps. He makes all
-information he collects publicly available. His work may not grind the
+routes of CIA aircraft on their way to detention camps. All
+information he collects he makes publicly available. His work may not grind the
 maneuvers of the intelligence apparatus to an immediate halt, but it
 does restrict their freedom of action. The effects of surveillance work
 the other way around as well: if secret services have reason to fear
@@ -935,7 +931,7 @@ decipher a single email.
 
 The issue therefore is less about mathematics than about the
 implementation of encryption software into email programs, servers, or
-chat clients. Many dangers lurk: data can be retrieved in plaintext
+chat clients. Data can be retrieved in plaintext
 before encryption, or after decryption. There has been a long line of
 bugs and backdoors purposefully introduced by hackers or intelligence
 agencies. That makes encryption particularly suitable for those who are
@@ -1004,7 +1000,7 @@ personalized and tailored to our needs, we have been recognized and used
 as a query ourselves. Everywhere we go on the internet, advertising
 sales companies turn *us* into items in one of hundreds of queryable
 databases. Scientists exploring the world around them use increasingly
-complex queries on growing amounts of information, and call that ‘Big
+complex queries on growing amounts of information and call that ‘Big
 Data’. Then they present whatever they found out in their query reality:
 about dark matter or traffic jams or the climate or the brain. Or about
 us.
@@ -1144,7 +1140,7 @@ specified locations in Germany.
 There is still more than enough room for projects like this. Data
 analysis should be encouraged beyond the economic and academic sphere,
 and in the activist sphere in particular. It is important to reduce misgivings and
-increase practical knowledge about this. Key algorithms like MapReduce,
+increase practical knowledge about this. Key algorithms like MapReduce
 and database programs like Hadoop are available as open source software,
 thus affordable for all. At a professional level, hardware costs
 are indeed considerable, but even with regular hardware you can achieve
@@ -1193,7 +1189,7 @@ only further enhance the reach and prevalence of autonomous filtering
 strategies. This is where our most pessimistic predictions regarding
 informational self-determination meet the more positive potentials of
 informational freedom. To choose filter sovereignty is to leave the
-sinking ship of privacy, and construct a society based on a form of
+sinking ship of privacy and construct a society based on a form of
 self-determination that is reinforced, not weakened, by
 *Kontrollverlust*.
 
@@ -1219,8 +1215,8 @@ the air when von Horst posted her tweet, at which point blogger Anne
 Wizorek came up with the idea to collect these experiences under the
 hashtag \#aufschrei (‘outcry’).[^33]
 
-During the night, the gust of wind from that little tweet became a
-storm, and the storm became a hurricane. Within the next 48 hours,
+During the night the gust of wind from that little tweet became a
+storm, and the storm became a hurricane. Within the next 48 hours
 250,000 tweets rolled in, all speaking of very personal experiences with
 everyday sexism, from sexual harassment to gender discrimination at
 work, all labeled with the \#aufschrei hashtag. Suddenly, \#aufschrei
@@ -1334,7 +1330,7 @@ projects alike. The query creates structures (friendships and networks)
 just as readily as it destroys them, and alienates people from each
 other just as easily as it aligns them.
 
-A darker aspect of the connective power of the query shows that it is
+This darker aspect of the connective power of the query shows that it is
 hardly limited to emancipatory or progressive forces, but to their
 adversaries as well. One of the most reactionary web phenomena is the
 so-called ‘Men’s Rights Activists’ (or ‘Masculinists’) scene.[^36]
@@ -1343,7 +1339,7 @@ men (and occasionally women) will latch onto any statement or sentiment
 that a feminist expresses in public. They deliberately try to disrupt
 feminist discussions, and bully participants with blog comments, Twitter
 mentions, hate mail, and shitstorms. The methods employed range from
-sexist slurs to rape threats, and they all have the declared goal of
+sexist slurs to rape threats, all with the declared goal of
 intimidating feminists, of trying to silence feminism into ‘going away’
 again.
 
@@ -1377,10 +1373,10 @@ organization, and coordinated action, *Kontrollverlust* will still catch
 up with you – it always does; but then there is nothing gained either.
 
 It is all too easy to dismiss the benefits of the cohesive forces of the
-query as mere consumerism or convenience. Certainly, everyday
+query as mere consumerism or convenience. Everyday
 consumption also becomes more effective, faster, and often cheaper, when
 you can connect with a wide range of services, stores, and individuals
-at any time. However, positive filter sovereignty also extends to the
+at any time. However, positive filter sovereignty extends to the
 political, cultural, and social operating range of the individual. You
 can follow people from conflict zones on Twitter for a personal
 perspective on events beyond your own horizon. You can listen to the
@@ -1410,7 +1406,7 @@ shields us against hatred and conflict, and it is likely to increase its practic
 filters, it is already possible to mute individual trolls and
 hatemongers. You can block certain Twitter and Facebook accounts if you
 feel harassed. However, particularly passionate trolls may create a
-second, or even third account, to convey their ‘message’. Online
+second or even third account, to convey their ‘message’. Online
 platform providers in particular, should be required to develop more
 effective query settings and blocking tools to reinforce the filter
 sovereignty of their users.
@@ -1457,7 +1453,7 @@ Tiger Woods’ sex addiction to Abu Ghraib, the authors derive a formula
 that they call the ‘Categorical Imperative of the Digital Age’: ‘Always
 act in such a way as to make the public effects of your actions appear
 defensible at all times.’ But they immediately follow that up with:
-‘However, do not expect that it will be of any use.’ [^extra]
+‘However, do not expect that it will be of any use.’[^extra]
 
 # Rule 5: You Are the Freedom of the Other
 
@@ -1493,7 +1489,7 @@ possible without extra opportunities. This is commonly paraphrased as
 travel to the American continent in a matter of hours, spanning a
 distance not even kings used to be able to conquer. We gain positive
 freedom by creating new opportunities: expanding our range, increasing
-our efficiency, or refining our control mechanisms, for example.
+our efficiency, or refining our control mechanisms.
 
 It is not primarily the internet that provides these freedoms; we also
 give them ourselves, to one another. The internet and the query are
@@ -1518,7 +1514,7 @@ Other, and so the Other will always disrupt any preconceived notion we
 have of this Otherness. We can never truly know what the Other wants,
 and this ignorance, according to Levinas, should not only be endured,
 but in fact gives us responsibility as well; the responsibility being
-the obligation to *respond*, to answer to, the Other.
+the obligation to *respond*, to answer to the Other.
 
 You are the source, the hub, the database, and the interface of the
 Other. Your existence, your data, and your offers of communication,
@@ -1582,8 +1578,8 @@ strangeness and Otherness.
 In the German edition of Wikipedia, this contradiction regularly leads
 to heated debates among the authors. One faction, called the
 Exclusionists, regularly calls for certain Wikipedia articles with too
-little ‘relevance’ to be deleted. The Inclusionists, on the other hand,
-will, in case of doubt, prefer to keep articles, even when they have no
+little ‘relevance’ to be deleted. The Inclusionists on the other hand,
+will in case of doubt prefer to keep articles, even when they have no
 apparent relevance. The fact that, for the query public, relevance is no
 longer an objective or universal attribute, but more a matter of
 individual assessment, is something the Exclusionists do not
@@ -1612,7 +1608,7 @@ the freedom of the senders to say whatever they like.
 
 ### Encryption as Hospitality
 
-Interestingly, the same applies to encrypted communication, which also
+Encrypted communication also
 obeys end-to-end principles. Asymmetric encryption generally means that
 the message you want to send will be encrypted while still on your
 computer (or mobile phone), and will be decrypted only once it has
@@ -1636,7 +1632,7 @@ providing a public key is an act of hospitality towards the Other.
 
 # Rule 6: Platform Control Is Power
 
-*Proposition: In the New Game, an influential new player has appeared –
+*Proposition: In the New Game an influential new player has appeared –
 the platform. Platforms provide the infrastructure that the next society
 will operate on. In the future, every politically active individual will
 have to learn to deal with them.*
@@ -1681,7 +1677,7 @@ data, apps, products, or developers connect to a platform, the greater
 its suction will be. Platforms and network effects are the elephant in
 the room in the New Game. They are already ubiquitous, already powerful
 – and scarcely regulated. They are on the course of undermining the
-authority of the state, because unlike nation states, platforms reach
+authority of the state because unlike nation states, platforms reach
 into all areas of our lives. We make ourselves dependent on them quite
 voluntarily. But if we shun them, we will only hurt ourselves in the
 end. We are ensnared all the more by their usefulness: this is the
@@ -1708,7 +1704,7 @@ balances’, and provided interfaces for citizen intervention or
 participation. This had not always been the case; indeed, it was hard
 earned over centuries. Platforms have none of these internal control
 mechanisms, and apparently do not consider them necessary. We need
-strategies that enable us to fence in the power of the platforms, and
+strategies that enable us to fence in the power of the platforms and
 involve users in decision-making.
 
 ### Platform Lobbyism
@@ -1727,10 +1723,10 @@ In his 1970 essay entitled ‘Exit, Voice, and Loyalty’,[^44] the
 economist Albert O. Hirschman examined the options available to
 dissatisfied members of a group. They can leave the group (‘exit’), or
 speak out (‘voice’). Both options come at a certain price, so there will
-have to be some kind of trade-off. Hirschman, at that time, was clearly
+have to be some kind of trade-off. Hirschman, at that time, was obviously
 not thinking of social networks, but of companies, clubs, and political
 parties, where abandonment could entail the loss of employment, loss of
-political agency, or loss of access to certain localities. This thought is perfectly valid for platforms too. The cost of leaving a
+political agency, or loss of access to certain localities. This is perfectly valid for platforms too. The cost of leaving a
 platform is largely determined by the strength of its network effects.
 Quitting Facebook can literally mean you lose the most important channel
 to connect with your friends. Still, many respond to this kind of
@@ -1745,7 +1741,7 @@ nature. We depend on them in many respects, and are fooling ourselves if
 we pretend they are just another random product. Today, it should be
 impossible to think about politics while simultaneously ignoring the
 platform. At some point, platforms will have no choice but to assume
-more responsibility and engage in political dialogue, with, at the very
+more responsibility and engage in political dialogue with, at the very
 least, their users.
 
 The power of the platform is much needed in order to deal with the waves
@@ -1759,7 +1755,7 @@ should be demanding from its platforms. We also need to make sure that
 they are not abusing their powers.
 
 A number of civil-society internet policy organizations are well
-established even today: Digitale Gesellschaft in Germany, the Electronic
+established already today: Digitale Gesellschaft in Germany, the Electronic
 Frontier Foundation in the United States, and the European Digital
 Rights Initiative (EDRi) at the European level, to name but a few. These
 NGOs are lobbying for a free and open web, talking to governments and
@@ -1768,11 +1764,11 @@ it is time for the representatives of digital civil society to direct
 their attention not only to the states, but also to platform operators.
 
 There are signs that this is happening. The aforementioned Facebook
-group, ‘Facebook Bill of Rights and Responsibilities’, is one example. Even Twitter is increasingly forced to respond to users’ wishes,
+group, ‘Facebook Bill of Rights and Responsibilities’, is one example. Twitter is increasingly forced to respond to users’ wishes,
 following a wave of complaints against the company’s laissez-faire
 attitude to online harassment. Projects like ‘Europe Vs. Facebook’,
 initiated by Max Schrempp from Austria, try to hold platform operators
-responsible by invoking state regulation, and are therefore still
+responsible by invoking state regulation. They are therefore still
 operating within the framework of the Old Game. Occasionally this may
 work, but it will not be a promising strategy in the long term. We will
 have to tie civil society directly to the processes and decisions of
@@ -1788,7 +1784,7 @@ namely platform neutrality.
 
 Platform neutrality identifies the infrastructure that is important for
 enabling social interaction, and attempts to provide non-discriminatory
-access to, and use of, it. A neutral infrastructure is a prerequisite
+access to and use of it. A neutral infrastructure is a prerequisite
 for the equality of all participants – to paraphrase Habermas, it is one
 of the preconditions of any successful discourse. The ideal setting for
 any speech act is one where everyone has equal chances of initiating and
@@ -1807,14 +1803,14 @@ mean both males and humans at the time – but the exclusion of women was
 accepted as normal.
 
 Whenever we speak of ‘neutrality’, we run the risk of repeating this
-mistake. Wu demonstrates that net neutrality falls into the same trap,
+mistake. Wu demonstrates that net neutrality falls into the same trap
 with the following example. ‘Best Effort Delivery’ is endorsed by many
 advocates as being the closest thing to actual net neutrality. It means
 that data packets are delivered and routed as quickly as possible and
 without making distinctions between the types of data transmitted. This
 is roughly the way the internet has been working so far, i.e. without
 any intervention. However, today we have applications that are popular
-in present-day network management, that call for faster reaction times.
+in present-day network management and that call for faster reaction times.
 Coordinating multi-user games, online phone calls, or remote IT
 maintenance services, all require a particularly short response time, or
 as the techies say, *latency*. Such processes will not be
@@ -1826,7 +1822,7 @@ would say, ‘All men may vote’, but perhaps ‘All citizens may vote’. Even
 that is tricky: take for example the fact that in Germany, residents
 without a German passport still don’t have the right to vote, despite
 living in the same community. Similarly, we can be as strict as we like
-in enforcing net neutrality, but other obstacles still remain, like
+in enforcing net neutrality, while other obstacles still remain, like
 being able to afford an internet connection and a computer, not to
 mention the different background skills and education needed to use the
 internet.
@@ -2121,7 +2117,7 @@ time.
 
 ### Recognizing Interests
 
-In the New Game, all the cards are being reshuffled. Extremely powerful
+In the New Game all the cards are being reshuffled. Extremely powerful
 institutions and individuals stand to lose a lot of their authority. It
 is therefore imperative that we identify the relevant stakeholders and
 their respective interests.
@@ -2169,7 +2165,7 @@ Germany, or even identifying a recognizable political attitude at all.
 
 What these baffled onlookers did not understand at the time was that the
 party members, who as a group primarily socialized on the internet,
-regarded this public infrastructure as a platform in itself, and hence
+regarded public infrastructure as a platform in itself, and hence
 instinctively aimed at making it platform neutral (see Rule 6). So the
 free, or more accurately ‘ticket-less’, public transport system the
 Pirates proposed, is effectively a non-discriminatory way of moving
@@ -2339,7 +2335,7 @@ allow, for example, naked female breasts. And in Germany, many users
 would like to see right-wing sites disappear from view.
 
 Whether we like it or not, in these indeterminate realms of the law in
-particular, we are using platform operators as a new kind of all-in-one, police, court, and prison. In this manner, we authorize them to
+particular, we are using platform operators as a new kind of all-in-one police, court, and prison. In this manner, we authorize them to
 enforce a platform-based power monopoly that vastly extends their
 existing powers.
 
@@ -2359,7 +2355,7 @@ great success, and travel agents started using it to book flights for
 various airlines. SABRE can be seen as one of the first digitized
 networked platforms.
 
-Then, in 1983, it was revealed that the flight reservation algorithms
+Then it was revealed that the flight reservation algorithms
 were manipulated in such a way as to favor American Airlines flights.
 For instance, even if an AA flight was entered into the system later
 than others, it was displayed at the top of the list – and travel agents
@@ -2399,7 +2395,7 @@ situation got out of hand. Riots, looting, and street fights started to
 take place. On August 11 and 12, police forces began using armored
 vehicles, stun grenades, smoke-bombs, tear gas, and rubber projectiles
 against the protesters, escalating the situation even more.
-Soon, the images of Ferguson’s police presence enforcing martial law
+Soon the images of Ferguson’s police presence enforcing martial law
 started spreading all over the world, all over the media and, of course,
 all over the social networks.
 
@@ -2478,7 +2474,7 @@ In view of the available options, we basically have a moral obligation:
 the internet provides the opportunity to make information instantly and
 globally accessible for all. This is surely a utopia. Nevertheless, it
 is a utopia that is hindered not by technical or economic obstacles, but
-by legal hurdles – and copyright restrictions in particular. It is the
+by legal hurdles – copyright restrictions in particular. It is the
 vision of this opportunity itself that obligates us to pursue it – that
 is, to abolish all the exclusive distribution rights over information.
 
@@ -2502,7 +2498,7 @@ strategy can turn into a problem.
 
 Another strategy has already been mentioned several times: filter
 sovereignty. Unlike the centralized assertive powers of the platform,
-filter sovereignty is constructed from end-to-end, i.e., also achieved
+filter sovereignty is constructed from end-to-end, i.e., achieved
 in decentralized ways. In the future, we will come to rely on this
 autonomy and be empowered to connect with everything and everyone we
 like, just as we will be able to effectively block out everything and
@@ -2548,7 +2544,7 @@ form here:
 > laughter was heard. This suggested that some of the sighted were no
 > longer faithfully telling the complete truth.
 >
-> This news worried the blind subjects of the kingdom. Some kept to
+> The news worried the blind subjects of the kingdom. Some kept to
 > their homes. Others banded together in groups, waving sticks and
 > threatening the sighted. One faction suggested blinding everybody,
 > permanently, in order to be sure of true equality – or else setting
@@ -2589,7 +2585,7 @@ and more recently Twitter and other platforms, are increasingly
 shielding their data from third-party queries. That is the real issue at
 hand. So instead of demanding more privacy, we should convince platform
 operators to open up their data. Because the more open the data becomes,
-and the more queries that can be applied to it, the easier it will be to
+and the more queries can be applied to it, the easier it will be to
 fence in the power of platforms.
 
 # Rule 9: And the Final Boss Is… Us!
@@ -2740,12 +2736,12 @@ the lifestyles, convictions, cultural backgrounds, and principles of
 others, and are rarely willing to inform them of our point of view
 before berating them.
 
-Let’s face the facts: digital tools have empowered the individual – and
+Let’s face the facts: digital tools have empowered the individual and
 civil society. We have all gained more opportunities: to communicate and
 affiliate with others, to assert our interests, to organize ourselves.
 Sadly, we seize these opportunities in order to prevent one another from
 making progress. The NSA may in theory have the power to pressure,
-intimidate, and terrorize each and every one of us. This is exactly what
+intimidate, and terrorize each and every one of us. And this is exactly what
 happens to a lot of people who are silenced on a daily basis – not at
 the hands of the NSA, but at the hands of trolls, ‘Men’s Rights
 Activists’, Nazis, and other misanthropes.
@@ -2874,7 +2870,7 @@ stepping off into a new world on the other side.
 # References
 
 Bambauer, Jane R. ‘Tragedy of the Data Commons’, *Harvard Journal of Law
-and Technology*, Vol. 25 (2011)
+and Technology*, Vol. 25 (2011),
 <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749>.
 
 Bamford, James. ‘The Most Wanted Man in the World’, *Wired*, 13 August
@@ -3076,17 +3072,17 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863.
 
 [^3]: Michael Seemann, ‘CTRL-Verlust’, http://www.ctrl-verlust.net/.
 
+[^4]: My Startnext crowdfunding campaign can be found at https://www.startnext.de/ctrlverlust/.
 
-[^4]: Christian Heller, *Post-Privacy: Prima leben ohne Privatsphäre*
-(*Post-Privacy: Living just fine without privacy*), Munich: C.H. Beck Verlag, 2011.
+[^5]: iRights (Digital Copyright Information Platform), http://irights.info/.
 
-[^5]: ‘Datenschutz-Kritische Spackeria’, http://spackeria.org/.
+[^6]: For the WTFPL, see: http://www.wtfpl.net.
 
-[^6]: My Startnext crowdfunding campaign can be found at https://www.startnext.de/ctrlverlust/.
+[^7]: Christian Heller, *Post-Privacy: Prima leben ohne Privatsphäre*
+(*Post-Privacy: Living just Fine Without Privacy*), Munich: C.H. Beck Verlag, 2011.
 
-[^7]: iRights (Digital Copyright Information Platform), http://irights.info/.
+[^8]: ‘Datenschutz-Kritische Spackeria’, http://spackeria.org/.
 
-[^8]: For the WTFPL, see: http://www.wtfpl.net.
 
 [^9]: Nassim Nicholas Taleb, *The Black Swan: The Impact of the Highly Improbable*. New York: Random House, 2007.
 
@@ -3108,7 +3104,7 @@ accessed 16 January 2015.
 
 [^15]: Alastair R. Beresford, Dorothea Kübler, and Sören Preibusch,
 ‘Unwillingness to Pay for Privacy: A Field Experiment’, SFB 649
-discussion paper, no. 2011-010, https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf
+discussion paper, no. 2011-010, https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf.
 
 [^16]: Ilija Trojanow, ‘Willkür und Freiheit’, *FAZ*, 1 October 2013, http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html.
 
@@ -3183,14 +3179,14 @@ Research*, Working Paper No. 12066, 2006.
     Halem, 2012. English translation: *The Unleashed Scandal: The End of
     Control in the Digital Age*, Exeter: Imprint Academic, 2014.
     
-    [^extra]: Detel and Pörksen, *The Unleashed Scandal,* p. 213.]
+[^extra]: Detel and Pörksen, *The Unleashed Scandal,* p. 213.
 
 [^40]: Emmanuel Levinas, *Totalité et Infini: essai sur l’extériorité,*
     Den Haag: Martinus Nijhoff, 1961.
 
 [^41]: Nikolaus Wegemann, *Bücherlabyrinthe: Suchen und Finden im
     alexandrinischen Zeitalter,* Cologne: Böhler, 2000, p. 144.
-    (Translation by the author)
+    (Translation by the author.)
 
 [^42]: A term coined by Peter Drucker and applied to the information
     society by German sociologist Dirk Baecker.
@@ -3203,7 +3199,7 @@ Research*, Working Paper No. 12066, 2006.
     Press, 1970.
 
 [^45]: Wu, Tim. ‘Network Neutrality, Broadband Discrimination’, *Journal
-    of Telecommunications and High Technology Law*, Vol. 2 (2003) https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=388863.
+    of Telecommunications and High Technology Law*, Vol. 2 (2003), https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=388863.
 
 [^46]: ‘E-Mail made in Germany’, https://www.e-mail-made-in-germany.de/.
 
