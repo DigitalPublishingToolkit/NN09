@@ -1,0 +1,266 @@
+@font-face{
+    font-family: 'Arnhem';
+    font-weight: normal;
+    font-style: normal;
+    src:url('Arnhem-Normal.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'Arnhem-Italic';
+    font-weight: normal;
+    font-style: italic;
+    src:url('Arnhem-NormalItalic.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'Arnhem-Bold';
+    font-weight: bold;
+    font-style: normal;
+    src:url('Arnhem-Bold.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'Arnhem-BoldItalic';
+    font-weight: bold;
+    font-style: italic;
+    src:url('Arnhem-BoldItalic.otf') format('opentype');
+}
+
+
+@font-face{
+    font-family: 'Archivo';
+    font-weight: normal;
+    font-style: normal;
+    src:url('ArchivoBlack-Regular.otf') format('opentype');
+}
+
+
+
+@font-face{
+    font-family: 'Raleway-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src:url('Raleway-Regular.otf') format('opentype');
+}
+
+
+body{
+    font-size:12pt;
+    background: white;
+    color: black;
+    font-family: sans;	
+    font-family: 'Arnhem', serif;
+    font-size: 12pt;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    hyphens: none !important;
+    -moz-hyphens: none !important;
+    -webkit-hyphens: none !important;
+    adobe-hyphenate: none !important;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1 { 
+    font-family: 'Archivo', sans-serif;
+    font-size:2.7em;
+    line-height:1.0em;
+    padding-bottom: 0.5em;
+    font-weight: normal;
+}
+
+h2{
+    font-family: 'Archivo', sans-serif;
+    font-size:1.5em;
+    line-height:0m;
+    padding-bottom: 0.1em;
+    font-weight: normal;
+}
+
+
+h3{
+    font-family: 'Archivo', sans-serif;
+    font-size:1.2em;
+    line-height:0m;
+    padding-bottom: 0.1em;
+    font-weight: normal;
+}
+
+
+h4{
+    font-family: 'Archivo', sans-serif;
+    font-size:1.0em;
+    line-height:0m;
+    padding-bottom: 0.1em;
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Arnhem', serif;
+    font-size: 1em;
+    line-height:1.5em;
+    padding-bottom:2em;
+    text-indent: 0;
+    widows: 2;
+    orphans: 2; /*  minimum number of lines in a block container that must be left at the bottom of the page */
+}
+
+blockquote{
+    padding-bottom:1.3em;
+    padding-left:2em;
+}
+
+p.quote-author{
+    font-family: 'Raleway-Regular', sans-serif;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+figcaption{
+    font-family: 'Raleway-Regular', sans-serif;
+    font-weight: normal;
+    font-size: 0.7em;
+    line-height: 1.50em;
+}
+
+ul.toc{
+ list-style-type: none;
+ list-style: none; 
+ padding-left:0;
+ line-height: 3.0em;
+}
+
+li{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+span.list-level1{
+    font-family: 'Archivo', sans-serif;
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+
+span.list-level2{
+    font-family: 'Archivo', sans-serif;
+    font-weight: normal;
+    font-size: 1.0em;
+}
+
+
+a {
+    color: red;    
+}
+
+a:visited {
+    color: red;    
+}
+
+figure{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+
+div.cover, div.halftitle, div.title, div.publications {
+    text-align:center;
+}
+
+img.cover, img.halftitle, img.title {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+
+/* dedication */
+
+div#bottom_dedication {
+    position: absolute;
+    top: 30%;
+    margin-right: 20%;
+}
+
+
+p#swartz{
+    line-height:3.0em;
+}
+
+/*colophon, series, contents, abstract -  files with img background */
+body.contents, body.network-notebook-series, body.colophon, body.abstract{
+    background-image: url("media/background1-2.png");
+} 
+
+
+span.list-level1, span.list-level2, span.list-title, span.colophon, span.series{
+    background-color: #ffffff;
+    padding-left:0px;
+    padding-top:5px;
+    padding-bottom:2px;
+    padding-right:0px;
+    line-height: 1.2em;
+}
+
+
+div.abstract{
+   background-color: #ffffff;
+    padding-left:0px;
+    padding-top:5px;
+    padding-bottom:2px;
+    padding-right:0px;
+    line-height: 1.5em;
+}
+
+p.abstract{
+    font-size: 1.2em;
+    line-height:1.2em;
+    padding-bottom:1em;
+    widows: 2;
+    orphans: 2; /*  minimum number of lines in a block container that must be left at the bottom of the page */
+}
+
+/* footnotes */
+
+section.footnotes{
+    font-size:0.85em;
+}
+
+
+p.publications {
+    font-size:1.2em;    
+    font-weight: bold;
+    text-align:center;
+}
+
+
+
+
+
+/**/
+
+div#cover-image{
+    text-align:center;
+}
+
+a.footnoteRef{
+    vertical-align: super;
+    line-height: normal;
+    font-size: 0.5em;
+}
+
+img {
+    max-width: 98%;
+    max-height: 98%;
+    width: auto;
+    height: auto;
+}
+
+
+section#title-page h1 {display:none !important;}
+
+section#backcover h1 {display:none !important;}

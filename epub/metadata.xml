@@ -1,0 +1,62 @@
+<dc:identifier id="epub-id-1">urn:isbn:978-90-822345-9-6</dc:identifier>
+<meta refines="#epub-id-1" property="identifier-type" scheme="onix:codelist5">01</meta>
+<dc:title id="epub-title-1">Digital Tailspin: Ten Rules for the Internet After Snowden</dc:title>
+<meta refines="#epub-title-1" property="title-type">main</meta>
+<dc:publisher>Institute of Network Cultures</dc:publisher>    
+<dc:date id="epub-date">2015-03</dc:date>
+<dc:language>en-US</dc:language>
+<dc:creator id="epub-creator-0">Michael Seemann</dc:creator>
+<meta refines="#epub-creator-0" property="role" scheme="marc:relators">aut</meta>
+<dc:contributor id="epub-contributor-1">Geert Lovink</dc:contributor>
+<meta refines="#epub-contributor-1" property="role" scheme="marc:relators">edt</meta>
+<dc:contributor id="epub-contributor-2">Miriam Rasch</dc:contributor>
+<meta refines="#epub-contributor-2" property="role" scheme="marc:relators">edt</meta>
+<dc:contributor id="epub-contributor-3">André Castro</dc:contributor>
+<meta refines="#epub-contributor-3" property="role" scheme="marc:relators">dsr</meta>
+<dc:contributor id="epub-contributor-4">Medamo</dc:contributor>
+<meta refines="#epub-contributor-4" property="role" scheme="marc:relators">dsr</meta>
+<dc:rights>WTFPDL – Do What the Fuck You Want to Public Digital License</dc:rights>
+<dc:subject>TAGS, SEPARATED BY, COMAS</dc:subject>
+<dc:description>Many of the ideas presented here were developed over a number of years
+and in constant exchange with others on the net. More so, the entire
+project rests on the shoulders of many, as it was realized with a
+crowdfunding campaign. The writing of this book would have never been
+possible without the help of a number of people.
+
+I’d like to thank Geert Lovink, Miriam Rasch, and the Institute of Network Cultures in
+Amsterdam, for allowing me to publish an international version of my
+thoughts.
+
+Many thanks to my translator, Anwen Roberts, for rendering my work into
+concise English and to my editor Valie Djordjevic, who has repeatedly
+nudged me back onto the track of legibility. It has been a great
+collaboration.
+
+A big thank you to the ‘beta readers’ who endured – and improved – my
+half-baked notes and outlines, especially Leonhard Dobusch, Caspar
+Clemens Mierau, and Jürgen Geuter.
+
+Sincere thanks to Mark Wirblich and Maria Thaens, who afforded me
+shelter in their agency Bytes Brigade; the most beautiful office in
+Neukölln. Special thanks to Jörg Leupold, who in the past six months of
+madness spent those rare moments of spare time with me, and helped me to
+regenerate.
+
+My gratitude to everyone who supported me in setting up the crowdfunding
+campaign and helped with the campaign video. I would particularly like
+to thank Mate Steinforth (camera), Gerlinde Schrön (editing), and Mark
+Wirblich for the original cover design.
+
+And last but not least, my heartfelt thanks to all the crowdfunders who
+donated their money and trust, and without whom this text would not have
+been possible at all.
+</dc:description>
+
+
+
+
+
+
+
+
+
