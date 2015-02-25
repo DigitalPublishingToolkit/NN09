@@ -35,10 +35,6 @@ donated their money and trust, and without whom this text would not have
 been possible at all.
 
 
-
-
-
-
 # Introduction
 
 *Yet as we unleash living forces into our created machines, we lose
