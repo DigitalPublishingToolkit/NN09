@@ -3092,7 +3092,7 @@ accessed 16 January 2015.
 
 [^12]: Martin Burckhardt, *Digitale Renaissance: Manifest für eine neue Welt*. Berlin: Metrolit, 2014.
 
-[^13]: Stefan Heidenreich, ‘Datendichte und digitale Geschichte’, *Docupedia – Zeitgeschichte*, 11 February 2010, http://docupedia.de/zg/Blog:%22Datendichte\_und\_digitale\_Geschichte%22\_-\_Vortrag\_von\_Stefan\_Heidenreich\_zur\_Projektpr%C3%A4sentation\_am\_11.02.2010\_2010/03/05]. (Translation by the author.)
+[^13]: Stefan Heidenreich, ‘Datendichte und digitale Geschichte’, *Docupedia – Zeitgeschichte*, 11 February 2010, http://docupedia.de/zg/Blog:%22Datendichte\_und\_digitale\_Geschichte%22\_-\_Vortrag\_von\_Stefan\_Heidenreich\_zur\_Projektpr%C3%A4sentation\_am\_11.02.2010\_2010/03/05 (Translation by the author).
 
 [^14]: Nassim Nicholas Taleb, *Antifragile: Things That Gain from Disorder,* New York: Random House, 2012.
 

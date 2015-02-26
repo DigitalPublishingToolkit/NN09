@@ -68,7 +68,6 @@ h1 {
     font-family: 'Archivo', sans-serif;
     font-size:2.7em;
     line-height:1.0em;
-    padding-bottom: 0.5em;
     font-weight: normal;
 }
 
@@ -76,7 +75,6 @@ h2{
     font-family: 'Archivo', sans-serif;
     font-size:1.5em;
     line-height:0m;
-    padding-bottom: 0.1em;
     font-weight: normal;
 }
 
@@ -102,15 +100,15 @@ p {
     font-family: 'Arnhem', serif;
     font-size: 1em;
     line-height:1.5em;
-    padding-bottom:2em;
     text-indent: 0;
     widows: 2;
     orphans: 2; /*  minimum number of lines in a block container that must be left at the bottom of the page */
 }
 
-blockquote{
-    padding-bottom:1.3em;
-    padding-left:2em;
+blockquote, blockquote p  {
+    padding-left:1.2em;
+    line-height:1.3em;
+    font-size: 0.9em;
 }
 
 p.quote-author{
@@ -133,10 +131,18 @@ ul.toc{
  line-height: 3.0em;
 }
 
-li{
+li {
     padding-top:5px;
     padding-bottom:5px;
 }
+
+section.footnotes li {
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
+
+
 
 span.list-level1{
     font-family: 'Archivo', sans-serif;
@@ -260,7 +266,12 @@ img {
     height: auto;
 }
 
-
+/* section specific */
 section#title-page h1 {display:none !important;}
 
 section#backcover h1 {display:none !important;}
+
+section#network-notebook-series{
+    page-break-before: always;
+    -webkit-column-break-before: always;
+}
