@@ -1,3 +1,105 @@
+# Title Page 
+<!-- Hide title with CSS-->
+
+<!-- ![]() -->
+
+<!-- image css: avoid breaking during; always break after; 90% screen with-->
+
+<!-- backcover -->
+Privacy, copyright, classified documents and state secrets, but also spontaneous network phenomena like flash mobs and hashtag revolutions: they all reveal one thing – we lost control over the digital world. We experience a digital tailspin, or as Michael Seemann calls it in this essay: a loss of control or Kontrollverlust. Data we never knew existed is finding paths that were not intended and reveals information that we would never have thought of on our own.
+
+Traditional institutions and concepts of freedom are threatened by this digital tailspin. But that doesn’t mean we’re lost. A new game emerges, where a different set of rules applies. To take part, we need to embrace a new way thinking and a radical new ethics, and we need to search for freedom in completely different places. While the Old Game depended upon top-down hierarchies and a trust in the protective power of state justice systems, the New Game asks you to let go of all these certainties. Strategies to play the game of digital tailspin rely on flexibility, openness, transparency and what is dubbed ‘antifragility’. In The New Game: 10 Rules for the Digital Tailspin Michael Seemann examines which strategies are more appropriate in the New Game than others and why.
+
+Michael Seemann studied Applied Cultural Studies in Lüneburg. Since 2005 he is active on the internet with various projects. He founded twitkrit.de and Twitterlesung.de (‘reading Twitter’), organized various events and runs the popular podcast wir.muessenreden.de. 2010 he began the blog CTRL-verlust, about the loss of control over data on the internet. In 2014 he published Das neue Spiel after a successful crowdfunding campaign. Now he blogs at mspr0.de and writes for various media like Rolling Stone, TIME online, SPEX, Spiegel Online, c't and the DU magazine. He holds seminars and lectures at universities and conferences on whistleblowing, privacy, copyright, internet culture and the crisis of institutions in times of Kontrollverlust.
+
+Amsterdam, 2015
+
+# Colophon
+**Network Notebook #09**  
+**Michael Seemann, Digital Tailspin: Ten Rules for the Internet After Snowden**
+
+This text is a translated and updated excerpt of *Das Neue Spiel: Strategien für die Welt nach dem digitalen Kontrollverlust*, Freiburg: Orange Press, 2014. Translated from the German by Anwen Roberts  
+
+**Network Notebooks editors:** Geert Lovink and
+Miriam Rasch  
+**Design:** [Medamo](http://medamo.nl/), Rotterdam  
+**EPUB development:** André Castro  
+**Copy-editing:** Margarita Osipian  
+**Printer:** Printvisie  
+**Publisher:** Institute of Network Cultures, Amsterdam  
+**Supported by:** Amsterdam University of Applied Sciences (Hogeschool
+van Amsterdam), Amsterdam Creative Industries Publishing, Stichting
+Democratie en Media
+
+If you want to order copies please contact:  
+Institute of Network Cultures, Hogeschool van Amsterdam  
+<http://www.networkcultures.org>  
+<a href="mailto:books@networkcultures.org">books@networkcultures.org</a>  
+t: +31 (0)20 59 51 865
+
+**EPUB and PDF editions of this publication are
+freely downloadable from:**
+<http://www.networkcultures.org/publications>
+
+**License:** 
+WTFPDL – Do What the Fuck You Want to Public Digital License,
+<http://wtfpdl.net/>
+
+Amsterdam, March 2015  
+ISBN 978-90-822345-8-9 (print)  
+ISBN 978-90-822345-9-6 (EPUB)
+
+![](imgs/file0.jpg) ![](imgs/file1.jpg)
+![](imgs/file2.jpg) ![](imgs/file3.jpg) 
+
+
+## Network Notebook Series
+
+The Network Notebooks series presents new media
+research commissioned by the INC.
+
+PREVIOUSLY PUBLISHED NETWORK NOTEBOOKS:
+
+**Network Notebooks 08**  
+Brooke Wendt, The Allure of the Selfie: Instagram and the New Self Portrait, 2014.
+
+**Network Notebooks 07**  
+Henry Warwick, Radical Tactics of the Offline Library, 2014.
+
+**Network Notebooks 06**  
+Andreas Treske, The Inner Life of Video Spheres: Theory for the YouTube Generation, 2013.
+
+**Network Notebooks 05**  
+Eric Kluitenberg, Legacies of Tactical Media, 2011.
+
+**Network Notebooks 04**  
+Rosa Menkman, The Glitch Momentum, 2011.
+
+**Network Notebooks 03**  
+Dymtri Kleiner, The Telekommunist Manifesto, 2010.
+
+**Network Notebooks 02**  
+Rob van Kranenburg, The Internet of Things, 2008.
+
+**Network Notebooks 01**  
+Rosalind Gill, Technobohemians of the New Cybertariat, 2007.
+
+# Contents
+
+Acknowledgments  
+Introduction  
+Rule 0: Everything Stays Different  
+Rule 1: You Can't Fight Kontrollverlust  
+Rule 2: Surveillance is Part of the Game  
+Rule 3: Knowing Is Asking the Right Questions  
+Rule 4: Organization and Conflict for Free  
+Rule 5: You Are the Freedom of the Other  
+Rule 6: Platform Control Is Power  
+Rule 7: The State Is Part of the Problem, Not of the Solution  
+Rule 8: Data Control Creates Hegemony  
+Rule 9: And the Final Boss Is... Us!  
+References  
+
 # Acknowledgements
 
 Many of the ideas presented here were developed over a number of years
@@ -1894,7 +1996,7 @@ in a decentralized form. But the existing network effects remain a
 difficulty. Platforms like Facebook and Google+ have such a strong
 gravitational force that it takes a lot of strength to compromise them
 in the slightest. The attempts at building decentralized platforms have
-a long history of failure: Status.net wanted to replace Twitter, and
+a long history of failure: <a href="http://Status.net">Status.net</a> wanted to replace Twitter, and
 Diaspora was poised to become an alternative to Facebook. But why should
 you join an alternative platform if the people you want to communicate
 with aren’t there?
@@ -2926,51 +3028,51 @@ Hank, Maike. ‘Normal ist das nicht!’, *Kleinerdrei*, 24 January 2013,
 
 Heidenreich, Stefan. ‘Datendichte und digitale Geschichte’, *Docupedia –
 Zeitgeschichte*, 11 February 2010,
-http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05.
+<a href="http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05">http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05</a>.
 
 
 Heller, Christian. *Post-Privacy: Prima leben ohne Privatsphäre,*
 Munich: C.H. Beck, 2011.
 
 Heller, Christian. *PlomWiki*,
-http://www.plomlompom.de/PlomWiki/.
+<a href="http://www.plomlompom.de/PlomWiki/">http://www.plomlompom.de/PlomWiki/</a>.
 
 Hermanin, Costanza and Angelina Atanasova. ‘Making “Big Data” Work for
-Equality’, *Open Society Foundations*, 9 September 2013, http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0.
+Equality’, *Open Society Foundations*, 9 September 2013, <a href="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0">http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0</a>.
 
 Himmelreich, Laura. ‘Der Herrenwitz’, *Stern*, 1 February 2013,
-http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html.
+<a href="http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html">http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html</a>.
 
 Hirschman, Albert O. *Exit, Voice, and Loyalty: Responses to Decline in
 Firms, Organizations, and States*, Cambridge, MA: Harvard University Press, 1970.
 
 iRights (Digital Copyright Information Platform).
-http://irights.info/.
+<a href="http://irights.info/">http://irights.info/</a>.
 
 Jarvis, Jeff. *Public Parts: How Sharing in the Digital Age Improves the
 Way We Work and Live,* New York: Simon & Schuster, 2011.
 
 L., Joey. ‘I Was Hidden on this Guy’s Hard Drive for Over 6 Years’, 15
 July 2014,
-http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/.
+<a href="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/">http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/</a>.
 
 Levinas, Emmanuel. *Totalité et Infini: essai sur l’extériorité,* Den
 Haag: Martinus Nijhoff, 1961.
 
 Meiritz, Annett. ‘Debatte: Man liest ja so einiges über Sie’, *Der
-Spiegel*, 14 January 2013, http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html.
+Spiegel*, 14 January 2013, <a href="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html">http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html</a>.
 
 Masing, Johannes. ‘RiBVerfG Masing: Vorläufige Einschätzung der
-“Google-Entscheidung” des EuGH’, *iRights*, 14 August 2014, http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838.
+“Google-Entscheidung” des EuGH’, *iRights*, 14 August 2014, <a href="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838">http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838</a>.
 
 ‘On Facebook, People Own and Control Their Information’, 16 February
-2009, *Facebook*, https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130.
+2009, *Facebook*, <a href="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130">https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130</a>.
 
 *OpenDataCity*. ‘Verräterisches Handy’,
-https://opendatacity.de/project/verraeterisches-handy/.
+<a href="https://opendatacity.de/project/verraeterisches-handy/">https://opendatacity.de/project/verraeterisches-handy/</a>.
 
 *OpenDataCity*. ‘Geheimer Krieg’,
-https://opendatacity.de/project/geheimer-krieg-2/.
+<a href="https://opendatacity.de/project/geheimer-krieg-2/">https://opendatacity.de/project/geheimer-krieg-2/</a>.
 
 
 Pariser, Eli. *The Filter Bubble: What the Internet Is Hiding from You,*
@@ -2981,16 +3083,16 @@ Petzinger, Thomas. *Hard Landing*, New York: Random House, 1995.
 Reißmann, Ole. ‘Überwachung: BND soll weitgehenden Zugriff auf
 Internetverkehr in Deutschland haben’, *Spiegel Online*, 13 November
 2013,
-http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html.
+<a href="http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html">http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html</a>.
 
 Roth, Evan.
-http://www.evan-roth.com/about.
+<a href="http://www.evan-roth.com/about">http://www.evan-roth.com/about</a>.
 
 Schrupp, Antje. ‘Über das Müssen’, *Bzw-weiterdenken*, 13 August
-2008, http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen.
+2008, <a href="http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen">http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen</a>.
 
 Sethe, Paul. ‘Stimmen verstummt’. *Der Spiegel*, 40/1967, 25 September
-1967, http://www.spiegel.de/spiegel/print/d-46353351.html.
+1967, <a href="http://www.spiegel.de/spiegel/print/d-46353351.html">http://www.spiegel.de/spiegel/print/d-46353351.html</a>.
 
 Smiers, Joost and Marieke van Schijndel. *No Copyright: Vom Machtkampf
 der Kulturkonzerne um das Urheberrecht. Eine Streitschrift,* Cologne:
@@ -2999,7 +3101,7 @@ Alexander, 2012.
 
 Snowden, Edward. ‘NSA Whistleblower Answers Reader Questions’, *The
 Guardian*, 17 June 2013,
-http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower.
+<a href="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower">http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower</a>.
 
 Taleb, Nassim Nicholas. *The Black Swan: The Impact of the Highly
 Improbable,* New York: Random House, 2007.
@@ -3008,52 +3110,52 @@ Taleb, Nassim Nicholas. *Antifragile: Things That Gain from Disorder,*
 New York: Random House, 2012.
 
 Tante, Ryan. ‘Apple Hides How White It Is’, *Gawker*, 9 November 2011,
-http://gawker.com/5858020/apple-hides-how-white-it-is.
+<a href="http://gawker.com/5858020/apple-hides-how-white-it-is">http://gawker.com/5858020/apple-hides-how-white-it-is</a>.
 
 ‘Tell-All Telephone’. *Zeit Online*, March 2011,
-http://www.zeit.de/datenschutz/malte-spitz-data-retention.
+<a href="http://www.zeit.de/datenschutz/malte-spitz-data-retention">http://www.zeit.de/datenschutz/malte-spitz-data-retention</a>.
 
 Trojanow, Ilija. ‘Willkür und Freiheit’, *FAZ*, 1 October 2013,
-http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html.
+<a href="http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html">http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html</a>.
 
 Tufekci, Zeynep. ‘What Happens to \#Ferguson Affects Ferguson: Net
 Neutrality, Algorithmic Filtering and Ferguson’, *Medium*, 14 August
 2014,
-https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0.
+<a href="https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0">https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0</a>.
 
 Vingiano, Alison. ‘This Is How A Woman’s Offensive Tweet Became The
 World’s Top Story’, *Buzzfeed*, 22 December 2013,
-http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s.
+<a href="http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s">http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s</a>.
 
 Von Horst, Nicole. ‘Archäologie von zwei Tagen. Was Brüderle (nicht) mit
 \#aufschrei zu tun hat’, *Word Up!*, 24 January 2014,
-http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/.
+<a href="http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/">http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/</a>.
 
 Wegemann, Nikolaus. *Bücherlabyrinthe: Suchen und Finden im
 alexandrinischen Zeitalter*. Cologne: Böhler, 2000.
 
 Weiler, Lars. ‘\#aufschrei’, August 2013,
-http://aufschrei.konvergenzfehler.de/timeline/.
+<a href="http://aufschrei.konvergenzfehler.de/timeline/">http://aufschrei.konvergenzfehler.de/timeline/</a>.
 
 Wikipedia contributors, ‘Leistungsschutzrecht’, 4 March 2013,
-http://en.wikipedia.org/wiki/Leistungsschutzrecht, accessed 16 January
+<a href="http://en.wikipedia.org/wiki/Leistungsschutzrecht">http://en.wikipedia.org/wiki/Leistungsschutzrecht</a>, accessed 16 January
 2015.
 
-WTFPDL (Modified WTFPL for the Digital Sphere). http://wtfpdl.net/.
+WTFPDL (Modified WTFPL for the Digital Sphere). <a href="http://wtfpdl.net/">http://wtfpdl.net/</a>.
 
 WTFPL (Original ‘Do what the fuck you want to Public License’).
-http://www.wtfpl.net/.
+<a href="http://www.wtfpl.net/">http://www.wtfpl.net/</a>.
 
 Wu, Tim. ‘Network Neutrality, Broadband Discrimination’, *Journal of
 Telecommunications and High Technology Law*, Vol. 2 (2003)
-https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863.
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863</a>.
 
 
 
 
 
 [^1]: Michael Seemann, ‘Profiling mit Twitter, oder was ist ein
-    Captcha?’, http://mspr0.de/?p=568.
+    Captcha?’, <a href="http://mspr0.de/?p=568">http://mspr0.de/?p=568</a>.
 
 [^2]: We chose to keep the German word *Kontrollverlust* in the English
     text, not least because of the difficulties in finding an
@@ -3064,53 +3166,53 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=388863.
     of information changes in such a way that it systematically fails to
     match prevailing expectations.
 
-[^3]: Michael Seemann, ‘CTRL-Verlust’, http://www.ctrl-verlust.net/.
+[^3]: Michael Seemann, ‘CTRL-Verlust’, <a href="http://www.ctrl-verlust.net/">http://www.ctrl-verlust.net/</a>.
 
-[^4]: My Startnext crowdfunding campaign can be found at https://www.startnext.de/ctrlverlust/.
+[^4]: My Startnext crowdfunding campaign can be found at <a href="https://www.startnext.de/ctrlverlust/">https://www.startnext.de/ctrlverlust/</a>.
 
-[^5]: iRights (Digital Copyright Information Platform), http://irights.info/.
+[^5]: iRights (Digital Copyright Information Platform), <a href="http://irights.info/">http://irights.info/</a>.
 
-[^6]: For the WTFPL, see: http://www.wtfpl.net.
+[^6]: For the WTFPL, see: <a href="http://www.wtfpl.net">http://www.wtfpl.net</a>.
 
 [^7]: Christian Heller, *Post-Privacy: Prima leben ohne Privatsphäre*
 (*Post-Privacy: Living just Fine Without Privacy*), Munich: C.H. Beck Verlag, 2011.
 
-[^8]: ‘Datenschutz-Kritische Spackeria’, http://spackeria.org/.
+[^8]: ‘Datenschutz-Kritische Spackeria’, <a href="http://spackeria.org/">http://spackeria.org/</a>.
 
 
 [^9]: Nassim Nicholas Taleb, *The Black Swan: The Impact of the Highly Improbable*. New York: Random House, 2007.
 
 [^10]: Liz Gannes, ‘SXSW: Shirky’s New Opportunities in Public Sharing’,
-*Gigaom*, 14 March 2010, http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/.
+*Gigaom*, 14 March 2010, <a href="http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/">http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/</a>.
 
 [^11]: ‘Leistungsschutzrecht (translation: ancillary copyright) is a bill in Germany. It would give press agencies the exclusive right to
 publish press releases for commercial purposes on the Internet and
 would require search engines such as Google to obtain licenses for
 using small text passages.’ Wikipedia contributors,
-‘Leistungsschutzrecht’, 4 March 2013, http://en.wikipedia.org/wiki/Leistungsschutzrecht,
+‘Leistungsschutzrecht’, 4 March 2013, <a href="http://en.wikipedia.org/wiki/Leistungsschutzrecht">http://en.wikipedia.org/wiki/Leistungsschutzrecht</a>,
 accessed 16 January 2015.
 
 [^12]: Martin Burckhardt, *Digitale Renaissance: Manifest für eine neue Welt*. Berlin: Metrolit, 2014.
 
-[^13]: Stefan Heidenreich, ‘Datendichte und digitale Geschichte’, *Docupedia – Zeitgeschichte*, 11 February 2010, http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05 (Translation by the author).
+[^13]: Stefan Heidenreich, ‘Datendichte und digitale Geschichte’, *Docupedia – Zeitgeschichte*, 11 February 2010, <a href="http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05">http://docupedia.de/zg/Blog:%22Datendichte_und_digitale_Geschichte%22_-_Vortrag_von_Stefan_Heidenreich_zur_Projektpr%C3%A4sentation_am_11.02.2010_2010/03/05</a> (Translation by the author).
 
 [^14]: Nassim Nicholas Taleb, *Antifragile: Things That Gain from Disorder,* New York: Random House, 2012.
 
 [^15]: Alastair R. Beresford, Dorothea Kübler, and Sören Preibusch,
 ‘Unwillingness to Pay for Privacy: A Field Experiment’, SFB 649
-discussion paper, no. 2011-010, https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf.
+discussion paper, no. 2011-010, <a href="https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf">https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf</a>.
 
-[^16]: Ilija Trojanow, ‘Willkür und Freiheit’, *FAZ*, 1 October 2013, http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html.
+[^16]: Ilija Trojanow, ‘Willkür und Freiheit’, *FAZ*, 1 October 2013, <a href="http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html">http://www.faz.net/aktuell/feuilleton/buecher/autoren/einreiseverbot-fuer-ilija-trojanow-willkuer-und-freiheit-12599490.html</a>.
 
-[^17]: Rob Beschizza, ‘Tourists Deported from U.S. for Twitter Jokes (Updated)’, *Boingboing*, 30 January 2012, http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html.
+[^17]: Rob Beschizza, ‘Tourists Deported from U.S. for Twitter Jokes (Updated)’, *Boingboing*, 30 January 2012, <a href="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html">http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html</a>.
 
 [^18]: Christian Heller, *Post-Privacy*.
 
-[^19]: Christian Heller, *PlomWiki*, http://www.plomlompom.de/PlomWiki/.
+[^19]: Christian Heller, *PlomWiki*, <a href="http://www.plomlompom.de/PlomWiki/">http://www.plomlompom.de/PlomWiki/</a>.
 
-[^20]: Edward Snowden, ‘NSA Whistleblower Answers Reader Questions’, *The Guardian*, 17 June 2013, http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower.
+[^20]: Edward Snowden, ‘NSA Whistleblower Answers Reader Questions’, *The Guardian*, 17 June 2013, <a href="http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower">http://www.theguardian.com/world/2013/jun/17/edward-snowden-nsa-files-whistleblower</a>.
 
-[^21]: Evan Roth, http://www.evan-roth.com/about.
+[^21]: Evan Roth, <a href="http://www.evan-roth.com/about">http://www.evan-roth.com/about</a>.
 
 [^22]: Eli Pariser, *The Filter Bubble: What the Internet Is Hiding from You,* New York: Penguin Press, 2011.
 
@@ -3122,47 +3224,47 @@ Research*, Working Paper No. 12066, 2006.
 
 
 [^24]: Ryan Tante, ‘Apple Hides How White It Is’, *Gawker*, 9 November
-    2011, http://gawker.com/5858020/apple-hides-how-white-it-is.
+    2011, <a href="http://gawker.com/5858020/apple-hides-how-white-it-is">http://gawker.com/5858020/apple-hides-how-white-it-is</a>.
 
 [^25]: Costanza Hermanin and Angelina Atanasova, ‘Making “Big Data” Work
-    for Equality’, *Open Society Foundations*, 9 September 2013, http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0.
+    for Equality’, *Open Society Foundations*, 9 September 2013, <a href="http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0">http://www.opensocietyfoundations.org/voices/making-big-data-work-equality-0</a>.
 
 [^26]: Jane R. Bambauer, ‘Tragedy of the Data Commons’, *Harvard Journal
-    of Law and Technology*, Vol. 25 (2011), https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=1789749.
+    of Law and Technology*, Vol. 25 (2011), <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract%5C_id=1789749">https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=1789749</a>.
 
-[^27]: OpenDataCity, https://opendatacity.de.
+[^27]: OpenDataCity, <a href="https://opendatacity.de">https://opendatacity.de</a>.
 
 [^28]: For the original OpenDataCity project, ‘Verräterisches Handy’,
-    see: https://opendatacity.de/project/verraeterisches-handy/.
+    see: <a href="https://opendatacity.de/project/verraeterisches-handy/">https://opendatacity.de/project/verraeterisches-handy/</a>.
     For an English version, see: ‘Tell-All Telephone’, *Zeit Online*,
-    March 2011, http://www.zeit.de/datenschutz/malte-spitz-data-retention.
+    March 2011, <a href="http://www.zeit.de/datenschutz/malte-spitz-data-retention">http://www.zeit.de/datenschutz/malte-spitz-data-retention</a>.
 
-[^29]: OpenDataCity, ‘Geheimer Krieg’, https://opendatacity.de/project/geheimer-krieg-2/.
+[^29]: OpenDataCity, ‘Geheimer Krieg’, <a href="https://opendatacity.de/project/geheimer-krieg-2/">https://opendatacity.de/project/geheimer-krieg-2/</a>.
 
 [^30]: Maike Hank, ‘Normal ist das nicht!’, *Kleinerdrei*, 24 January
-    2013, http://kleinerdrei.org/2013/01/normal-ist-das-nicht/.
+    2013, <a href="http://kleinerdrei.org/2013/01/normal-ist-das-nicht/">http://kleinerdrei.org/2013/01/normal-ist-das-nicht/</a>.
 
 [^31]: Annett Meiritz, ‘Debatte: Man liest ja so einiges über Sie’, *Der
-    Spiegel*, 14 January 2013, http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html.
+    Spiegel*, 14 January 2013, <a href="http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html">http://www.spiegel.de/spiegel/annett-meiritz-ueber-die-frauenfeindlichkeit-in-der-piratenpartei-a-877558.html</a>.
 
-[^32]: Laura Himmelreich, ‘Der Herrenwitz’, *Stern*, 1 February 2013, http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html.
+[^32]: Laura Himmelreich, ‘Der Herrenwitz’, *Stern*, 1 February 2013, <a href="http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html">http://mobil.stern.de/politik/deutschland/stern-portraet-ueber-rainer-bruederle-der-herrenwitz-1964668.html</a>.
 
 [^33]: Nicole von Horst, ‘Archäologie von zwei Tagen. Was Brüderle
     (nicht) mit \#aufschrei zu tun hat’, *Word Up!*, 24 January 2014,
-    http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/.
+    <a href="http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/">http://literatier.wordpress.com/2014/01/24/archaologie-von-zwei-tagen-was-bruderle-nicht-mit-aufschrei-zu-tun-hat/</a>.
 
 [^34]: Lars Weiler compiled an archive of all the \#aufschrei tweets,
-    available here: ‘\#aufschrei’, August 2013, http://aufschrei.konvergenzfehler.de/timeline/.
+    available here: ‘\#aufschrei’, August 2013, <a href="http://aufschrei.konvergenzfehler.de/timeline/">http://aufschrei.konvergenzfehler.de/timeline/</a>.
 
 [^35]: Alison Vingiano, ‘This Is How A Woman’s Offensive Tweet Became
-    The World’s Top Story’, *Buzzfeed*, 22 December 2013, http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s.
+    The World’s Top Story’, *Buzzfeed*, 22 December 2013, <a href="http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s">http://www.buzzfeed.com/alisonvingiano/this-is-how-a-womans-offensive-tweet-became-the-worlds-top-s</a>.
 
 [^36]: See Robert Claus, ‘Maskulismus: Antifeminismus zwischen
     vermeintlicher Salonfähigkeit und unverhohlenem Frauenhass’, July
-    2014, http://library.fes.de/pdf-files/dialog/10861.pdf.
+    2014, <a href="http://library.fes.de/pdf-files/dialog/10861.pdf">http://library.fes.de/pdf-files/dialog/10861.pdf</a>.
 
 [^37]: Paul Sethe, ‘Stimmen verstummt’, *DER SPIEGEL*, 40/1967, 25
-    September 1967, http://www.spiegel.de/spiegel/print/d-46353351.html. 
+    September 1967, <a href="http://www.spiegel.de/spiegel/print/d-46353351.html">http://www.spiegel.de/spiegel/print/d-46353351.html</a>. 
 
 [^38]: ‘Argument’ here is taken to mean an aggressive, emotional and ad
     hominem conflict. Discussions, even passionate ones, are something
@@ -3186,37 +3288,37 @@ Research*, Working Paper No. 12066, 2006.
     society by German sociologist Dirk Baecker.
 
 [^43]: ‘On Facebook, People Own and Control Their Information’, 16
-    February 2009, https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130.
+    February 2009, <a href="https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130">https://www.facebook.com/notes/facebook/on-facebook-people-own-and-control-their-information/54434097130</a>.
 
 [^44]: Albert O. Hirschman, *Exit, Voice, and Loyalty: Responses to
     Decline in Firms, Organizations, and States*, Cambridge, MA: Harvard University
     Press, 1970.
 
 [^45]: Wu, Tim. ‘Network Neutrality, Broadband Discrimination’, *Journal
-    of Telecommunications and High Technology Law*, Vol. 2 (2003), https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=388863.
+    of Telecommunications and High Technology Law*, Vol. 2 (2003), <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract%5C_id=388863">https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=388863</a>.
 
-[^46]: ‘E-Mail made in Germany’, https://www.e-mail-made-in-germany.de/.
+[^46]: ‘E-Mail made in Germany’, <a href="https://www.e-mail-made-in-germany.de/">https://www.e-mail-made-in-germany.de/</a>.
 
 [^47]: Ole Reißmann, ‘Überwachung: BND soll weitgehenden Zugriff auf
     Internetverkehr in Deutschland haben’, *Spiegel Online*, 13 November
-    2013, http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html.
+    2013, <a href="http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html">http://www.spiegel.de/netzwelt/netzpolitik/bnd-soll-sich-zugriff-auf-internetverkehr-verschafft-haben-a-933333.html</a>.
 
 [^48]: Sylke Gruhnwald and Alice Kohli, ‘Die Toten vor Europas Toren’,
-    *Neue Zürcher Zeitung*, 2 April 2014, http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891.
+    *Neue Zürcher Zeitung*, 2 April 2014, <a href="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891">http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891</a>.
 
 [^49]: Johannes Masing, ‘RiBVerfG Masing: Vorläufige Einschätzung der
-    “Google-Entscheidung” des EuGH’, *iRights*, 14 August 2014, http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838.
+    “Google-Entscheidung” des EuGH’, *iRights*, 14 August 2014, <a href="http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838">http://irights.info/artikel/ribverfg-masing-vorlaeufige-einschaetzung-der-google-entscheidung-des-eugh/23838</a>.
     (Author’s translation)
 
 [^50]: See Thomas Petzinger, *Hard Landing*, New York: Random House,
     1995, p. 272.
 
 [^51]: Ferguson Police Department, ‘Racial Profiling Data/2013’,
-    http://ago.mo.gov/VehicleStops/2013/reports/161.pdf.
+    <a href="http://ago.mo.gov/VehicleStops/2013/reports/161.pdf">http://ago.mo.gov/VehicleStops/2013/reports/161.pdf</a>.
 
 [^52]: Zeynep Tufekci, ‘What Happens to \#Ferguson Affects Ferguson: Net
     Neutrality, Algorithmic Filtering and Ferguson’, *Medium*, 14 August
-    2014, https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0.
+    2014, <a href="https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0">https://medium.com/message/ferguson-is-also-a-net-neutrality-issue-6d2f3db51eb0</a>.
 
 [^53]: Joost Smiers and Marieke van Schijndel, *No Copyright: Vom
     Machtkampf der Kulturkonzerne um das Urheberrecht. Eine
@@ -3226,13 +3328,15 @@ Research*, Working Paper No. 12066, 2006.
     Choose Between Privacy and Freedom*? Perseus: New York, 1998.
 
 [^55]: Antje Schrupp, ‘Über das Müssen’, *Bzw-weiterdenken.*be, 13
-    August 2008, http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen.
+    August 2008, <a href="http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen">http://www.bzw-weiterdenken.de/2008/08/uber-das-mussen</a>.
 
 [^56]: James Bamford, ‘The Most Wanted Man in the World’, *Wired*, 13
-    August 2014, http://www.wired.com/2014/08/edward-snowden/.
+    August 2014, <a href="http://www.wired.com/2014/08/edward-snowden/">http://www.wired.com/2014/08/edward-snowden/</a>.
 
-[^57]: ‘Duty Calls’, *xkcd*, http://xkcd.com/386/.
+[^57]: ‘Duty Calls’, *xkcd*, <a href="http://xkcd.com/386/">http://xkcd.com/386/</a>.
 
-[^58]: Jürgen Geuter, ‘Digitale Souveränität’, *connected*, 25 August 2014, https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/.
+[^58]: Jürgen Geuter, ‘Digitale Souveränität’, *connected*, 25 August 2014, <a href="https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/">https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/</a>.
 
-[^59]: Joey L., ‘I Was Hidden on this Guy’s Hard Drive for Over 6 Years’, 15 July 2014, http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/.
+[^59]: Joey L., ‘I Was Hidden on this Guy’s Hard Drive for Over 6 Years’, 15 July 2014, <a href="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/">http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/</a>.
+
+

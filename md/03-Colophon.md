@@ -17,17 +17,17 @@ Democratie en Media
 
 If you want to order copies please contact:  
 Institute of Network Cultures, Hogeschool van Amsterdam  
-[http://www.networkcultures.org](www.networkcultures.org)  
+<http://www.networkcultures.org>  
 books@networkcultures.org  
 t: +31 (0)20 59 51 865
 
 **EPUB and PDF editions of this publication are
 freely downloadable from:**
-[http://www.networkcultures.org/publications](publications) 
+<http://www.networkcultures.org/publications>
 
 **License:** 
 WTFPDL – Do What the Fuck You Want to Public Digital License,
-[http://wtfpdl.net/](http://wtfpdl.net/)
+<http://wtfpdl.net/>
 
 Amsterdam, March 2015  
 ISBN 978-90-822345-8-9 (print)  

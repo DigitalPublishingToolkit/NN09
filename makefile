@@ -62,12 +62,12 @@ scribus: $(allmarkdown)
 
 
 
-
 book.md: clean $(allmarkdown)
 	for i in $(allmarkdown) ; \
 	do ./scripts/md_stripmetada.py $$i >> md/book.md ; \
+	./scripts/md_urlize.py md/book.md ; \
 	done
-
+#Note: md_urlize.py script requires Django to be installed
 
 
 book.epub: clean $(allmarkdown) book.md epub/metadata.xml epub/styles.epub.css epub/cover.jpg
