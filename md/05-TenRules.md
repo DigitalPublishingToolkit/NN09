@@ -730,7 +730,7 @@ segments in which surveillance can still be successfully contested.
 ### The Fight Against Surveillance Should Be a Fight Against the Penal Systems
 
 The formula ‘surveillance leads to dependency, no surveillance leads
-to independence’ is no longer accurate in this generalized form.
+to freedom’ is no longer accurate in this generalized form.
 Surveillance does not endanger freedom per se. We are not dealing with
 an abstract, binary condition that is simply switched on or off. We need
 to acknowledge that surveillance is a far more concrete relationship,
@@ -993,9 +993,7 @@ advertising we get to see, and gives us recommendations on what to buy
 on Amazon. We can see the query at work every time we load our personal
 default settings on any of our online services. Whenever content is
 personalized and tailored to our needs, we have been recognized and used
-as a query ourselves. Everywhere we go on the internet, advertising
-sales companies turn *us* into items in one of hundreds of queryable
-databases. Scientists exploring the world around them use increasingly
+as a query ourselves. Everywhere we go on the internet, advertising sales companies turn *us* into queries in one of hundreds of databases. Scientists exploring the world around them use increasingly
 complex queries on growing amounts of information and call that ‘Big
 Data’. Then they present whatever they found out in their query reality:
 about dark matter or traffic jams or the climate or the brain. Or about
@@ -1109,7 +1107,7 @@ data is a major source of social welfare. With all the restrictive data
 protection rules limiting this source, she argues that the issue bears
 similarity to the famous ‘Tragedy of the Commons’: the problem of
 selfish participants overexploiting a common good. Her implicit
-conclusion is that data retention is somewhat egoistic behavior.
+conclusion is that data reluctance is somewhat egoistic behavior.
 
 Germany’s Open Data City[^27] is one of the few positive examples; a
 trailblazer in harnessing the political power of data analysis. This
@@ -1312,7 +1310,7 @@ What happened to Justine Sacco is what the internet likes to call a
 This goes to show that opposing ideas, views, ideals, and stories can be
 connected just as easily and swiftly as shared ones. Antifascists may be
 confronted with Nazis, feminists with sexists, and racism victims with
-racists. The query public aggregates critical speech just as effectively
+racists. The query public aggregates dissenting speech just as effectively
 as affirmative speech.
 
 On Twitter, users have become accustomed to this ambient noise of
@@ -1705,7 +1703,7 @@ involve users in decision-making.
 
 ### Platform Lobbyism
 
-When Facebook tried to change its terms of service to such an extent
+When in 2009 Facebook tried to change its terms of service to such an extent
 that all users would grant the platform unlimited exploitation rights to
 content they had shared, protests began to form. A Facebook group,
 ‘People Against the New Terms of Service (TOS)’, was founded, which
