@@ -3236,3 +3236,7 @@ Research*, Working Paper No. 12066, 2006.
 [^58]: Jürgen Geuter, ‘Digitale Souveränität’, *connected*, 25 August 2014, https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/.
 
 [^59]: Joey L., ‘I Was Hidden on this Guy’s Hard Drive for Over 6 Years’, 15 July 2014, http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/.
+
+# INC Publications
+
+<div class="publications"><a href="http://networkcultures.org/publications/">![](imgs/backcover.png)</a></div>

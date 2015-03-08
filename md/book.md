@@ -1,104 +1,104 @@
 # Title Page 
-<!-- Hide title with CSS-->
 
-<!-- ![]() -->
+<div class="title">![](imgs/titlepage.png)</div>
 
-<!-- image css: avoid breaking during; always break after; 90% screen with-->
 
-<!-- backcover -->
-Privacy, copyright, classified documents and state secrets, but also spontaneous network phenomena like flash mobs and hashtag revolutions: they all reveal one thing – we lost control over the digital world. We experience a digital tailspin, or as Michael Seemann calls it in this essay: a loss of control or Kontrollverlust. Data we never knew existed is finding paths that were not intended and reveals information that we would never have thought of on our own.
+# Digital Tailspin
+<!-- backcover text -->
+<span class="white">Privacy, copyright, classified documents and state secrets, but also spontaneous network phenomena like flash mobs and hashtag revolutions: they all reveal one thing – we lost control over the digital world. We experience a digital tailspin, or as Michael Seemann calls it in this essay: a loss of control or Kontrollverlust. Data we never knew existed is finding paths that were not intended and reveals information that we would never have thought of on our own.</span>
 
-Traditional institutions and concepts of freedom are threatened by this digital tailspin. But that doesn’t mean we’re lost. A new game emerges, where a different set of rules applies. To take part, we need to embrace a new way thinking and a radical new ethics, and we need to search for freedom in completely different places. While the Old Game depended upon top-down hierarchies and a trust in the protective power of state justice systems, the New Game asks you to let go of all these certainties. Strategies to play the game of digital tailspin rely on flexibility, openness, transparency and what is dubbed ‘antifragility’. In The New Game: 10 Rules for the Digital Tailspin Michael Seemann examines which strategies are more appropriate in the New Game than others and why.
+<span class="white">Traditional institutions and concepts of freedom are threatened by this digital tailspin. But that doesn’t mean we’re lost. A new game emerges, where a different set of rules applies. To take part, we need to embrace a new way thinking and a radical new ethics, and we need to search for freedom in completely different places. While the Old Game depended upon top-down hierarchies and a trust in the protective power of state justice systems, the New Game asks you to let go of all these certainties. Strategies to play the game of digital tailspin rely on flexibility, openness, transparency and what is dubbed ‘antifragility’. In The New Game: 10 Rules for the Digital Tailspin Michael Seemann examines which strategies are more appropriate in the New Game than others and why.</span>
 
-Michael Seemann studied Applied Cultural Studies in Lüneburg. Since 2005 he is active on the internet with various projects. He founded twitkrit.de and Twitterlesung.de (‘reading Twitter’), organized various events and runs the popular podcast wir.muessenreden.de. 2010 he began the blog CTRL-verlust, about the loss of control over data on the internet. In 2014 he published Das neue Spiel after a successful crowdfunding campaign. Now he blogs at mspr0.de and writes for various media like Rolling Stone, TIME online, SPEX, Spiegel Online, c't and the DU magazine. He holds seminars and lectures at universities and conferences on whistleblowing, privacy, copyright, internet culture and the crisis of institutions in times of Kontrollverlust.
+<span class="white">Michael Seemann studied Applied Cultural Studies in Lüneburg. Since 2005 he is active on the internet with various projects. He founded twitkrit.de and Twitterlesung.de (‘reading Twitter’), organized various events and runs the popular podcast wir.muessenreden.de. 2010 he began the blog CTRL-verlust, about the loss of control over data on the internet. In 2014 he published Das neue Spiel after a successful crowdfunding campaign. Now he blogs at mspr0.de and writes for various media like Rolling Stone, TIME online, SPEX, Spiegel Online, c't and the DU magazine. He holds seminars and lectures at universities and conferences on whistleblowing, privacy, copyright, internet culture and the crisis of institutions in times of Kontrollverlust.</span>
 
-Amsterdam, 2015
+<span class="white">Amsterdam, 2015</span>
 
-# Colophon
-**Network Notebook #09**  
-**Michael Seemann, Digital Tailspin: Ten Rules for the Internet After Snowden**
+<div class="background">![](imgs/background.png)</div>
 
-This text is a translated and updated excerpt of *Das Neue Spiel: Strategien für die Welt nach dem digitalen Kontrollverlust*, Freiburg: Orange Press, 2014. Translated from the German by Anwen Roberts  
+# <span class="white">Colophon</span>
 
-**Network Notebooks editors:** Geert Lovink and
-Miriam Rasch  
-**Design:** [Medamo](http://medamo.nl/), Rotterdam  
-**EPUB development:** André Castro  
-**Copy-editing:** Margarita Osipian  
-**Printer:** Printvisie  
-**Publisher:** Institute of Network Cultures, Amsterdam  
-**Supported by:** Amsterdam University of Applied Sciences (Hogeschool
-van Amsterdam), Amsterdam Creative Industries Publishing, Stichting
-Democratie en Media
+<span class="white">**Network Notebook #09**</span><br />
+<span class="white">**Michael Seemann, Digital Tailspin: Ten Rules for the Internet After Snowden**</span>
 
-If you want to order copies please contact:  
+<span class="white">This text is a translated and updated excerpt of *Das Neue Spiel: Strategien für die Welt nach dem digitalen Kontrollverlust*, Freiburg: Orange Press, 2014. Translated from the German by Anwen Roberts</span>
+
+<span class="white">**Network Notebooks editors:** Geert Lovink and
+Miriam Rasch</span>  
+<span class="white">**Design:** [Medamo](http://medamo.nl/), Rotterdam</span>  
+<span class="white">**EPUB development:** André Castro</span>  
+<span class="white">**Copy-editing:** Margarita Osipian</span>  
+<span class="white">**Printer:** Printvisie</span>  
+<span class="white">**Publisher:** Institute of Network Cultures, Amsterdam</span>  
+<span class="white">**Supported by:** Amsterdam University of Applied Sciences (Hogeschool
+van Amsterdam), Amsterdam Creative Industries Publishing, Stichting Democratie en Media</span>  
+
+<span class="white">If you want to order copies please contact:  
 Institute of Network Cultures, Hogeschool van Amsterdam  
 <http://www.networkcultures.org>  
 <a href="mailto:books@networkcultures.org">books@networkcultures.org</a>  
-t: +31 (0)20 59 51 865
+t: +31 (0)20 59 51 865</span>
 
-**EPUB and PDF editions of this publication are
+<span class="white">**EPUB and PDF editions of this publication are
 freely downloadable from:**
-<http://www.networkcultures.org/publications>
+<http://www.networkcultures.org/publications></span>
 
-**License:** 
-WTFPDL – Do What the Fuck You Want to Public Digital License,
-<http://wtfpdl.net/>
+<span class="white">**License:** WTFPDL – Do What the Fuck You Want to Public Digital License,
+<http://wtfpdl.net/></span>
 
-Amsterdam, March 2015  
+<span class="white">Amsterdam, March 2015  
 ISBN 978-90-822345-8-9 (print)  
-ISBN 978-90-822345-9-6 (EPUB)
+ISBN 978-90-822345-9-6 (EPUB)</span>
 
 ![](imgs/file0.jpg) ![](imgs/file1.jpg)
 ![](imgs/file2.jpg) ![](imgs/file3.jpg) 
 
 
-## Network Notebook Series
+## <span class="white">Network Notebook Series</span>
 
-The Network Notebooks series presents new media
-research commissioned by the INC.
+<span class="white">The Network Notebooks series presents new media
+  research commissioned by the INC.</span>
 
-PREVIOUSLY PUBLISHED NETWORK NOTEBOOKS:
+<span class="white">PREVIOUSLY PUBLISHED NETWORK NOTEBOOKS:</span>
 
-**Network Notebooks 08**  
-Brooke Wendt, The Allure of the Selfie: Instagram and the New Self Portrait, 2014.
+<span class="white">**Network Notebooks 08**  
+  Brooke Wendt, The Allure of the Selfie: Instagram and the New Self Portrait, 2014.</span>
 
-**Network Notebooks 07**  
-Henry Warwick, Radical Tactics of the Offline Library, 2014.
+<span class="white">**Network Notebooks 07**  
+  Henry Warwick, Radical Tactics of the Offline Library, 2014.</span>
 
-**Network Notebooks 06**  
-Andreas Treske, The Inner Life of Video Spheres: Theory for the YouTube Generation, 2013.
+<span class="white">**Network Notebooks 06**  
+  Andreas Treske, The Inner Life of Video Spheres: Theory for the YouTube Generation, 2013.</span>
 
-**Network Notebooks 05**  
-Eric Kluitenberg, Legacies of Tactical Media, 2011.
+<span class="white">**Network Notebooks 05**  
+  Eric Kluitenberg, Legacies of Tactical Media, 2011.</span>
 
-**Network Notebooks 04**  
-Rosa Menkman, The Glitch Momentum, 2011.
+<span class="white">**Network Notebooks 04**  
+  Rosa Menkman, The Glitch Momentum, 2011.</span>
 
-**Network Notebooks 03**  
-Dymtri Kleiner, The Telekommunist Manifesto, 2010.
+<span class="white">**Network Notebooks 03**  
+  Dymtri Kleiner, The Telekommunist Manifesto, 2010.</span>
 
-**Network Notebooks 02**  
-Rob van Kranenburg, The Internet of Things, 2008.
+<span class="white">**Network Notebooks 02**  
+  Rob van Kranenburg, The Internet of Things, 2008.</span>
 
-**Network Notebooks 01**  
-Rosalind Gill, Technobohemians of the New Cybertariat, 2007.
+<span class="white">**Network Notebooks 01**  
+  Rosalind Gill, Technobohemians of the New Cybertariat, 2007.</span>
 
-# Contents
+# <span class="white">Contents</span>
 
-Acknowledgments  
-Introduction  
-Rule 0: Everything Stays Different  
-Rule 1: You Can't Fight Kontrollverlust  
-Rule 2: Surveillance is Part of the Game  
-Rule 3: Knowing Is Asking the Right Questions  
-Rule 4: Organization and Conflict for Free  
-Rule 5: You Are the Freedom of the Other  
-Rule 6: Platform Control Is Power  
-Rule 7: The State Is Part of the Problem, Not of the Solution  
-Rule 8: Data Control Creates Hegemony  
-Rule 9: And the Final Boss Is... Us!  
-References  
+<span class="white">Acknowledgments</span>  
+<span class="white">Introduction</span>  
+<span class="white">Rule 0: Everything Stays Different</span>  
+<span class="white">Rule 1: You Can't Fight Kontrollverlust</span>  
+<span class="white">Rule 2: Surveillance is Part of the Game</span>  
+<span class="white">Rule 3: Knowing Is Asking the Right Questions</span>  
+<span class="white">Rule 4: Organization and Conflict for Free</span>  
+<span class="white">Rule 5: You Are the Freedom of the Other</span>  
+<span class="white">Rule 6: Platform Control Is Power</span>  
+<span class="white">Rule 7: The State Is Part of the Problem, Not of the Solution</span>  
+<span class="white">Rule 8: Data Control Creates Hegemony</span>  
+<span class="white">Rule 9: And the Final Boss Is... Us!</span>  
+<span class="white">References</span>  
 
 # Acknowledgements
 
@@ -3338,5 +3338,9 @@ Research*, Working Paper No. 12066, 2006.
 [^58]: Jürgen Geuter, ‘Digitale Souveränität’, *connected*, 25 August 2014, <a href="https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/">https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/</a>.
 
 [^59]: Joey L., ‘I Was Hidden on this Guy’s Hard Drive for Over 6 Years’, 15 July 2014, <a href="http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/">http://petapixel.com/2014/07/15/hidden-guys-hard-drive-6-years/</a>.
+
+# INC Publications
+
+<div class="publications"><a href="http://networkcultures.org/publications/">![](imgs/backcover.png)</a></div>
 
 

@@ -6,21 +6,21 @@
 }
 
 @font-face{
-    font-family: 'Arnhem-Italic';
+    font-family: 'Arnhem';
     font-weight: normal;
     font-style: italic;
     src:url('Arnhem-NormalItalic.otf') format('opentype');
 }
 
 @font-face{
-    font-family: 'Arnhem-Bold';
+    font-family: 'Arnhem';
     font-weight: bold;
     font-style: normal;
     src:url('Arnhem-Bold.otf') format('opentype');
 }
 
 @font-face{
-    font-family: 'Arnhem-BoldItalic';
+    font-family: 'Arnhem';
     font-weight: bold;
     font-style: italic;
     src:url('Arnhem-BoldItalic.otf') format('opentype');
@@ -48,10 +48,10 @@ body{
     font-size:12pt;
     background: white;
     color: black;
-    font-family: sans;	
     font-family: 'Arnhem', serif;
     font-size: 12pt;
 }
+
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -106,7 +106,7 @@ p {
 }
 
 blockquote, blockquote p  {
-    padding-left:1.2em;
+    padding-left:0.3em;
     line-height:1.3em;
     font-size: 0.9em;
 }
@@ -172,7 +172,7 @@ figure{
 }
 
 
-div.cover, div.halftitle, div.title, div.publications {
+div.cover, div.halftitle, div.title, div.publications, div.publications {
     text-align:center;
 }
 
@@ -203,7 +203,9 @@ body.contents, body.network-notebook-series, body.colophon, body.abstract{
 } 
 
 
-span.list-level1, span.list-level2, span.list-title, span.colophon, span.series{
+
+
+span.white, span.list-level1, span.list-level2, span.list-title, span.colophon, span.series{
     background-color: #ffffff;
     padding-left:0px;
     padding-top:5px;
@@ -264,14 +266,35 @@ img {
     max-height: 98%;
     width: auto;
     height: auto;
+    page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+
 }
 
 /* section specific */
-section#title-page h1 {display:none !important;}
+section.level1#title-page h1 { display:none !important;}
+section.level1#digital-tailspin h1 { display:none !important; }
+section.level1#digital-tailspin p { font-weight:bold; }
+div.background { display:none !important;}
+section.level1#digital-tailspin, section.level1#colophon, section.level1#network-notebook-series, section.level1#contents {background-image: url("media/file1.png");} /*maybe this should be body*/
 
-section#backcover h1 {display:none !important;}
+section#title-page img { page-break-after: always;
+			 -webkit-column-break-after: always;
+		       }
+
 
 section#network-notebook-series{
     page-break-before: always;
     -webkit-column-break-before: always;
 }
+
+
+section.level1#contents p {
+    font-family: 'Archivo', sans-serif;
+    font-size:1.2em;
+    line-height:0m;
+    padding-bottom: 0.1em;
+    font-weight: normal;
+}
+
+section.level1#inc-publications h1 { display:none !important;}
