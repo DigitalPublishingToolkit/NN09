@@ -26,7 +26,7 @@ folders:
 markdowns:$(alldocx) # convert docx to md
 	for i in $(alldocx) ; \
 	do md=md/`basename $$i .docx`.md ; \
-	pandoc $$i \
+	pandoc $$i title.txt \
 	       	--from=docx \
 		--to=markdown \
 	       	--atx-headers \

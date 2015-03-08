@@ -1,7 +1,5 @@
-# Title Page 
-
+#Title Page
 <div class="title">![](imgs/titlepage.png)</div>
-
 
 # Digital Tailspin
 <!-- backcover text -->
