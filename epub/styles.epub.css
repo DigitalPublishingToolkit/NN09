@@ -184,23 +184,10 @@ img.cover, img.halftitle, img.title {
 }
 
 
-/* dedication */
-
-div#bottom_dedication {
-    position: absolute;
-    top: 30%;
-    margin-right: 20%;
-}
-
-
 p#swartz{
     line-height:3.0em;
 }
 
-/*colophon, series, contents, abstract -  files with img background */
-body.contents, body.network-notebook-series, body.colophon, body.abstract{
-    background-image: url("media/background1-2.png");
-} 
 
 
 
