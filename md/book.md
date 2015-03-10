@@ -18,7 +18,7 @@ top-down hierarchies and a trust in the protective power of state
 justice systems, the New Game asks you to let go of all these
 certainties. Strategies to play the game of digital tailspin rely on
 flexibility, openness, transparency and what is dubbed ‘antifragility’.
-In *The New Game: 10 Rules for the Digital Tailspin* Michael Seemann
+In *Digital Tailspin: Ten Rules for the Internet After Snowden* Michael Seemann
   examines which strategies are most appropriate in the New Game and why.</span>
 
 <span class="white">Michael Seemann studied Applied Cultural Studies in Lüneburg. Since 2005
