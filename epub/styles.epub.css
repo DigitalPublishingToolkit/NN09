@@ -209,7 +209,7 @@ span.white, span.list-level1, span.list-level2, span.list-title, span.colophon, 
     background-color: #ffffff;
     padding-left:0px;
     padding-top:5px;
-    padding-bottom:2px;
+    padding-bottom:5px;
     padding-right:0px;
     line-height: 1.2em;
 }
@@ -288,6 +288,10 @@ section#network-notebook-series{
     -webkit-column-break-before: always;
 }
 
+
+section.level1#colophon p {
+    font-size:0.7em;
+}
 
 section.level1#contents p {
     font-family: 'Archivo', sans-serif;
