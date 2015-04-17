@@ -1,487 +1,632 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="257" product="8.1(419)" ?>
 <?aid SnippetType="InCopyInterchange"?>
-<Document DOMVersion="8.0" Self="pandoc_doc">
-    <RootCharacterStyleGroup Self="pandoc_character_styles">
-      <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
-      <CharacterStyle Self="CharacterStyle/" Name="">
-        <Properties>
-          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
-        </Properties>
-      </CharacterStyle>
-      <CharacterStyle Self="CharacterStyle/Bold" Name="Bold" FontStyle="Bold">
-        <Properties>
-          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
-        </Properties>
-      </CharacterStyle>
-      <CharacterStyle Self="CharacterStyle/Italic" Name="Italic" FontStyle="Italic">
-        <Properties>
-          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
-        </Properties>
-      </CharacterStyle>
-      <CharacterStyle Self="CharacterStyle/Link" Name="Link">
-        <Properties>
-          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
-        </Properties>
-      </CharacterStyle> 
-    </RootCharacterStyleGroup>
-    <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
-      <ParagraphStyle Self="$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle"
-          SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
-        <Properties>
-          <TabList type="list">
-            <ListItem type="record">
-              <Alignment type="enumeration">LeftAlign</Alignment>
-              <AlignmentCharacter type="string">.</AlignmentCharacter>
-              <Leader type="string"></Leader>
-              <Position type="unit">10</Position> <!-- first tab stop -->
-            </ListItem>
-          </TabList>
-        </Properties>
-      </ParagraphStyle>
-      <ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" LeftIndent="0" PointSize="36">
-        <Properties>
-          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
-        </Properties>
-      </ParagraphStyle>
-      <ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" LeftIndent="0" PointSize="30">
-        <Properties>
-          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
-        </Properties>
-      </ParagraphStyle>
-      <ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" LeftIndent="0">
-        <Properties>
-          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
-        </Properties>
-      </ParagraphStyle> 
-    </RootParagraphStyleGroup>
-    <RootTableStyleGroup Self="pandoc_table_styles">
-      <TableStyle Self="TableStyle/Table" Name="Table" />
-    </RootTableStyleGroup>
-    <RootCellStyleGroup Self="pandoc_cell_styles">
-      <CellStyle Self="CellStyle/Cell" AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Name="Cell" />
-    </RootCellStyleGroup>
-  <Story Self="pandoc_story"
-      TrackChanges="false"
-      StoryTitle=""
-      AppliedTOCStyle="n"
-      AppliedNamedGrid="n" >
-    <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
-
-<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Colophon</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Network Notebook #09</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Michael Seemann, Digital Tailspin: Ten Rules for the Internet After Snowden</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>This text is a translated and updated excerpt of </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-    <Content>Das Neue Spiel: Strategien für die Welt nach dem digitalen Kontrollverlust</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, Freiburg: Orange Press, 2014. Translated from the German by Anwen Roberts</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Network Notebooks editors:</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> Geert Lovink and Miriam Rasch</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Design:</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> </Content>
-  </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-1" Name="" Hidden="false">
-    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
-      <Content>Medamo</Content>
-    </CharacterStyleRange>
-  </HyperlinkTextSource>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>, Rotterdam</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>EPUB development:</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> André Castro</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Copy-editing:</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> Margarita Osipian</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Printer:</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> Printvisie</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Publisher:</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> Institute of Network Cultures, Amsterdam</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Supported by:</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> Amsterdam University of Applied Sciences (Hogeschool van Amsterdam), Amsterdam Creative Industries Publishing, Stichting Democratie en Media</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>If you want to order copies please contact:</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Institute of Network Cultures, Hogeschool van Amsterdam</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-2" Name="" Hidden="false">
-    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
-      <Content>http://www.networkcultures.org</Content>
-    </CharacterStyleRange>
-  </HyperlinkTextSource>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>books@networkcultures.org</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>t: +31 (0)20 59 51 865</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>EPUB and PDF editions of this publication are freely downloadable from:</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> </Content>
-  </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-3" Name="" Hidden="false">
-    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
-      <Content>http://www.networkcultures.org/publications</Content>
-    </CharacterStyleRange>
-  </HyperlinkTextSource><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>License:</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> WTFPDL – Do What the Fuck You Want to Public Digital License, </Content>
-  </CharacterStyleRange>
-  <HyperlinkTextSource Self="htss-4" Name="" Hidden="false">
-    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
-      <Content>http://wtfpdl.net/</Content>
-    </CharacterStyleRange>
-  </HyperlinkTextSource><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Amsterdam, March 2015</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>ISBN 978-90-822345-8-9 (print)</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>ISBN 978-90-822345-9-6 (EPUB)</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Rectangle Self="uec" ItemTransform="1 0 0 1 75 -50">
-      <Properties>
-        <PathGeometry>
-          <GeometryPathType PathOpen="false">
-            <PathPointArray>
-              <PathPointType Anchor="-75 -50" LeftDirection="-75 -50" RightDirection="-75 -50" />
-              <PathPointType Anchor="-75 50" LeftDirection="-75 50" RightDirection="-75 50" />
-              <PathPointType Anchor="75 50" LeftDirection="75 50" RightDirection="75 50" />
-              <PathPointType Anchor="75 -50" LeftDirection="75 -50" RightDirection="75 -50" />
-            </PathPointArray>
-          </GeometryPathType>
-        </PathGeometry>
-      </Properties>
-      <Image Self="ue6" ItemTransform="1.0 0 0 1.0 -75 -50">
-        <Properties>
-          <Profile type="string">
-            $ID/Embedded
-            <GraphicBounds Left="0" Top="0" Right="150" Bottom="100" />
-          </Profile>
-        </Properties>
-        <Link Self="ueb" LinkResourceURI="imgs/file0.jpg" />
-      </Image>
-    </Rectangle>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Rectangle Self="uec" ItemTransform="1 0 0 1 75 -50">
-      <Properties>
-        <PathGeometry>
-          <GeometryPathType PathOpen="false">
-            <PathPointArray>
-              <PathPointType Anchor="-75 -50" LeftDirection="-75 -50" RightDirection="-75 -50" />
-              <PathPointType Anchor="-75 50" LeftDirection="-75 50" RightDirection="-75 50" />
-              <PathPointType Anchor="75 50" LeftDirection="75 50" RightDirection="75 50" />
-              <PathPointType Anchor="75 -50" LeftDirection="75 -50" RightDirection="75 -50" />
-            </PathPointArray>
-          </GeometryPathType>
-        </PathGeometry>
-      </Properties>
-      <Image Self="ue6" ItemTransform="1.0 0 0 1.0 -75 -50">
-        <Properties>
-          <Profile type="string">
-            $ID/Embedded
-            <GraphicBounds Left="0" Top="0" Right="150" Bottom="100" />
-          </Profile>
-        </Properties>
-        <Link Self="ueb" LinkResourceURI="imgs/file1.jpg" />
-      </Image>
-    </Rectangle>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Rectangle Self="uec" ItemTransform="1 0 0 1 75 -50">
-      <Properties>
-        <PathGeometry>
-          <GeometryPathType PathOpen="false">
-            <PathPointArray>
-              <PathPointType Anchor="-75 -50" LeftDirection="-75 -50" RightDirection="-75 -50" />
-              <PathPointType Anchor="-75 50" LeftDirection="-75 50" RightDirection="-75 50" />
-              <PathPointType Anchor="75 50" LeftDirection="75 50" RightDirection="75 50" />
-              <PathPointType Anchor="75 -50" LeftDirection="75 -50" RightDirection="75 -50" />
-            </PathPointArray>
-          </GeometryPathType>
-        </PathGeometry>
-      </Properties>
-      <Image Self="ue6" ItemTransform="1.0 0 0 1.0 -75 -50">
-        <Properties>
-          <Profile type="string">
-            $ID/Embedded
-            <GraphicBounds Left="0" Top="0" Right="150" Bottom="100" />
-          </Profile>
-        </Properties>
-        <Link Self="ueb" LinkResourceURI="imgs/file2.jpg" />
-      </Image>
-    </Rectangle>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content> </Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Rectangle Self="uec" ItemTransform="1 0 0 1 75 -50">
-      <Properties>
-        <PathGeometry>
-          <GeometryPathType PathOpen="false">
-            <PathPointArray>
-              <PathPointType Anchor="-75 -50" LeftDirection="-75 -50" RightDirection="-75 -50" />
-              <PathPointType Anchor="-75 50" LeftDirection="-75 50" RightDirection="-75 50" />
-              <PathPointType Anchor="75 50" LeftDirection="75 50" RightDirection="75 50" />
-              <PathPointType Anchor="75 -50" LeftDirection="75 -50" RightDirection="75 -50" />
-            </PathPointArray>
-          </GeometryPathType>
-        </PathGeometry>
-      </Properties>
-      <Image Self="ue6" ItemTransform="1.0 0 0 1.0 -75 -50">
-        <Properties>
-          <Profile type="string">
-            $ID/Embedded
-            <GraphicBounds Left="0" Top="0" Right="150" Bottom="100" />
-          </Profile>
-        </Properties>
-        <Link Self="ueb" LinkResourceURI="imgs/file3.jpg" />
-      </Image>
-    </Rectangle>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Network Notebook Series</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>The Network Notebooks series presents new media research commissioned by the INC.</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>PREVIOUSLY PUBLISHED NETWORK NOTEBOOKS:</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Network Notebooks 08</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Brooke Wendt, The Allure of the Selfie: Instagram and the New Self Portrait, 2014.</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Network Notebooks 07</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Henry Warwick, Radical Tactics of the Offline Library, 2014.</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Network Notebooks 06</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Andreas Treske, The Inner Life of Video Spheres: Theory for the YouTube Generation, 2013.</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Network Notebooks 05</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Eric Kluitenberg, Legacies of Tactical Media, 2011.</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Network Notebooks 04</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Rosa Menkman, The Glitch Momentum, 2011.</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Network Notebooks 03</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Dymtri Kleiner, The Telekommunist Manifesto, 2010.</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Network Notebooks 02</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Rob van Kranenburg, The Internet of Things, 2008.</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
-    <Content>Network Notebooks 01</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&#x2028;</Content>
-  </CharacterStyleRange>
-  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Rosalind Gill, Technobohemians of the New Cybertariat, 2007.</Content>
-  </CharacterStyleRange><Br />
-</ParagraphStyleRange>
-
-  </Story>
-  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://wtfpdl.net/" Name="link" DestinationURL="http://wtfpdl.net/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-4" Name="http://wtfpdl.net/" Source="htss-4" Visible="true" DestinationUniqueKey="1">
-    <Properties>
-      <BorderColor type="enumeration">Black</BorderColor>
-      <Destination type="object">HyperlinkURLDestination/http://wtfpdl.net/</Destination>
-    </Properties>
-  </Hyperlink>
-  <HyperlinkURLDestination Self="HyperlinkURLDestination/publications" Name="link" DestinationURL="publications" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-3" Name="publications" Source="htss-3" Visible="true" DestinationUniqueKey="1">
-    <Properties>
-      <BorderColor type="enumeration">Black</BorderColor>
-      <Destination type="object">HyperlinkURLDestination/publications</Destination>
-    </Properties>
-  </Hyperlink>
-  <HyperlinkURLDestination Self="HyperlinkURLDestination/www.networkcultures.org" Name="link" DestinationURL="www.networkcultures.org" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-2" Name="www.networkcultures.org" Source="htss-2" Visible="true" DestinationUniqueKey="1">
-    <Properties>
-      <BorderColor type="enumeration">Black</BorderColor>
-      <Destination type="object">HyperlinkURLDestination/www.networkcultures.org</Destination>
-    </Properties>
-  </Hyperlink>
-  <HyperlinkURLDestination Self="HyperlinkURLDestination/http://medamo.nl/" Name="link" DestinationURL="http://medamo.nl/" DestinationUniqueKey="1" />
-  <Hyperlink Self="uf-1" Name="http://medamo.nl/" Source="htss-1" Visible="true" DestinationUniqueKey="1">
-    <Properties>
-      <BorderColor type="enumeration">Black</BorderColor>
-      <Destination type="object">HyperlinkURLDestination/http://medamo.nl/</Destination>
-    </Properties>
-  </Hyperlink>
+<Document DOMVersion="8.1" Self="d">
+	<Color Self="Color/Black" Model="Process" Space="CMYK" ColorValue="0 0 0 100" ColorOverride="Specialblack" AlternateSpace="NoAlternateColor" AlternateColorValue="" Name="Black" ColorEditable="false" ColorRemovable="false" Visible="true" SwatchCreatorID="7937" />
+	<Ink Self="Ink/$ID/Process Cyan" Name="$ID/Process Cyan" Angle="71.5651" ConvertToProcess="false" Frequency="190" NeutralDensity="0.61" PrintInk="true" TrapOrder="1" InkType="Normal" />
+	<Ink Self="Ink/$ID/Process Magenta" Name="$ID/Process Magenta" Angle="18.4349" ConvertToProcess="false" Frequency="190" NeutralDensity="0.76" PrintInk="true" TrapOrder="2" InkType="Normal" />
+	<Ink Self="Ink/$ID/Process Yellow" Name="$ID/Process Yellow" Angle="0" ConvertToProcess="false" Frequency="200" NeutralDensity="0.16" PrintInk="true" TrapOrder="3" InkType="Normal" />
+	<Ink Self="Ink/$ID/Process Black" Name="$ID/Process Black" Angle="45" ConvertToProcess="false" Frequency="212" NeutralDensity="1.7" PrintInk="true" TrapOrder="4" InkType="Normal" />
+	<FontFamily Self="di3a" Name="$ID/Times">
+		<Font Self="di3aFontnTimes Regular" FontFamily="Times" Name="$ID/Times Regular" PostScriptName="Times-Roman" Status="Installed" FontStyleName="Regular" FontType="TrueType" WritingScript="0" FullName="Times Roman" FullNameNative="Times Roman" FontStyleNameNative="Regular" PlatformName="$ID/" Version="" />
+		<Font Self="di3aFontnTimes Italic" FontFamily="Times" Name="$ID/Times Italic" PostScriptName="Times-Italic" Status="Installed" FontStyleName="Italic" FontType="TrueType" WritingScript="0" FullName="Times Italic" FullNameNative="Times Italic" FontStyleNameNative="Italic" PlatformName="$ID/" Version="" />
+		<Font Self="di3aFontnTimes Bold" FontFamily="Times" Name="$ID/Times Bold" PostScriptName="Times-Bold" Status="Installed" FontStyleName="Bold" FontType="TrueType" WritingScript="0" FullName="Times Bold" FullNameNative="Times Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="" />
+		<Font Self="di3aFontnTimes Bold Italic" FontFamily="Times" Name="$ID/Times Bold Italic" PostScriptName="Times-BoldItalic" Status="Installed" FontStyleName="Bold Italic" FontType="TrueType" WritingScript="0" FullName="Times Bold Italic" FullNameNative="Times Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="" />
+	</FontFamily>
+	<FontFamily Self="di56" Name="$ID/Kozuka Mincho Std">
+		<Font Self="di56FontnKozuka Mincho Std EL" FontFamily="Kozuka Mincho Std" Name="$ID/Kozuka Mincho Std EL" PostScriptName="KozMinStd-ExtraLight" Status="Substituted" FontStyleName="EL" FontType="OpenTypeCID" WritingScript="1" FullName="Kozuka Mincho Std EL" FullNameNative="小塚明朝 Std EL" FontStyleNameNative="EL" PlatformName="$ID/" Version="" />
+		<Font Self="di56FontnKozuka Mincho Std L" FontFamily="Kozuka Mincho Std" Name="$ID/Kozuka Mincho Std L" PostScriptName="KozMinStd-Light" Status="Substituted" FontStyleName="L" FontType="OpenTypeCID" WritingScript="1" FullName="Kozuka Mincho Std L" FullNameNative="小塚明朝 Std L" FontStyleNameNative="L" PlatformName="$ID/" Version="" />
+		<Font Self="di56FontnKozuka Mincho Std R" FontFamily="Kozuka Mincho Std" Name="$ID/Kozuka Mincho Std R" PostScriptName="KozMinStd-Regular" Status="Substituted" FontStyleName="R" FontType="OpenTypeCID" WritingScript="1" FullName="Kozuka Mincho Std R" FullNameNative="小塚明朝 Std R" FontStyleNameNative="R" PlatformName="$ID/" Version="" />
+		<Font Self="di56FontnKozuka Mincho Std M" FontFamily="Kozuka Mincho Std" Name="$ID/Kozuka Mincho Std M" PostScriptName="KozMinStd-Medium" Status="Substituted" FontStyleName="M" FontType="OpenTypeCID" WritingScript="1" FullName="Kozuka Mincho Std M" FullNameNative="小塚明朝 Std M" FontStyleNameNative="M" PlatformName="$ID/" Version="" />
+		<Font Self="di56FontnKozuka Mincho Std B" FontFamily="Kozuka Mincho Std" Name="$ID/Kozuka Mincho Std B" PostScriptName="KozMinStd-Bold" Status="Substituted" FontStyleName="B" FontType="OpenTypeCID" WritingScript="1" FullName="Kozuka Mincho Std B" FullNameNative="小塚明朝 Std B" FontStyleNameNative="B" PlatformName="$ID/" Version="" />
+		<Font Self="di56FontnKozuka Mincho Std H" FontFamily="Kozuka Mincho Std" Name="$ID/Kozuka Mincho Std H" PostScriptName="KozMinStd-Heavy" Status="Substituted" FontStyleName="H" FontType="OpenTypeCID" WritingScript="1" FullName="Kozuka Mincho Std H" FullNameNative="小塚明朝 Std H" FontStyleNameNative="H" PlatformName="$ID/" Version="" />
+	</FontFamily>
+	<FontFamily Self="di16b" Name="$ID/Arnhem">
+		<Font Self="di16bFontnArnhem Blond" FontFamily="Arnhem" Name="$ID/Arnhem Blond" PostScriptName="Arnhem-Blond" Status="Installed" FontStyleName="Blond" FontType="OpenTypeCFF" WritingScript="0" FullName="Arnhem Blond" FullNameNative="Arnhem Blond" FontStyleNameNative="Blond" PlatformName="$ID/" Version="" />
+		<Font Self="di16bFontnArnhem BlondItalic" FontFamily="Arnhem" Name="$ID/Arnhem BlondItalic" PostScriptName="Arnhem-BlondItalic" Status="Installed" FontStyleName="BlondItalic" FontType="OpenTypeCFF" WritingScript="0" FullName="Arnhem BlondItalic" FullNameNative="Arnhem BlondItalic" FontStyleNameNative="BlondItalic" PlatformName="$ID/" Version="" />
+		<Font Self="di16bFontnArnhem Normal" FontFamily="Arnhem" Name="$ID/Arnhem Normal" PostScriptName="Arnhem-Normal" Status="Installed" FontStyleName="Normal" FontType="OpenTypeCFF" WritingScript="0" FullName="Arnhem Normal" FullNameNative="Arnhem Normal" FontStyleNameNative="Normal" PlatformName="$ID/" Version="" />
+		<Font Self="di16bFontnArnhem NormalItalic" FontFamily="Arnhem" Name="$ID/Arnhem NormalItalic" PostScriptName="Arnhem-NormalItalic" Status="Installed" FontStyleName="NormalItalic" FontType="OpenTypeCFF" WritingScript="0" FullName="Arnhem NormalItalic" FullNameNative="Arnhem NormalItalic" FontStyleNameNative="NormalItalic" PlatformName="$ID/" Version="" />
+		<Font Self="di16bFontnArnhem Bold" FontFamily="Arnhem" Name="$ID/Arnhem Bold" PostScriptName="Arnhem-Bold" Status="Installed" FontStyleName="Bold" FontType="OpenTypeCFF" WritingScript="0" FullName="Arnhem Bold" FullNameNative="Arnhem Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="" />
+		<Font Self="di16bFontnArnhem BoldItalic" FontFamily="Arnhem" Name="$ID/Arnhem BoldItalic" PostScriptName="Arnhem-BoldItalic" Status="Installed" FontStyleName="BoldItalic" FontType="OpenTypeCFF" WritingScript="0" FullName="Arnhem BoldItalic" FullNameNative="Arnhem BoldItalic" FontStyleNameNative="BoldItalic" PlatformName="$ID/" Version="" />
+		<Font Self="di16bFontnArnhem Black" FontFamily="Arnhem" Name="$ID/Arnhem Black" PostScriptName="Arnhem-Black" Status="Installed" FontStyleName="Black" FontType="OpenTypeCFF" WritingScript="0" FullName="Arnhem Black" FullNameNative="Arnhem Black" FontStyleNameNative="Black" PlatformName="$ID/" Version="" />
+		<Font Self="di16bFontnArnhem BlackItalic" FontFamily="Arnhem" Name="$ID/Arnhem BlackItalic" PostScriptName="Arnhem-BlackItalic" Status="Installed" FontStyleName="BlackItalic" FontType="OpenTypeCFF" WritingScript="0" FullName="Arnhem BlackItalic" FullNameNative="Arnhem BlackItalic" FontStyleNameNative="BlackItalic" PlatformName="$ID/" Version="" />
+	</FontFamily>
+	<FontFamily Self="di97b" Name="Myriad Pro">
+		<Font Self="di97bFontnMyriad Pro Light Condensed" FontFamily="Myriad Pro" Name="Myriad Pro Light Condensed" PostScriptName="MyriadPro-LightCond" Status="Substituted" FontStyleName="Light Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Light Condensed" FullNameNative="Myriad Pro Light Condensed" FontStyleNameNative="$ID/Light Condensed" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Light Condensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Light Condensed Italic" PostScriptName="MyriadPro-LightCondIt" Status="Substituted" FontStyleName="Light Condensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Light Condensed Italic" FullNameNative="Myriad Pro Light Condensed Italic" FontStyleNameNative="$ID/Light Condensed Italic" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Condensed" FontFamily="Myriad Pro" Name="Myriad Pro Condensed" PostScriptName="MyriadPro-Cond" Status="Substituted" FontStyleName="Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Condensed" FullNameNative="Myriad Pro Condensed" FontStyleNameNative="$ID/Condensed" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Condensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Condensed Italic" PostScriptName="MyriadPro-CondIt" Status="Substituted" FontStyleName="Condensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Condensed Italic" FullNameNative="Myriad Pro Condensed Italic" FontStyleNameNative="$ID/Condensed Italic" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Semibold Condensed" FontFamily="Myriad Pro" Name="Myriad Pro Semibold Condensed" PostScriptName="MyriadPro-SemiboldCond" Status="Substituted" FontStyleName="Semibold Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Semibold Condensed" FullNameNative="Myriad Pro Semibold Condensed" FontStyleNameNative="$ID/Semibold Condensed" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Semibold Condensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Semibold Condensed Italic" PostScriptName="MyriadPro-SemiboldCondIt" Status="Substituted" FontStyleName="Semibold Condensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Semibold Condensed Italic" FullNameNative="Myriad Pro Semibold Condensed Italic" FontStyleNameNative="$ID/Semibold Condensed Italic" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Bold Condensed" FontFamily="Myriad Pro" Name="Myriad Pro Bold Condensed" PostScriptName="MyriadPro-BoldCond" Status="Substituted" FontStyleName="Bold Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold Condensed" FullNameNative="Myriad Pro Bold Condensed" FontStyleNameNative="$ID/Bold Condensed" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Bold Condensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Bold Condensed Italic" PostScriptName="MyriadPro-BoldCondIt" Status="Substituted" FontStyleName="Bold Condensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold Condensed Italic" FullNameNative="Myriad Pro Bold Condensed Italic" FontStyleNameNative="$ID/Bold Condensed Italic" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Black Condensed" FontFamily="Myriad Pro" Name="Myriad Pro Black Condensed" PostScriptName="MyriadPro-BlackCond" Status="Substituted" FontStyleName="Black Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Black Condensed" FullNameNative="Myriad Pro Black Condensed" FontStyleNameNative="$ID/Black Condensed" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Black Condensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Black Condensed Italic" PostScriptName="MyriadPro-BlackCondIt" Status="Substituted" FontStyleName="Black Condensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Black Condensed Italic" FullNameNative="Myriad Pro Black Condensed Italic" FontStyleNameNative="$ID/Black Condensed Italic" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Light" FontFamily="Myriad Pro" Name="Myriad Pro Light" PostScriptName="MyriadPro-Light" Status="Substituted" FontStyleName="Light" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Light" FullNameNative="Myriad Pro Light" FontStyleNameNative="$ID/Light" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Light Italic" FontFamily="Myriad Pro" Name="Myriad Pro Light Italic" PostScriptName="MyriadPro-LightIt" Status="Substituted" FontStyleName="Light Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Light Italic" FullNameNative="Myriad Pro Light Italic" FontStyleNameNative="$ID/Light Italic" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Regular" FontFamily="Myriad Pro" Name="Myriad Pro Regular" PostScriptName="MyriadPro-Regular" Status="Substituted" FontStyleName="Regular" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro" FullNameNative="Myriad Pro" FontStyleNameNative="$ID/Regular" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Italic" FontFamily="Myriad Pro" Name="Myriad Pro Italic" PostScriptName="MyriadPro-It" Status="Substituted" FontStyleName="Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Italic" FullNameNative="Myriad Pro Italic" FontStyleNameNative="$ID/Italic" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Semibold" FontFamily="Myriad Pro" Name="Myriad Pro Semibold" PostScriptName="MyriadPro-Semibold" Status="Substituted" FontStyleName="Semibold" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Semibold" FullNameNative="Myriad Pro Semibold" FontStyleNameNative="$ID/Semibold" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Semibold Italic" FontFamily="Myriad Pro" Name="Myriad Pro Semibold Italic" PostScriptName="MyriadPro-SemiboldIt" Status="Substituted" FontStyleName="Semibold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Semibold Italic" FullNameNative="Myriad Pro Semibold Italic" FontStyleNameNative="$ID/Semibold Italic" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Bold" FontFamily="Myriad Pro" Name="Myriad Pro Bold" PostScriptName="MyriadPro-Bold" Status="Substituted" FontStyleName="Bold" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold" FullNameNative="Myriad Pro Bold" FontStyleNameNative="$ID/Bold" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Bold Italic" FontFamily="Myriad Pro" Name="Myriad Pro Bold Italic" PostScriptName="MyriadPro-BoldIt" Status="Substituted" FontStyleName="Bold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold Italic" FullNameNative="Myriad Pro Bold Italic" FontStyleNameNative="$ID/Bold Italic" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Black" FontFamily="Myriad Pro" Name="Myriad Pro Black" PostScriptName="MyriadPro-Black" Status="Substituted" FontStyleName="Black" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Black" FullNameNative="Myriad Pro Black" FontStyleNameNative="$ID/Black" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+		<Font Self="di97bFontnMyriad Pro Black Italic" FontFamily="Myriad Pro" Name="Myriad Pro Black Italic" PostScriptName="MyriadPro-BlackIt" Status="Substituted" FontStyleName="Black Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Black Italic" FullNameNative="Myriad Pro Black Italic" FontStyleNameNative="$ID/Black Italic" PlatformName="$ID/" Version="Version 2.006;PS 002.000;Core 1.0.38;makeotf.lib1.6.6565" />
+	</FontFamily>
+	<FontFamily Self="di97c" Name="Adobe Jenson Pro">
+		<Font Self="di97cFontnAdobe Jenson Pro Light" FontFamily="Adobe Jenson Pro" Name="Adobe Jenson Pro Light" PostScriptName="AJensonPro-Lt" Status="Substituted" FontStyleName="Light" FontType="OpenTypeCFF" WritingScript="0" FullName="Adobe Jenson Pro Light" FullNameNative="Adobe Jenson Pro Light" FontStyleNameNative="$ID/Light" PlatformName="$ID/" Version="OTF 1.013;PS 001.000;Core 1.0.27;makeotf.lib(1.11)" />
+		<Font Self="di97cFontnAdobe Jenson Pro Light Italic" FontFamily="Adobe Jenson Pro" Name="Adobe Jenson Pro Light Italic" PostScriptName="AJensonPro-LtIt" Status="Substituted" FontStyleName="Light Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Adobe Jenson Pro Light Italic" FullNameNative="Adobe Jenson Pro Light Italic" FontStyleNameNative="$ID/Light Italic" PlatformName="$ID/" Version="OTF 1.013;PS 001.000;Core 1.0.27;makeotf.lib(1.11)" />
+		<Font Self="di97cFontnAdobe Jenson Pro Regular" FontFamily="Adobe Jenson Pro" Name="Adobe Jenson Pro Regular" PostScriptName="AJensonPro-Regular" Status="Substituted" FontStyleName="Regular" FontType="OpenTypeCFF" WritingScript="0" FullName="Adobe Jenson Pro" FullNameNative="Adobe Jenson Pro" FontStyleNameNative="$ID/Regular" PlatformName="$ID/" Version="OTF 1.013;PS 001.000;Core 1.0.27;makeotf.lib(1.11)" />
+		<Font Self="di97cFontnAdobe Jenson Pro Italic" FontFamily="Adobe Jenson Pro" Name="Adobe Jenson Pro Italic" PostScriptName="AJensonPro-It" Status="Substituted" FontStyleName="Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Adobe Jenson Pro Italic" FullNameNative="Adobe Jenson Pro Italic" FontStyleNameNative="$ID/Italic" PlatformName="$ID/" Version="OTF 1.013;PS 001.000;Core 1.0.27;makeotf.lib(1.11)" />
+		<Font Self="di97cFontnAdobe Jenson Pro Semibold" FontFamily="Adobe Jenson Pro" Name="Adobe Jenson Pro Semibold" PostScriptName="AJensonPro-Semibold" Status="Substituted" FontStyleName="Semibold" FontType="OpenTypeCFF" WritingScript="0" FullName="Adobe Jenson Pro Semibold" FullNameNative="Adobe Jenson Pro Semibold" FontStyleNameNative="$ID/Semibold" PlatformName="$ID/" Version="OTF 1.013;PS 001.000;Core 1.0.27;makeotf.lib(1.11)" />
+		<Font Self="di97cFontnAdobe Jenson Pro Semibold Italic" FontFamily="Adobe Jenson Pro" Name="Adobe Jenson Pro Semibold Italic" PostScriptName="AJensonPro-SemiboldIt" Status="Substituted" FontStyleName="Semibold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Adobe Jenson Pro Semibold Italic" FullNameNative="Adobe Jenson Pro Semibold Italic" FontStyleNameNative="$ID/Semibold Italic" PlatformName="$ID/" Version="OTF 1.013;PS 001.000;Core 1.0.27;makeotf.lib(1.11)" />
+		<Font Self="di97cFontnAdobe Jenson Pro Bold" FontFamily="Adobe Jenson Pro" Name="Adobe Jenson Pro Bold" PostScriptName="AJensonPro-Bold" Status="Substituted" FontStyleName="Bold" FontType="OpenTypeCFF" WritingScript="0" FullName="Adobe Jenson Pro Bold" FullNameNative="Adobe Jenson Pro Bold" FontStyleNameNative="$ID/Bold" PlatformName="$ID/" Version="OTF 1.013;PS 001.000;Core 1.0.27;makeotf.lib(1.11)" />
+		<Font Self="di97cFontnAdobe Jenson Pro Bold Italic" FontFamily="Adobe Jenson Pro" Name="Adobe Jenson Pro Bold Italic" PostScriptName="AJensonPro-BoldIt" Status="Substituted" FontStyleName="Bold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Adobe Jenson Pro Bold Italic" FullNameNative="Adobe Jenson Pro Bold Italic" FontStyleNameNative="$ID/Bold Italic" PlatformName="$ID/" Version="OTF 1.013;PS 001.000;Core 1.0.27;makeotf.lib(1.11)" />
+	</FontFamily>
+	<FontFamily Self="di265e" Name="SuperGroteskA">
+		<Font Self="di265eFontnSuperGroteskA Bd" FontFamily="SuperGroteskA" Name="SuperGroteskA Bd" PostScriptName="SuperGroteskA-Bd" Status="Installed" FontStyleName="Bd" FontType="Type1" WritingScript="0" FullName="SuperGroteskA-Bd" FullNameNative="SuperGroteskA-Bd" FontStyleNameNative="Bd" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di265eFontnSuperGroteskA BdExpert" FontFamily="SuperGroteskA" Name="SuperGroteskA BdExpert" PostScriptName="SuperGroteskA-BdExpert" Status="Installed" FontStyleName="BdExpert" FontType="Type1" WritingScript="0" FullName="SuperGroteskA-BdExpert" FullNameNative="SuperGroteskA-BdExpert" FontStyleNameNative="BdExpert" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di265eFontnSuperGroteskA BdLF" FontFamily="SuperGroteskA" Name="SuperGroteskA BdLF" PostScriptName="SuperGroteskA-BdLF" Status="Installed" FontStyleName="BdLF" FontType="Type1" WritingScript="0" FullName="SuperGroteskA-BdLF" FullNameNative="SuperGroteskA-BdLF" FontStyleNameNative="BdLF" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di265eFontnSuperGroteskA CdBdExpert" FontFamily="SuperGroteskA" Name="SuperGroteskA CdBdExpert" PostScriptName="SuperGroteskA-CdBdExpert" Status="Installed" FontStyleName="CdBdExpert" FontType="Type1" WritingScript="0" FullName="SuperGroteskA-CdBdExpert" FullNameNative="SuperGroteskA-CdBdExpert" FontStyleNameNative="CdBdExpert" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di265eFontnSuperGroteskA CdMedExpert" FontFamily="SuperGroteskA" Name="SuperGroteskA CdMedExpert" PostScriptName="SuperGroteskA-CdMedExpert" Status="Installed" FontStyleName="CdMedExpert" FontType="Type1" WritingScript="0" FullName="SuperGroteskA-CdMedExpert" FullNameNative="SuperGroteskA-CdMedExpert" FontStyleNameNative="CdMedExpert" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di265eFontnSuperGroteskA CdRgExpert" FontFamily="SuperGroteskA" Name="SuperGroteskA CdRgExpert" PostScriptName="SuperGroteskA-CdRgExpert" Status="Installed" FontStyleName="CdRgExpert" FontType="Type1" WritingScript="0" FullName="SuperGroteskA-CdRgExpert" FullNameNative="SuperGroteskA-CdRgExpert" FontStyleNameNative="CdRgExpert" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di265eFontnSuperGroteskA Med" FontFamily="SuperGroteskA" Name="SuperGroteskA Med" PostScriptName="SuperGroteskA-Med" Status="Installed" FontStyleName="Med" FontType="Type1" WritingScript="0" FullName="SuperGroteskA-Med" FullNameNative="SuperGroteskA-Med" FontStyleNameNative="Med" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di265eFontnSuperGroteskA MedExpert" FontFamily="SuperGroteskA" Name="SuperGroteskA MedExpert" PostScriptName="SuperGroteskA-MedExpert" Status="Installed" FontStyleName="MedExpert" FontType="Type1" WritingScript="0" FullName="SuperGroteskA-MedExpert" FullNameNative="SuperGroteskA-MedExpert" FontStyleNameNative="MedExpert" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di265eFontnSuperGroteskA MedLF" FontFamily="SuperGroteskA" Name="SuperGroteskA MedLF" PostScriptName="SuperGroteskA-MedLF" Status="Installed" FontStyleName="MedLF" FontType="Type1" WritingScript="0" FullName="SuperGroteskA-MedLF" FullNameNative="SuperGroteskA-MedLF" FontStyleNameNative="MedLF" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di265eFontnSuperGroteskA Rg" FontFamily="SuperGroteskA" Name="SuperGroteskA Rg" PostScriptName="SuperGroteskA-Rg" Status="Installed" FontStyleName="Rg" FontType="Type1" WritingScript="0" FullName="SuperGroteskA-Rg" FullNameNative="SuperGroteskA-Rg" FontStyleNameNative="Rg" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di265eFontnSuperGroteskA RgExpert" FontFamily="SuperGroteskA" Name="SuperGroteskA RgExpert" PostScriptName="SuperGroteskA-RgExpert" Status="Installed" FontStyleName="RgExpert" FontType="Type1" WritingScript="0" FullName="SuperGroteskA-RgExpert" FullNameNative="SuperGroteskA-RgExpert" FontStyleNameNative="RgExpert" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di265eFontnSuperGroteskA RgLF" FontFamily="SuperGroteskA" Name="SuperGroteskA RgLF" PostScriptName="SuperGroteskA-RgLF" Status="Installed" FontStyleName="RgLF" FontType="Type1" WritingScript="0" FullName="SuperGroteskA-RgLF" FullNameNative="SuperGroteskA-RgLF" FontStyleNameNative="RgLF" PlatformName="$ID/" Version="001.000" />
+	</FontFamily>
+	<FontFamily Self="di40f5" Name="$ID/Proforma">
+		<Font Self="di40f5FontnProforma UltraLight" FontFamily="Proforma" Name="$ID/Proforma UltraLight" PostScriptName="Proforma-UltraLight" Status="Substituted" FontStyleName="UltraLight" FontType="Type1" WritingScript="0" FullName="Proforma-UltraLight" FullNameNative="Proforma-UltraLight" FontStyleNameNative="UltraLight" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma UltraLightSC" FontFamily="Proforma" Name="$ID/Proforma UltraLightSC" PostScriptName="Proforma-UltraLightSC" Status="Substituted" FontStyleName="UltraLightSC" FontType="Type1" WritingScript="0" FullName="Proforma-UltraLightSC" FullNameNative="Proforma-UltraLightSC" FontStyleNameNative="UltraLightSC" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma UltraLightItalic" FontFamily="Proforma" Name="$ID/Proforma UltraLightItalic" PostScriptName="Proforma-UltraLightItalic" Status="Substituted" FontStyleName="UltraLightItalic" FontType="Type1" WritingScript="0" FullName="Proforma-UltraLightItalic" FullNameNative="Proforma-UltraLightItalic" FontStyleNameNative="UltraLightItalic" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma UltraLightItalicSC" FontFamily="Proforma" Name="$ID/Proforma UltraLightItalicSC" PostScriptName="Proforma-UltraLightItalicSC" Status="Substituted" FontStyleName="UltraLightItalicSC" FontType="Type1" WritingScript="0" FullName="Proforma-UltraLightItalicSC" FullNameNative="Proforma-UltraLightItalicSC" FontStyleNameNative="UltraLightItalicSC" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma Light" FontFamily="Proforma" Name="$ID/Proforma Light" PostScriptName="Proforma-Light" Status="Substituted" FontStyleName="Light" FontType="Type1" WritingScript="0" FullName="Proforma-Light" FullNameNative="Proforma-Light" FontStyleNameNative="Light" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma LightSC" FontFamily="Proforma" Name="$ID/Proforma LightSC" PostScriptName="Proforma-LightSC" Status="Substituted" FontStyleName="LightSC" FontType="Type1" WritingScript="0" FullName="Proforma-LightSC" FullNameNative="Proforma-LightSC" FontStyleNameNative="LightSC" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma LightItalic" FontFamily="Proforma" Name="$ID/Proforma LightItalic" PostScriptName="Proforma-LightItalic" Status="Substituted" FontStyleName="LightItalic" FontType="Type1" WritingScript="0" FullName="Proforma-LightItalic" FullNameNative="Proforma-LightItalic" FontStyleNameNative="LightItalic" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma LightItalicSC" FontFamily="Proforma" Name="$ID/Proforma LightItalicSC" PostScriptName="Proforma-LightItalicSC" Status="Substituted" FontStyleName="LightItalicSC" FontType="Type1" WritingScript="0" FullName="Proforma-LightItalicSC" FullNameNative="Proforma-LightItalicSC" FontStyleNameNative="LightItalicSC" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma Book" FontFamily="Proforma" Name="$ID/Proforma Book" PostScriptName="Proforma-Book" Status="Substituted" FontStyleName="Book" FontType="Type1" WritingScript="0" FullName="Proforma-Book" FullNameNative="Proforma-Book" FontStyleNameNative="Book" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma BookSC" FontFamily="Proforma" Name="$ID/Proforma BookSC" PostScriptName="Proforma-BookSC" Status="Substituted" FontStyleName="BookSC" FontType="Type1" WritingScript="0" FullName="Proforma-BookSC" FullNameNative="Proforma-BookSC" FontStyleNameNative="BookSC" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma Form" FontFamily="Proforma" Name="$ID/Proforma Form" PostScriptName="Proforma-Form" Status="Substituted" FontStyleName="Form" FontType="Type1" WritingScript="0" FullName="Proforma-Form" FullNameNative="Proforma-Form" FontStyleNameNative="Form" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma BookItalic" FontFamily="Proforma" Name="$ID/Proforma BookItalic" PostScriptName="Proforma-BookItalic" Status="Substituted" FontStyleName="BookItalic" FontType="Type1" WritingScript="0" FullName="Proforma-BookItalic" FullNameNative="Proforma-BookItalic" FontStyleNameNative="BookItalic" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma BookItalicSC" FontFamily="Proforma" Name="$ID/Proforma BookItalicSC" PostScriptName="Proforma-BookItalicSC" Status="Substituted" FontStyleName="BookItalicSC" FontType="Type1" WritingScript="0" FullName="Proforma-BookItalicSC" FullNameNative="Proforma-BookItalicSC" FontStyleNameNative="BookItalicSC" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma Medium" FontFamily="Proforma" Name="$ID/Proforma Medium" PostScriptName="Proforma-Medium" Status="Substituted" FontStyleName="Medium" FontType="Type1" WritingScript="0" FullName="Proforma-Medium" FullNameNative="Proforma-Medium" FontStyleNameNative="Medium" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma MediumSC" FontFamily="Proforma" Name="$ID/Proforma MediumSC" PostScriptName="Proforma-MediumSC" Status="Substituted" FontStyleName="MediumSC" FontType="Type1" WritingScript="0" FullName="Proforma-MediumSC" FullNameNative="Proforma-MediumSC" FontStyleNameNative="MediumSC" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma MediumItalic" FontFamily="Proforma" Name="$ID/Proforma MediumItalic" PostScriptName="Proforma-MediumItalic" Status="Substituted" FontStyleName="MediumItalic" FontType="Type1" WritingScript="0" FullName="Proforma-MediumItalic" FullNameNative="Proforma-MediumItalic" FontStyleNameNative="MediumItalic" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma MediumItalicSC" FontFamily="Proforma" Name="$ID/Proforma MediumItalicSC" PostScriptName="Proforma-MediumItalicSC" Status="Substituted" FontStyleName="MediumItalicSC" FontType="Type1" WritingScript="0" FullName="Proforma-MediumItalicSC" FullNameNative="Proforma-MediumItalicSC" FontStyleNameNative="MediumItalicSC" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma SemiBold" FontFamily="Proforma" Name="$ID/Proforma SemiBold" PostScriptName="Proforma-SemiBold" Status="Substituted" FontStyleName="SemiBold" FontType="Type1" WritingScript="0" FullName="Proforma-SemiBold" FullNameNative="Proforma-SemiBold" FontStyleNameNative="SemiBold" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma SemiBoldSC" FontFamily="Proforma" Name="$ID/Proforma SemiBoldSC" PostScriptName="Proforma-SemiBoldSC" Status="Substituted" FontStyleName="SemiBoldSC" FontType="Type1" WritingScript="0" FullName="Proforma-SemiBoldSC" FullNameNative="Proforma-SemiBoldSC" FontStyleNameNative="SemiBoldSC" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma SemiBoldItalic" FontFamily="Proforma" Name="$ID/Proforma SemiBoldItalic" PostScriptName="Proforma-SemiBoldItalic" Status="Substituted" FontStyleName="SemiBoldItalic" FontType="Type1" WritingScript="0" FullName="Proforma-SemiBoldItalic" FullNameNative="Proforma-SemiBoldItalic" FontStyleNameNative="SemiBoldItalic" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma SemiBoldItalicSC" FontFamily="Proforma" Name="$ID/Proforma SemiBoldItalicSC" PostScriptName="Proforma-SemiBoldItalicSC" Status="Substituted" FontStyleName="SemiBoldItalicSC" FontType="Type1" WritingScript="0" FullName="Proforma-SemiBoldItalicSC" FullNameNative="Proforma-SemiBoldItalicSC" FontStyleNameNative="SemiBoldItalicSC" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma Bold" FontFamily="Proforma" Name="$ID/Proforma Bold" PostScriptName="Proforma-Bold" Status="Substituted" FontStyleName="Bold" FontType="Type1" WritingScript="0" FullName="Proforma-Bold" FullNameNative="Proforma-Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma BoldSC" FontFamily="Proforma" Name="$ID/Proforma BoldSC" PostScriptName="Proforma-BoldSC" Status="Substituted" FontStyleName="BoldSC" FontType="Type1" WritingScript="0" FullName="Proforma-BoldSC" FullNameNative="Proforma-BoldSC" FontStyleNameNative="BoldSC" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma BoldItalic" FontFamily="Proforma" Name="$ID/Proforma BoldItalic" PostScriptName="Proforma-BoldItalic" Status="Substituted" FontStyleName="BoldItalic" FontType="Type1" WritingScript="0" FullName="Proforma-BoldItalic" FullNameNative="Proforma-BoldItalic" FontStyleNameNative="BoldItalic" PlatformName="$ID/" Version="001.000" />
+		<Font Self="di40f5FontnProforma BoldItalicSC" FontFamily="Proforma" Name="$ID/Proforma BoldItalicSC" PostScriptName="Proforma-BoldItalicSC" Status="Substituted" FontStyleName="BoldItalicSC" FontType="Type1" WritingScript="0" FullName="Proforma-BoldItalicSC" FullNameNative="Proforma-BoldItalicSC" FontStyleNameNative="BoldItalicSC" PlatformName="$ID/" Version="001.000" />
+	</FontFamily>
+	<FontFamily Self="dicb7c" Name="Helvetica Neue">
+		<Font Self="dicb7cFontnHelvetica Neue Condensed Bold" FontFamily="Helvetica Neue" Name="Helvetica Neue Condensed Bold" PostScriptName="HelveticaNeue-CondensedBold" Status="Installed" FontStyleName="Condensed Bold" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue Condensed Bold" FullNameNative="Helvetica Neue Condensed Bold" FontStyleNameNative="Condensed Bold" PlatformName="$ID/" Version="10.0d36e1" />
+		<Font Self="dicb7cFontnHelvetica Neue Condensed Black" FontFamily="Helvetica Neue" Name="Helvetica Neue Condensed Black" PostScriptName="HelveticaNeue-CondensedBlack" Status="Installed" FontStyleName="Condensed Black" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue Condensed Black" FullNameNative="Helvetica Neue Condensed Black" FontStyleNameNative="Condensed Black" PlatformName="$ID/" Version="10.0d36e1" />
+		<Font Self="dicb7cFontnHelvetica Neue UltraLight" FontFamily="Helvetica Neue" Name="Helvetica Neue UltraLight" PostScriptName="HelveticaNeue-UltraLight" Status="Installed" FontStyleName="UltraLight" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue UltraLight" FullNameNative="Helvetica Neue UltraLight" FontStyleNameNative="UltraLight" PlatformName="$ID/" Version="10.0d36e1" />
+		<Font Self="dicb7cFontnHelvetica Neue UltraLight Italic" FontFamily="Helvetica Neue" Name="Helvetica Neue UltraLight Italic" PostScriptName="HelveticaNeue-UltraLightItalic" Status="Installed" FontStyleName="UltraLight Italic" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue UltraLight Italic" FullNameNative="Helvetica Neue UltraLight Italic" FontStyleNameNative="UltraLight Italic" PlatformName="$ID/" Version="10.0d36e1" />
+		<Font Self="dicb7cFontnHelvetica Neue Light" FontFamily="Helvetica Neue" Name="Helvetica Neue Light" PostScriptName="HelveticaNeue-Light" Status="Installed" FontStyleName="Light" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue Light" FullNameNative="Helvetica Neue Light" FontStyleNameNative="Light" PlatformName="$ID/" Version="10.0d36e1" />
+		<Font Self="dicb7cFontnHelvetica Neue Light Italic" FontFamily="Helvetica Neue" Name="Helvetica Neue Light Italic" PostScriptName="HelveticaNeue-LightItalic" Status="Installed" FontStyleName="Light Italic" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue Light Italic" FullNameNative="Helvetica Neue Light Italic" FontStyleNameNative="Light Italic" PlatformName="$ID/" Version="10.0d36e1" />
+		<Font Self="dicb7cFontnHelvetica Neue Regular" FontFamily="Helvetica Neue" Name="Helvetica Neue Regular" PostScriptName="HelveticaNeue" Status="Installed" FontStyleName="Regular" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue" FullNameNative="Helvetica Neue" FontStyleNameNative="Regular" PlatformName="$ID/" Version="10.0d36e1" />
+		<Font Self="dicb7cFontnHelvetica Neue Italic" FontFamily="Helvetica Neue" Name="Helvetica Neue Italic" PostScriptName="HelveticaNeue-Italic" Status="Installed" FontStyleName="Italic" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue Italic" FullNameNative="Helvetica Neue Italic" FontStyleNameNative="Italic" PlatformName="$ID/" Version="10.0d36e1" />
+		<Font Self="dicb7cFontnHelvetica Neue Medium" FontFamily="Helvetica Neue" Name="Helvetica Neue Medium" PostScriptName="HelveticaNeue-Medium" Status="Installed" FontStyleName="Medium" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue Medium" FullNameNative="Helvetica Neue Medium" FontStyleNameNative="Medium" PlatformName="$ID/" Version="10.0d36e1" />
+		<Font Self="dicb7cFontnHelvetica Neue Bold" FontFamily="Helvetica Neue" Name="Helvetica Neue Bold" PostScriptName="HelveticaNeue-Bold" Status="Installed" FontStyleName="Bold" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue Bold" FullNameNative="Helvetica Neue Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="10.0d36e1" />
+		<Font Self="dicb7cFontnHelvetica Neue Bold Italic" FontFamily="Helvetica Neue" Name="Helvetica Neue Bold Italic" PostScriptName="HelveticaNeue-BoldItalic" Status="Installed" FontStyleName="Bold Italic" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue Bold Italic" FullNameNative="Helvetica Neue Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="10.0d36e1" />
+		<Font Self="dicb7cFontnHelvetica Neue Thin" FontFamily="Helvetica Neue" Name="Helvetica Neue Thin" PostScriptName="HelveticaNeue-Thin" Status="Installed" FontStyleName="Thin" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue Thin" FullNameNative="Helvetica Neue Thin" FontStyleNameNative="Thin" PlatformName="$ID/" Version="10.0d36e1" />
+		<Font Self="dicb7cFontnHelvetica Neue Thin Italic" FontFamily="Helvetica Neue" Name="Helvetica Neue Thin Italic" PostScriptName="HelveticaNeue-ThinItalic" Status="Installed" FontStyleName="Thin Italic" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue Thin Italic" FullNameNative="Helvetica Neue Thin Italic" FontStyleNameNative="Thin Italic" PlatformName="$ID/" Version="10.0d36e1" />
+		<Font Self="dicb7cFontnHelvetica Neue Medium Italic" FontFamily="Helvetica Neue" Name="Helvetica Neue Medium Italic" PostScriptName="HelveticaNeue-MediumItalic" Status="Installed" FontStyleName="Medium Italic" FontType="TrueType" WritingScript="0" FullName="Helvetica Neue Medium Italic" FullNameNative="Helvetica Neue Medium Italic" FontStyleNameNative="Medium Italic" PlatformName="$ID/" Version="10.0d36e1" />
+	</FontFamily>
+	<CompositeFont Self="CompositeFont/$ID/[No composite font]" Name="$ID/[No composite font]">
+		<CompositeFontEntry Self="u55" Name="$ID/Kanji" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">$ID/Kozuka Mincho Std</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="u57" Name="$ID/Kana" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖゝゞァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶヷヸヹヺーヽヾ" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">$ID/Kozuka Mincho Std</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="u58" Name="$ID/Punctuation" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="—―‖‘’“”‥…′″∥、。〈〉《》「」『』【】〔〕〜・！（），．／：；？［］｛｝～" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">$ID/Kozuka Mincho Std</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="u59" Name="$ID/Symbols" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="¢£§¨¬°±´¶×÷ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψωЁАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяё‐†‡‰※℃Å←↑→↓⇒⇔∀∂∃∇∈∋−√∝∞∠∧∨∩∪∫∬∴∵∽≒≠≡≦≧≪≫⊂⊃⊆⊇⊥⌒■□▲△▼▽◆◇○◎●◯★☆♀♂♪♭♯〃〆〇〒〓゛゜＃＄％＆＊＋－０１２３４５６７８９＜＝＞＠ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ＼＾＿｀ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ｜￠￡￢￣￥" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">$ID/Kozuka Mincho Std</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="u5a" Name="$ID/Alphabetic" FontStyle="$ID/Regular" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters=" !&quot;#$%&amp;&apos;()*+,-./:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¤¥¦©ª«­®¯²³µ·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿıŒœŠšŸŽžƒˆˇ˘˙˚˛˜˝–‚„•‹›⁄€™∆∏∑≈≤≥◊ﬀﬁﬂﬃﬄﬅﬆ" Locked="true" ScaleOption="false" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">$ID/Times</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="u5b" Name="$ID/Numbers" FontStyle="$ID/Regular" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="0123456789" Locked="true" ScaleOption="false" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">$ID/Times</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+	</CompositeFont>
+	<KinsokuTable Self="KinsokuTable/$ID/kHardKinsokuName" Name="$ID/kHardKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kSoftKinsokuName" Name="$ID/kSoftKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kKoreanKinsokuName" Name="$ID/kKoreanKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kSimpChineseKinsokuName" Name="$ID/kSimpChineseKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/$ID/kTradChineseKinsokuName" Name="$ID/kTradChineseKinsokuName" />
+	<KinsokuTable Self="KinsokuTable/Word_Kinsoku" Name="Word_Kinsoku" CantBeginLineChars="" CantEndLineChars="" HangingPunctuationChars="" CantBeSeparatedChars="" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName15" Name="$ID/kMojikumiDefaultName15" />
+	<MojikumiTable Self="MojikumiTable/$ID/kMojikumiDefaultName16" Name="$ID/kMojikumiDefaultName16" />
+	<RootCharacterStyleGroup Self="u1e56">
+		<CharacterStyle Self="CharacterStyle/Default" Imported="false" KeyboardShortcut="0 0" Name="Default">
+			<Properties>
+				<BasedOn type="string">$ID/[No character style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</CharacterStyle>
+		<CharacterStyle Self="CharacterStyle/Bold" Imported="false" KeyboardShortcut="0 0" Name="Bold" FontStyle="Bold">
+			<Properties>
+				<BasedOn type="object">CharacterStyle/Default</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</CharacterStyle>
+		<CharacterStyle Self="CharacterStyle/NN colofon\%3a brood italic" Imported="false" KeyboardShortcut="0 0" Name="NN colofon\: brood italic" FillColor="Color/Black" FontStyle="BlondItalic">
+			<Properties>
+				<BasedOn type="string">$ID/[No character style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<Leading type="unit">9</Leading>
+				<AppliedFont type="string">$ID/Arnhem</AppliedFont>
+			</Properties>
+		</CharacterStyle>
+		<CharacterStyle Self="CharacterStyle/Link" Imported="false" KeyboardShortcut="0 0" Name="Link">
+			<Properties>
+				<BasedOn type="object">CharacterStyle/Default</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</CharacterStyle>
+	</RootCharacterStyleGroup>
+	<RootParagraphStyleGroup Self="u1e52">
+		<ParagraphStyle Self="ParagraphStyle/NN basis\%3a tussenkop h2" Name="NN basis\: tussenkop h2" Imported="false" NextStyle="ParagraphStyle/NN basis\%3a tussenkop h2" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Bd" PointSize="11" Tracking="20" Capitalization="AllCaps" Hyphenation="false" SpaceBefore="14.173228346456694" UnderlineOffset="-4" UnderlineWeight="13" StrikeThroughOffset="3.6666666666666665" StrikeThroughWeight="20" GridAlignment="AlignBaseline">
+			<Properties>
+				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<Leading type="unit">9</Leading>
+				<AppliedFont type="string">SuperGroteskA</AppliedFont>
+				<UnderlineColor type="object">Color/Black</UnderlineColor>
+				<StrikeThroughColor type="object">Color/Black</StrikeThroughColor>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/NN colofon\%3a brood" Name="NN colofon\: brood" Imported="false" NextStyle="ParagraphStyle/NN colofon\%3a brood" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Blond" PointSize="7" HyphenWeight="7" GridAlignment="AlignBaseline">
+			<Properties>
+				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<Leading type="unit">11</Leading>
+				<TabList type="list">
+					<ListItem type="record">
+						<Alignment type="enumeration">LeftAlign</Alignment>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
+						<Leader type="string"></Leader>
+						<Position type="unit">11.338582677165356</Position>
+					</ListItem>
+				</TabList>
+				<AppliedFont type="string">$ID/Arnhem</AppliedFont>
+			</Properties>
+		</ParagraphStyle>
+	</RootParagraphStyleGroup>
+	<TinDocumentDataObject>
+		<Properties>
+			<GaijiRefMaps><![CDATA[/////wAAAAAAAAAA]]></GaijiRefMaps>
+		</Properties>
+	</TinDocumentDataObject>
+	<CrossReferenceFormat Self="u1ec5" Name="Volledige alinea en paginanummer" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u1ec5BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ec5BuildingBlock1" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ec5BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; op pagina " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ec5BuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u1ec6" Name="Volledige alinea" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u1ec6BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ec6BuildingBlock1" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ec6BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u1ec7" Name="Alineatekst en paginanummer" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u1ec7BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ec7BuildingBlock1" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ec7BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; op pagina " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ec7BuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u1ec8" Name="Alineatekst" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u1ec8BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ec8BuildingBlock1" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ec8BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u1ec9" Name="Alineanummer en paginanummer" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u1ec9BuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ec9BuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" op pagina " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ec9BuildingBlock2" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u1eca" Name="Alineanummer" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u1ecaBuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u1ecb" Name="Naam en paginanummer tekstanker" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u1ecbBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ecbBuildingBlock1" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ecbBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; op pagina " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ecbBuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u1ecc" Name="Naam tekstanker" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u1eccBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1eccBuildingBlock1" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1eccBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u1ecd" Name="Paginanummer" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u1ecdBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="pagina " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u1ecdBuildingBlock1" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<Story Self="uc6c3" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NN basis\%3a tussenkop h2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>Colophon</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NN colofon\%3a brood">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Br />
+				<Content>Network Notebook #09</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Content>Michael Seemann, Digital Tailspin: Ten Rules for the Internet After Snowden</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Tracking="-12">
+				<Content>This text is a translated and updated excerpt of </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/NN colofon\%3a brood italic" Tracking="-12">
+				<Content>Das Neue Spiel: Strategien für die Welt nach dem digitalen Kontrollverlust</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Tracking="-12">
+				<Content>,</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> Freiburg: Orange Press, 2014. Translated from the German by Anwen Roberts</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Br />
+				<Content>Network Notebooks editors:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> Geert Lovink and Miriam Rasch </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Content>Design:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+				<HyperlinkTextSource Self="uc9a6" Name="Hyperlink 14" Hidden="false" AppliedCharacterStyle="n">
+					<Content>Medamo</Content>
+				</HyperlinkTextSource>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>, Rotterdam </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Underline="true">
+				<Content>http://www.medamo.nl</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Content>EPUB development:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> André Castro </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Content>Copy-editing:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> Margarita Osipian </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Content>Printer:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> Printvisie </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Content>Publisher:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> Institute of Network Cultures, Amsterdam </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Content>Supported by:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> Amsterdam University of Applied Sciences (Hogeschool van Amsterdam), Amsterdam Creative Industries Publishing, Stichting Democratie en Media</Content>
+				<Br />
+				<Br />
+				<Content>If you want to order copies please contact: Institute of Network Cultures, Hogeschool van Amsterdam </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link" Underline="true">
+				<HyperlinkTextSource Self="uc9a9" Name="Hyperlink 15" Hidden="false" AppliedCharacterStyle="n">
+					<Content>http://www.networkcultures.org</Content>
+				</HyperlinkTextSource>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> books@networkcultures.org t: +31 (0)20 59 51 865</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Br />
+				<Content>EPUB and PDF editions of this publication are freely downloadable from:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link" Underline="true">
+				<HyperlinkTextSource Self="uc9aa" Name="Hyperlink 16" Hidden="false" AppliedCharacterStyle="n">
+					<Content>http://www.networkcultures.org/publications</Content>
+				</HyperlinkTextSource>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold">
+				<Content>License:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> WTFPDL – Do What the Fuck You Want to Public Digital License, </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+				<HyperlinkTextSource Self="uc9ab" Name="Hyperlink 17" Hidden="false" AppliedCharacterStyle="n">
+					<Content>http://wtfpdl.net/</Content>
+				</HyperlinkTextSource>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Br />
+				<Content>Amsterdam, March 2015 ISBN 978-90-822345-8-9 (print) ISBN 978-90-822345-9-6 (EPUB) </Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.leon-loes.nl" DestinationUniqueKey="1" Name="http://www.leon-loes.nl" DestinationURL="http://www.leon-loes.nl" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.networkcultures.org" DestinationUniqueKey="2" Name="http://www.networkcultures.org" DestinationURL="http://www.networkcultures.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/mailto%3ainfor@networkcultures.org" DestinationUniqueKey="3" Name="mailto:infor@networkcultures.org" DestinationURL="mailto:infor@networkcultures.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//fcforum.net/charter_extended" DestinationUniqueKey="4" Name="http://fcforum.net/charter_extended" DestinationURL="http://fcforum.net/charter_extended" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.ibm.com/developerworks/podcast/dwi/cmint082206txt.html" DestinationUniqueKey="5" Name="http://www.ibm.com/developerworks/podcast/dwi/cmint082206txt.html" DestinationURL="http://www.ibm.com/developerworks/podcast/dwi/cmint082206txt.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.paulgraham.com/web20.html" DestinationUniqueKey="6" Name="http://www.paulgraham.com/web20.html" DestinationURL="http://www.paulgraham.com/web20.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.iww.org/culture/official/preamble.shtml" DestinationUniqueKey="7" Name="http://www.iww.org/culture/official/preamble.shtml" DestinationURL="http://www.iww.org/culture/official/preamble.shtml" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.marxists.org/reference/subject/economics/keynes/general-theory/ch02.htm" DestinationUniqueKey="8" Name="http://www.marxists.org/reference/subject/economics/keynes/general-theory/ch02.htm" DestinationURL="http://www.marxists.org/reference/subject/economics/keynes/general-theory/ch02.htm" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.cddc.vt.edu/sionline/index.html" DestinationUniqueKey="9" Name="http://www.cddc.vt.edu/sionline/index.html" DestinationURL="http://www.cddc.vt.edu/sionline/index.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//eprints.bournemouth.ac.uk/3704/1/Birkbeck_06_04_final.pdf" DestinationUniqueKey="10" Name="http://eprints.bournemouth.ac.uk/3704/1/Birkbeck_06_04_final.pdf" DestinationURL="http://eprints.bournemouth.ac.uk/3704/1/Birkbeck_06_04_final.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.dime-eu.org/files/active/0/Kretschmer.pdf" DestinationUniqueKey="11" Name="http://www.dime-eu.org/files/active/0/Kretschmer.pdf" DestinationURL="http://www.dime-eu.org/files/active/0/Kretschmer.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.scribd.com/doc/20878564/MandelErnestHistorical-Materialism-and-the-Capitalist-State" DestinationUniqueKey="12" Name="http://www.scribd.com/doc/20878564/MandelErnestHistorical-Materialism-and-the-Capitalist-State" DestinationURL="http://www.scribd.com/doc/20878564/MandelErnestHistorical-Materialism-and-the-Capitalist-State" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.marxists.org/archive/marx/works/1859/critique-pol-economy/preface.htm" DestinationUniqueKey="13" Name="http://www.marxists.org/archive/marx/works/1859/critique-pol-economy/preface.htm" DestinationURL="http://www.marxists.org/archive/marx/works/1859/critique-pol-economy/preface.htm" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.marxists.org/archive/marx/works/1848/communist-manifesto/" DestinationUniqueKey="14" Name="http://www.marxists.org/archive/marx/works/1848/communist-manifesto/" DestinationURL="http://www.marxists.org/archive/marx/works/1848/communist-manifesto/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.econlib.org/library/Mill/mlP.html" DestinationUniqueKey="15" Name="http://www.econlib.org/library/Mill/mlP.html" DestinationURL="http://www.econlib.org/library/Mill/mlP.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//mpra.ub.unimuenchen.de/4578/1/MPRA_paper_4578.pdf" DestinationUniqueKey="16" Name="http://mpra.ub.unimuenchen.de/4578/1/MPRA_paper_4578.pdf" DestinationURL="http://mpra.ub.unimuenchen.de/4578/1/MPRA_paper_4578.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//socserv.mcmaster.ca/~econ/ugcm/3ll3/ricardo/profits.txt" DestinationUniqueKey="17" Name="http://socserv.mcmaster.ca/~econ/ugcm/3ll3/ricardo/profits.txt" DestinationURL="http://socserv.mcmaster.ca/~econ/ugcm/3ll3/ricardo/profits.txt" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.econlib.org/library/Ricardo/ricPCover.html" DestinationUniqueKey="18" Name="http://www.econlib.org/library/Ricardo/ricPCover.html" DestinationURL="http://www.econlib.org/library/Ricardo/ricPCover.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//networkcultures.org/wpmu/theoryondemand/titles/no04-imagine-there-are-is-no-copyright-and-no-cultural-conglomorates-too/" DestinationUniqueKey="19" Name="http://networkcultures.org/wpmu/theoryondemand/titles/no04-imagine-there-are-is-no-copyright-and-no-cultural-conglomorates-too/" DestinationURL="http://networkcultures.org/wpmu/theoryondemand/titles/no04-imagine-there-are-is-no-copyright-and-no-cultural-conglomorates-too/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.gnu.org/philosophy/pragmatic.html" DestinationUniqueKey="20" Name="http://www.gnu.org/philosophy/pragmatic.html" DestinationURL="http://www.gnu.org/philosophy/pragmatic.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//flag.blackened.net/daver/anarchism/tucker/tucker2.html" DestinationUniqueKey="21" Name="http://flag.blackened.net/daver/anarchism/tucker/tucker2.html" DestinationURL="http://flag.blackened.net/daver/anarchism/tucker/tucker2.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//update.unu.edu/issue44_22.htm" DestinationUniqueKey="22" Name="http://update.unu.edu/issue44_22.htm" DestinationURL="http://update.unu.edu/issue44_22.htm" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.marxists.org/archive/marx/works/1859/critique-pol-economy/preface.htm 23" DestinationUniqueKey="23" Name="http://www.marxists.org/archive/marx/works/1859/critique-pol-economy/preface.htm 23" DestinationURL="http://www.marxists.org/archive/marx/works/1859/critique-pol-economy/preface.htm" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.econlib.org/library/Ricardo/ricPCover.html 24" DestinationUniqueKey="24" Name="http://www.econlib.org/library/Ricardo/ricPCover.html 24" DestinationURL="http://www.econlib.org/library/Ricardo/ricPCover.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.econlib.org/library/Mill/mlP.html 25" DestinationUniqueKey="25" Name="http://www.econlib.org/library/Mill/mlP.html 25" DestinationURL="http://www.econlib.org/library/Mill/mlP.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//socserv.mcmaster.ca/~econ/ugcm/3ll3/ricardo/profits.txt 26" DestinationUniqueKey="26" Name="http://socserv.mcmaster.ca/~econ/ugcm/3ll3/ricardo/profits.txt 26" DestinationURL="http://socserv.mcmaster.ca/~econ/ugcm/3ll3/ricardo/profits.txt" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.marxists.org/reference/subject/economics/keynes/general-theory/ch02.htm 27" DestinationUniqueKey="27" Name="http://www.marxists.org/reference/subject/economics/keynes/general-theory/ch02.htm 27" DestinationURL="http://www.marxists.org/reference/subject/economics/keynes/general-theory/ch02.htm" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.scribd.com/doc/20878564/Mandel-Ernest-Historical-Materialism-and-the-Capitalist-State" DestinationUniqueKey="28" Name="http://www.scribd.com/doc/20878564/Mandel-Ernest-Historical-Materialism-and-the-Capitalist-State" DestinationURL="http://www.scribd.com/doc/20878564/Mandel-Ernest-Historical-Materialism-and-the-Capitalist-State" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//update.unu.edu/issue44_22.htm 29" DestinationUniqueKey="29" Name="http://update.unu.edu/issue44_22.htm 29" DestinationURL="http://update.unu.edu/issue44_22.htm" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.wider.unu.edu/events/past-events/2006-events/en_GB/05-12-2006/_files/78079217418699128/default/wider-wdhw-press-release-5-12-2006.pdf" DestinationUniqueKey="30" Name="http://www.wider.unu.edu/events/past-events/2006-events/en_GB/05-12-2006/_files/78079217418699128/default/wider-wdhw-press-release-5-12-2006.pdf" DestinationURL="http://www.wider.unu.edu/events/past-events/2006-events/en_GB/05-12-2006/_files/78079217418699128/default/wider-wdhw-press-release-5-12-2006.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.ibm.com/developerworks/podcast/dwi/cm-int082206txt.html" DestinationUniqueKey="31" Name="http://www.ibm.com/developerworks/podcast/dwi/cm-int082206txt.html" DestinationURL="http://www.ibm.com/developerworks/podcast/dwi/cm-int082206txt.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.paulgraham.com/opensource.html" DestinationUniqueKey="32" Name="http://www.paulgraham.com/opensource.html" DestinationURL="http://www.paulgraham.com/opensource.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//mpra.ub.uni-muenchen.de/4578/1/MPRA_paper_4578.pdf" DestinationUniqueKey="33" Name="http://mpra.ub.uni-muenchen.de/4578/1/MPRA_paper_4578.pdf" DestinationURL="http://mpra.ub.uni-muenchen.de/4578/1/MPRA_paper_4578.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//europa.eu/rapid/pressReleasesAction.do?reference=IP/07/1677&amp;format" DestinationUniqueKey="34" Name="http://europa.eu/rapid/pressReleasesAction.do?reference=IP/07/1677&amp;format" DestinationURL="http://europa.eu/rapid/pressReleasesAction.do?reference=IP/07/1677&amp;format" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.marxists.org/archive/marx/works/1848/communist-manifesto/ 35" DestinationUniqueKey="35" Name="http://www.marxists.org/archive/marx/works/1848/communist-manifesto/ 35" DestinationURL="http://www.marxists.org/archive/marx/works/1848/communist-manifesto/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//fcforum.net/charter_extended 36" DestinationUniqueKey="36" Name="http://fcforum.net/charter_extended 36" DestinationURL="http://fcforum.net/charter_extended" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.copyrighthistory.org/" DestinationUniqueKey="37" Name="http://www.copyrighthistory.org/" DestinationURL="http://www.copyrighthistory.org/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.gutenberg.org/ebooks/360" DestinationUniqueKey="38" Name="http://www.gutenberg.org/ebooks/360" DestinationURL="http://www.gutenberg.org/ebooks/360" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//flag.blackened.net/daver/anarchism/tucker/tucker2.html 39" DestinationUniqueKey="39" Name="http://flag.blackened.net/daver/anarchism/tucker/tucker2.html 39" DestinationURL="http://flag.blackened.net/daver/anarchism/tucker/tucker2.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//networkcultures.org/wpmu/theoryondemand/titles/no04-imagine-there-are-is-no-copyright-and-no-cultural-conglomorates-too/ 40" DestinationUniqueKey="40" Name="http://networkcultures.org/wpmu/theoryondemand/titles/no04-imagine-there-are-is-no-copyright-and-no-cultural-conglomorates-too/ 40" DestinationURL="http://networkcultures.org/wpmu/theoryondemand/titles/no04-imagine-there-are-is-no-copyright-and-no-cultural-conglomorates-too/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.cddc.vt.edu/sionline/index.html 41" DestinationUniqueKey="41" Name="http://www.cddc.vt.edu/sionline/index.html 41" DestinationURL="http://www.cddc.vt.edu/sionline/index.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.fsf.org/" DestinationUniqueKey="42" Name="http://www.fsf.org/" DestinationURL="http://www.fsf.org/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//emoglen.law.columbia.edu/my_pubs/dcm.html" DestinationUniqueKey="43" Name="http://emoglen.law.columbia.edu/my_pubs/dcm.html" DestinationURL="http://emoglen.law.columbia.edu/my_pubs/dcm.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//eprints.bournemouth.ac.uk/3704/1/Birkbeck_06_04_final.pdf 44" DestinationUniqueKey="44" Name="http://eprints.bournemouth.ac.uk/3704/1/Birkbeck_06_04_final.pdf 44" DestinationURL="http://eprints.bournemouth.ac.uk/3704/1/Birkbeck_06_04_final.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=37894" DestinationUniqueKey="45" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=37894" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=37894" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=37996" DestinationUniqueKey="46" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=37996" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=37996" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=51858" DestinationUniqueKey="47" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=51858" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=51858" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=46407" DestinationUniqueKey="48" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=46407" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=46407" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.generation-online.org/p/fp_affectivelabour.htm" DestinationUniqueKey="49" Name="http://www.generation-online.org/p/fp_affectivelabour.htm" DestinationURL="http://www.generation-online.org/p/fp_affectivelabour.htm" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=50916" DestinationUniqueKey="50" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=50916" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=50916" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.naomiklein.org/articles/2001/10/signs-times" DestinationUniqueKey="51" Name="http://www.naomiklein.org/articles/2001/10/signs-times" DestinationURL="http://www.naomiklein.org/articles/2001/10/signs-times" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//blog.tacticalmediafiles.net/?p=106" DestinationUniqueKey="52" Name="http://blog.tacticalmediafiles.net/?p=106" DestinationURL="http://blog.tacticalmediafiles.net/?p=106" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//blog.tacticalmediafiles.net/?p=175" DestinationUniqueKey="53" Name="http://blog.tacticalmediafiles.net/?p=175" DestinationURL="http://blog.tacticalmediafiles.net/?p=175" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.skor.nl/eng/archive/item/open-11-hybrid-space-how-wireless-media-are-mobilizing-public-space?single=1" DestinationUniqueKey="54" Name="http://www.skor.nl/eng/archive/item/open-11-hybrid-space-how-wireless-media-are-mobilizing-public-space?single=1" DestinationURL="http://www.skor.nl/eng/archive/item/open-11-hybrid-space-how-wireless-media-are-mobilizing-public-space?single=1" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=49512" DestinationUniqueKey="55" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=49512" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=49512" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//networkcultures.org/wpmu/geert/urgent-aphorisms-notes-on-organized-networks-for-the-connected-multitudes/" DestinationUniqueKey="56" Name="http://networkcultures.org/wpmu/geert/urgent-aphorisms-notes-on-organized-networks-for-the-connected-multitudes/" DestinationURL="http://networkcultures.org/wpmu/geert/urgent-aphorisms-notes-on-organized-networks-for-the-connected-multitudes/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=46490" DestinationUniqueKey="57" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=46490" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=46490" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=42801" DestinationUniqueKey="58" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=42801" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=42801" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.adbusters.org/blogs/blackspot-blog/what-mental-environmentalism.html" DestinationUniqueKey="59" Name="http://www.adbusters.org/blogs/blackspot-blog/what-mental-environmentalism.html" DestinationURL="http://www.adbusters.org/blogs/blackspot-blog/what-mental-environmentalism.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//hermetic.com/bey/pw-creed.html" DestinationUniqueKey="60" Name="http://hermetic.com/bey/pw-creed.html" DestinationURL="http://hermetic.com/bey/pw-creed.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.guardian.co.uk/commentisfree/2011/nov/06/naomi-wolf-occupy-movemen" DestinationUniqueKey="61" Name="http://www.guardian.co.uk/commentisfree/2011/nov/06/naomi-wolf-occupy-movemen" DestinationURL="http://www.guardian.co.uk/commentisfree/2011/nov/06/naomi-wolf-occupy-movemen" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//arteeast.org/pages/literature/641/" DestinationUniqueKey="62" Name="http://arteeast.org/pages/literature/641/" DestinationURL="http://arteeast.org/pages/literature/641/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=50916 63" DestinationUniqueKey="63" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=50916 63" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=50916" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=37996 64" DestinationUniqueKey="64" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=37996 64" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=37996" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.skor.nl/eng/publications/item/open-11-hybrid-space-how-wireless-media-are-mobilizing-public-space?single=1" DestinationUniqueKey="65" Name="http://www.skor.nl/eng/publications/item/open-11-hybrid-space-how-wireless-media-are-mobilizing-public-space?single=1" DestinationURL="http://www.skor.nl/eng/publications/item/open-11-hybrid-space-how-wireless-media-are-mobilizing-public-space?single=1" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.n5m.org/n5m3/pages/FAQ/faq001.htm#1.2. Tactical Media?" DestinationUniqueKey="66" Name="http://www.n5m.org/n5m3/pages/FAQ/faq001.htm#1.2. Tactical Media?" DestinationURL="http://www.n5m.org/n5m3/pages/FAQ/faq001.htm#1.2. Tactical Media?" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.believermag.com/issues/200911/?read=interview_blegvad" DestinationUniqueKey="67" Name="http://www.believermag.com/issues/200911/?read=interview_blegvad" DestinationURL="http://www.believermag.com/issues/200911/?read=interview_blegvad" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.amateur.org.uk/" DestinationUniqueKey="68" Name="http://www.amateur.org.uk/" DestinationURL="http://www.amateur.org.uk/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=46407 69" DestinationUniqueKey="69" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=46407 69" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=46407" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=42801 70" DestinationUniqueKey="70" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=42801 70" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=42801" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.next5minutes.org/about.jsp" DestinationUniqueKey="71" Name="http://www.next5minutes.org/about.jsp" DestinationURL="http://www.next5minutes.org/about.jsp" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=49512 72" DestinationUniqueKey="72" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=49512 72" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=49512" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=46490 73" DestinationUniqueKey="73" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=46490 73" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=46490" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=37894 74" DestinationUniqueKey="74" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=37894 74" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=37894" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//blog.tacticalmediafiles.net/?p=175 75" DestinationUniqueKey="75" Name="http://blog.tacticalmediafiles.net/?p=175 75" DestinationURL="http://blog.tacticalmediafiles.net/?p=175" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.naomiklein.org/articles/2001/10/signs-times 76" DestinationUniqueKey="76" Name="http://www.naomiklein.org/articles/2001/10/signs-times 76" DestinationURL="http://www.naomiklein.org/articles/2001/10/signs-times" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.adbusters.org/" DestinationUniqueKey="77" Name="http://www.adbusters.org/" DestinationURL="http://www.adbusters.org/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.adbusters.org/blogs/blackspot-blog/what-mental-environmentalism.html 78" DestinationUniqueKey="78" Name="http://www.adbusters.org/blogs/blackspot-blog/what-mental-environmentalism.html 78" DestinationURL="http://www.adbusters.org/blogs/blackspot-blog/what-mental-environmentalism.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=53664" DestinationUniqueKey="79" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=53664" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=53664" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.schlingensief.com/projekt_eng.php?id=t014" DestinationUniqueKey="80" Name="http://www.schlingensief.com/projekt_eng.php?id=t014" DestinationURL="http://www.schlingensief.com/projekt_eng.php?id=t014" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.ox-fanzine.de/web/itv/489/interviews.212.html" DestinationUniqueKey="81" Name="http://www.ox-fanzine.de/web/itv/489/interviews.212.html" DestinationURL="http://www.ox-fanzine.de/web/itv/489/interviews.212.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=51858 82" DestinationUniqueKey="82" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=51858 82" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=51858" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=52740" DestinationUniqueKey="83" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=52740" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=52740" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//hermetic.com/bey/pw-creed.html 84" DestinationUniqueKey="84" Name="http://hermetic.com/bey/pw-creed.html 84" DestinationURL="http://hermetic.com/bey/pw-creed.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.skor.nl/eng/archive/item/open-11-hybrid-space-how-wireless-media-are-mobilizing-public-space?single=1 85" DestinationUniqueKey="85" Name="http://www.skor.nl/eng/archive/item/open-11-hybrid-space-how-wireless-media-are-mobilizing-public-space?single=1 85" DestinationURL="http://www.skor.nl/eng/archive/item/open-11-hybrid-space-how-wireless-media-are-mobilizing-public-space?single=1" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//permalink.gmane.org/gmane.culture.internet.nettime/1979" DestinationUniqueKey="86" Name="http://permalink.gmane.org/gmane.culture.internet.nettime/1979" DestinationURL="http://permalink.gmane.org/gmane.culture.internet.nettime/1979" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//rts.gn.apc.org/" DestinationUniqueKey="87" Name="http://rts.gn.apc.org/" DestinationURL="http://rts.gn.apc.org/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.appliedautonomy.com/isee.html" DestinationUniqueKey="88" Name="http://www.appliedautonomy.com/isee.html" DestinationURL="http://www.appliedautonomy.com/isee.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//publiclaboratory.org/tool/balloon-mapping" DestinationUniqueKey="89" Name="http://publiclaboratory.org/tool/balloon-mapping" DestinationURL="http://publiclaboratory.org/tool/balloon-mapping" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//arteeast.org/pages/literature/641/ 90" DestinationUniqueKey="90" Name="http://arteeast.org/pages/literature/641/ 90" DestinationURL="http://arteeast.org/pages/literature/641/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=50916 91" DestinationUniqueKey="91" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=50916 91" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=50916" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.next5minutes.org/article.jsp?articleid=749" DestinationUniqueKey="92" Name="http://www.next5minutes.org/article.jsp?articleid=749" DestinationURL="http://www.next5minutes.org/article.jsp?articleid=749" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.democraciarealya.es/manifiesto-comun/manifesto-english" DestinationUniqueKey="93" Name="http://www.democraciarealya.es/manifiesto-comun/manifesto-english" DestinationURL="http://www.democraciarealya.es/manifiesto-comun/manifesto-english" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//takethesquare.net/" DestinationUniqueKey="94" Name="http://takethesquare.net/" DestinationURL="http://takethesquare.net/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//blog.tacticalmediafiles.net/?p=106 95" DestinationUniqueKey="95" Name="http://blog.tacticalmediafiles.net/?p=106 95" DestinationURL="http://blog.tacticalmediafiles.net/?p=106" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.tacticalmediafiles.net/article.jsp?objectnumber=46245" DestinationUniqueKey="96" Name="http://www.tacticalmediafiles.net/article.jsp?objectnumber=46245" DestinationURL="http://www.tacticalmediafiles.net/article.jsp?objectnumber=46245" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//networkcultures.org/wpmu/geert/urgent-aphorisms-notes-on-organized-networks-for-the-connected-multitudes/ 97" DestinationUniqueKey="97" Name="http://networkcultures.org/wpmu/geert/urgent-aphorisms-notes-on-organized-networks-for-the-connected-multitudes/ 97" DestinationURL="http://networkcultures.org/wpmu/geert/urgent-aphorisms-notes-on-organized-networks-for-the-connected-multitudes/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.guardian.co.uk/commentisfree/2011/nov/06/naomi-wolf-occupy-movemen 98" DestinationUniqueKey="98" Name="http://www.guardian.co.uk/commentisfree/2011/nov/06/naomi-wolf-occupy-movemen 98" DestinationURL="http://www.guardian.co.uk/commentisfree/2011/nov/06/naomi-wolf-occupy-movemen" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//popcorn.webmaker.org/templates/basic/?savedDataUrl=lego.json" DestinationUniqueKey="100" Name="https://popcorn.webmaker.org/templates/basic/?savedDataUrl=lego.json" DestinationURL="https://popcorn.webmaker.org/templates/basic/?savedDataUrl=lego.json" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.altx.com/ebr/info/contribs/contribs.htm" DestinationUniqueKey="101" Name="http://www.altx.com/ebr/info/contribs/contribs.htm" DestinationURL="http://www.altx.com/ebr/info/contribs/contribs.htm" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.wired.com/dangerroom/2012/06/ff_futuredrones/" DestinationUniqueKey="102" Name="http://www.wired.com/dangerroom/2012/06/ff_futuredrones/" DestinationURL="http://www.wired.com/dangerroom/2012/06/ff_futuredrones/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//networkcultures.org/wpmu/portal/publications/inc-readers/video-vortex-ii/" DestinationUniqueKey="103" Name="http://networkcultures.org/wpmu/portal/publications/inc-readers/video-vortex-ii/" DestinationURL="http://networkcultures.org/wpmu/portal/publications/inc-readers/video-vortex-ii/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.e-flux.com/journal/some-experiments-in-art-and-politics/" DestinationUniqueKey="104" Name="http://www.e-flux.com/journal/some-experiments-in-art-and-politics/" DestinationURL="http://www.e-flux.com/journal/some-experiments-in-art-and-politics/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//networkcultures.org/wpmu/portal/publications/inc-readers/video-vortex-ii/ 105" DestinationUniqueKey="105" Name="http://networkcultures.org/wpmu/portal/publications/inc-readers/video-vortex-ii/ 105" DestinationURL="http://networkcultures.org/wpmu/portal/publications/inc-readers/video-vortex-ii/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//networkcultures.org/wpmu/portal/publications/inc-readers/videovortex/" DestinationUniqueKey="106" Name="http://networkcultures.org/wpmu/portal/publications/inc-readers/videovortex/" DestinationURL="http://networkcultures.org/wpmu/portal/publications/inc-readers/videovortex/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//208.70.246.208/art/features/2005/04/03/332/" DestinationUniqueKey="107" Name="http://208.70.246.208/art/features/2005/04/03/332/" DestinationURL="http://208.70.246.208/art/features/2005/04/03/332/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.bookforum.com/archive/feb_05/funcke.html" DestinationUniqueKey="108" Name="http://www.bookforum.com/archive/feb_05/funcke.html" DestinationURL="http://www.bookforum.com/archive/feb_05/funcke.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//felix.openflows.org/html/objects_flows.pdf" DestinationUniqueKey="109" Name="http://felix.openflows.org/html/objects_flows.pdf" DestinationURL="http://felix.openflows.org/html/objects_flows.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//networkcultures.org/wpmu/portal/publications/inc-readers/videovortex/ 110" DestinationUniqueKey="110" Name="http://networkcultures.org/wpmu/portal/publications/inc-readers/videovortex/ 110" DestinationURL="http://networkcultures.org/wpmu/portal/publications/inc-readers/videovortex/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//networkcultures.org/wpmu/portal/publications/inc-readers/video-vortex-ii/ 111" DestinationUniqueKey="111" Name="http://networkcultures.org/wpmu/portal/publications/inc-readers/video-vortex-ii/ 111" DestinationURL="http://networkcultures.org/wpmu/portal/publications/inc-readers/video-vortex-ii/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//hyperland.com/ccynPage.htm" DestinationUniqueKey="112" Name="http://hyperland.com/ccynPage.htm" DestinationURL="http://hyperland.com/ccynPage.htm" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.siggraph.org/artdesign/profile/whitney/early.html" DestinationUniqueKey="113" Name="http://www.siggraph.org/artdesign/profile/whitney/early.html" DestinationURL="http://www.siggraph.org/artdesign/profile/whitney/early.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.doclab.org/2008/videosphere/" DestinationUniqueKey="114" Name="http://www.doclab.org/2008/videosphere/" DestinationURL="http://www.doclab.org/2008/videosphere/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//videovortex9.net/about/" DestinationUniqueKey="115" Name="http://videovortex9.net/about/" DestinationURL="http://videovortex9.net/about/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//popcorn.webmaker.org" DestinationUniqueKey="116" Name="https://popcorn.webmaker.org" DestinationURL="https://popcorn.webmaker.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//felix.openflows.com/html/space_of_flows.html" DestinationUniqueKey="117" Name="http://felix.openflows.com/html/space_of_flows.html" DestinationURL="http://felix.openflows.com/html/space_of_flows.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//felix.openflows.org/html/objects_flows.pdf 118" DestinationUniqueKey="118" Name="http://felix.openflows.org/html/objects_flows.pdf 118" DestinationURL="http://felix.openflows.org/html/objects_flows.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.cilect" DestinationUniqueKey="119" Name="http://www.cilect" DestinationURL="http://www.cilect" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//208.70.246.208/art/features/2005/04/03/332/ 120" DestinationUniqueKey="120" Name="http://208.70.246.208/art/features/2005/04/03/332/ 120" DestinationURL="http://208.70.246.208/art/features/2005/04/03/332/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.altx.com/ebr/info/contribs/contribs.htm 121" DestinationUniqueKey="121" Name="http://www.altx.com/ebr/info/contribs/contribs.htm 121" DestinationURL="http://www.altx.com/ebr/info/contribs/contribs.htm" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.bookforum.com/archive/feb_05/funcke.html 122" DestinationUniqueKey="122" Name="http://www.bookforum.com/archive/feb_05/funcke.html 122" DestinationURL="http://www.bookforum.com/archive/feb_05/funcke.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.fu-berlin.de/presse/publikationen/fundiert/2009_01/12_zeisberg/index.html" DestinationUniqueKey="123" Name="http://www.fu-berlin.de/presse/publikationen/fundiert/2009_01/12_zeisberg/index.html" DestinationURL="http://www.fu-berlin.de/presse/publikationen/fundiert/2009_01/12_zeisberg/index.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.uic.edu/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/3775/3142" DestinationUniqueKey="124" Name="http://www.uic.edu/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/3775/3142" DestinationURL="http://www.uic.edu/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/3775/3142" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.e-flux.com/journal/some-experiments-in-art-and-politics/ 125" DestinationUniqueKey="125" Name="http://www.e-flux.com/journal/some-experiments-in-art-and-politics/ 125" DestinationURL="http://www.e-flux.com/journal/some-experiments-in-art-and-politics/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.youtube.com/watch?v=5eVjhQXRDa4" DestinationUniqueKey="126" Name="http://www.youtube.com/watch?v=5eVjhQXRDa4" DestinationURL="http://www.youtube.com/watch?v=5eVjhQXRDa4" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.youtube.com/watch?feature=player_embedded&amp;v=3qVuDNpesyE&amp;noredirect=1" DestinationUniqueKey="127" Name="http://www.youtube.com/watch?feature=player_embedded&amp;v=3qVuDNpesyE&amp;noredirect=1" DestinationURL="http://www.youtube.com/watch?feature=player_embedded&amp;v=3qVuDNpesyE&amp;noredirect=1" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.youtube.com/watch?feature=endscreen&amp;NR=1&amp;v=fA8ZBN0--GU" DestinationUniqueKey="128" Name="http://www.youtube.com/watch?feature=endscreen&amp;NR=1&amp;v=fA8ZBN0--GU" DestinationURL="http://www.youtube.com/watch?feature=endscreen&amp;NR=1&amp;v=fA8ZBN0--GU" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//gle.ovo.kom.uni.st/" DestinationUniqueKey="129" Name="http://gle.ovo.kom.uni.st/" DestinationURL="http://gle.ovo.kom.uni.st/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.theguardian.com/technology/2013/jul/14/how-selfies-became-a-global-phenomenon 10" DestinationUniqueKey="132" Name="http://www.theguardian.com/technology/2013/jul/14/how-selfies-became-a-global-phenomenon 10" DestinationURL="http://www.theguardian.com/technology/2013/jul/14/how-selfies-became-a-global-phenomenon" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.youtube.com/watch?v=vbqIQcKNE7E" DestinationUniqueKey="133" Name="http://www.youtube.com/watch?v=vbqIQcKNE7E" DestinationURL="http://www.youtube.com/watch?v=vbqIQcKNE7E" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//d25rsf93iwlmgu.cloudfront.net/downloads/Tifentale_Alise_Selfiecity.pdf 12" DestinationUniqueKey="134" Name="http://d25rsf93iwlmgu.cloudfront.net/downloads/Tifentale_Alise_Selfiecity.pdf 12" DestinationURL="http://d25rsf93iwlmgu.cloudfront.net/downloads/Tifentale_Alise_Selfiecity.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.youtube.com/watch?v=dQqozmwlE00" DestinationUniqueKey="135" Name="http://www.youtube.com/watch?v=dQqozmwlE00" DestinationURL="http://www.youtube.com/watch?v=dQqozmwlE00" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.youtube.com/watch?v=TW9NnaB0Rfs" DestinationUniqueKey="136" Name="http://www.youtube.com/watch?v=TW9NnaB0Rfs" DestinationURL="http://www.youtube.com/watch?v=TW9NnaB0Rfs" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.ispot.tv/ad/7AUE/sprint-be-unlimited" DestinationUniqueKey="137" Name="http://www.ispot.tv/ad/7AUE/sprint-be-unlimited" DestinationURL="http://www.ispot.tv/ad/7AUE/sprint-be-unlimited" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.youtube.com/watch?v=jZGzXEExZcc" DestinationUniqueKey="138" Name="http://www.youtube.com/watch?v=jZGzXEExZcc" DestinationURL="http://www.youtube.com/watch?v=jZGzXEExZcc" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//getnarrative.com/?sid=8528cf41ddf4bf601c5fdf895584c5c6" DestinationUniqueKey="139" Name="http://getnarrative.com/?sid=8528cf41ddf4bf601c5fdf895584c5c6" DestinationURL="http://getnarrative.com/?sid=8528cf41ddf4bf601c5fdf895584c5c6" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.cc.gatech.edu/~sbakhshi/faces2014-bakhshi.pdf" DestinationUniqueKey="140" Name="http://www.cc.gatech.edu/~sbakhshi/faces2014-bakhshi.pdf" DestinationURL="http://www.cc.gatech.edu/~sbakhshi/faces2014-bakhshi.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//iconosquare.com/viewer.php/detail/487109033256845351_23737591" DestinationUniqueKey="141" Name="http://iconosquare.com/viewer.php/detail/487109033256845351_23737591" DestinationURL="http://iconosquare.com/viewer.php/detail/487109033256845351_23737591" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.digitaltrends.com/social-media/are-you-an-instagram-wizard-or-wannabe-your-favorite-filters-are-more-revealing-than-you-think/ 20" DestinationUniqueKey="142" Name="http://www.digitaltrends.com/social-media/are-you-an-instagram-wizard-or-wannabe-your-favorite-filters-are-more-revealing-than-you-think/ 20" DestinationURL="http://www.digitaltrends.com/social-media/are-you-an-instagram-wizard-or-wannabe-your-favorite-filters-are-more-revealing-than-you-think/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.inter-disciplinary.net/at-the-interface/wp-content/uploads/2012/05/chandlervlpaper.pdf 21" DestinationUniqueKey="143" Name="http://www.inter-disciplinary.net/at-the-interface/wp-content/uploads/2012/05/chandlervlpaper.pdf 21" DestinationURL="http://www.inter-disciplinary.net/at-the-interface/wp-content/uploads/2012/05/chandlervlpaper.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//thesocietypages.org/cyborgology/2011/05/14/the-faux-vintage-photo-full-essay-parts-i-ii-and-iii/ 22" DestinationUniqueKey="144" Name="http://thesocietypages.org/cyborgology/2011/05/14/the-faux-vintage-photo-full-essay-parts-i-ii-and-iii/ 22" DestinationURL="http://thesocietypages.org/cyborgology/2011/05/14/the-faux-vintage-photo-full-essay-parts-i-ii-and-iii/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.hashtagig.com/top-hashtags-on-instagram.php 23" DestinationUniqueKey="145" Name="http://www.hashtagig.com/top-hashtags-on-instagram.php 23" DestinationURL="http://www.hashtagig.com/top-hashtags-on-instagram.php" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www-personal.umich.edu/~qmei/pub/www2012-yang.pdf 24" DestinationUniqueKey="146" Name="http://www-personal.umich.edu/~qmei/pub/www2012-yang.pdf 24" DestinationURL="http://www-personal.umich.edu/~qmei/pub/www2012-yang.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.academia.edu/181997/A_life_more_photographic_%2520mapping_the_networked_image 25" DestinationUniqueKey="147" Name="http://www.academia.edu/181997/A_life_more_photographic_%20mapping_the_networked_image 25" DestinationURL="http://www.academia.edu/181997/A_life_more_photographic_%20mapping_the_networked_image" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.dailydot.com/culture/20-most-popular-instagram-tags/ 26" DestinationUniqueKey="148" Name="http://www.dailydot.com/culture/20-most-popular-instagram-tags/ 26" DestinationURL="http://www.dailydot.com/culture/20-most-popular-instagram-tags/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.nytimes.com/2012/11/04/magazine/in-praise-of-the-hashtag.html?pagewanted=all" DestinationUniqueKey="149" Name="http://www.nytimes.com/2012/11/04/magazine/in-praise-of-the-hashtag.html?pagewanted=all" DestinationURL="http://www.nytimes.com/2012/11/04/magazine/in-praise-of-the-hashtag.html?pagewanted=all" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.nytimes.com/2011/06/12/fashion/hashtags-a-new-way-for-tweets-cultural-studies.html?pagewanted=all&amp;_r=0" DestinationUniqueKey="150" Name="http://www.nytimes.com/2011/06/12/fashion/hashtags-a-new-way-for-tweets-cultural-studies.html?pagewanted=all&amp;_r=0" DestinationURL="http://www.nytimes.com/2011/06/12/fashion/hashtags-a-new-way-for-tweets-cultural-studies.html?pagewanted=all&amp;_r=0" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//iconosquare.com/viewer.php#/user/409731523/" DestinationUniqueKey="151" Name="http://iconosquare.com/viewer.php#/user/409731523/" DestinationURL="http://iconosquare.com/viewer.php#/user/409731523/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.hashtagig.com/top-hashtags-on-instagram.php" DestinationUniqueKey="153" Name="http://www.hashtagig.com/top-hashtags-on-instagram.php" DestinationURL="http://www.hashtagig.com/top-hashtags-on-instagram.php" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//thesocietypages.org/cyborgology/2011/05/14/the-faux-vintage-photo-full-essay-parts-i-ii-and-iii/" DestinationUniqueKey="154" Name="http://thesocietypages.org/cyborgology/2011/05/14/the-faux-vintage-photo-full-essay-parts-i-ii-and-iii/" DestinationURL="http://thesocietypages.org/cyborgology/2011/05/14/the-faux-vintage-photo-full-essay-parts-i-ii-and-iii/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.inter-disciplinary.net/at-the-interface/wp-content/uploads/2012/05/chandlervlpaper.pdf" DestinationUniqueKey="155" Name="http://www.inter-disciplinary.net/at-the-interface/wp-content/uploads/2012/05/chandlervlpaper.pdf" DestinationURL="http://www.inter-disciplinary.net/at-the-interface/wp-content/uploads/2012/05/chandlervlpaper.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.theguardian.com/technology/2013/jul/14/how-selfies-became-a-global-phenomenon" DestinationUniqueKey="156" Name="http://www.theguardian.com/technology/2013/jul/14/how-selfies-became-a-global-phenomenon" DestinationURL="http://www.theguardian.com/technology/2013/jul/14/how-selfies-became-a-global-phenomenon" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.dailydot.com/culture/20-most-popular-instagram-tags/" DestinationUniqueKey="157" Name="http://www.dailydot.com/culture/20-most-popular-instagram-tags/" DestinationURL="http://www.dailydot.com/culture/20-most-popular-instagram-tags/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.academia.edu/181997/A_life_more_photographic_%2520mapping_the_networked_image" DestinationUniqueKey="158" Name="http://www.academia.edu/181997/A_life_more_photographic_%20mapping_the_networked_image" DestinationURL="http://www.academia.edu/181997/A_life_more_photographic_%20mapping_the_networked_image" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.digitaltrends.com/social-media/are-you-an-instagram-wizard-or-wannabe-your-favorite-filters-are-more-revealing-than-you-think/" DestinationUniqueKey="159" Name="http://www.digitaltrends.com/social-media/are-you-an-instagram-wizard-or-wannabe-your-favorite-filters-are-more-revealing-than-you-think/" DestinationURL="http://www.digitaltrends.com/social-media/are-you-an-instagram-wizard-or-wannabe-your-favorite-filters-are-more-revealing-than-you-think/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//d25rsf93iwlmgu.cloudfront.net/downloads/Tifentale_Alise_Selfiecity.pdf" DestinationUniqueKey="160" Name="http://d25rsf93iwlmgu.cloudfront.net/downloads/Tifentale_Alise_Selfiecity.pdf" DestinationURL="http://d25rsf93iwlmgu.cloudfront.net/downloads/Tifentale_Alise_Selfiecity.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www-personal.umich.edu/~qmei/pub/www2012-yang.pdf" DestinationUniqueKey="161" Name="http://www-personal.umich.edu/~qmei/pub/www2012-yang.pdf" DestinationURL="http://www-personal.umich.edu/~qmei/pub/www2012-yang.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/link" DestinationUniqueKey="163" Name="link" DestinationURL="" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 159" DestinationUniqueKey="164" Name="URL 159" DestinationURL="publications" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 160" DestinationUniqueKey="165" Name="URL 160" DestinationURL="www.networkcultures.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 161" DestinationUniqueKey="166" Name="URL 161" DestinationURL="http://medamo.nl/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 162" DestinationUniqueKey="167" Name="URL 162" DestinationURL="publications" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 163" DestinationUniqueKey="168" Name="URL 163" DestinationURL="www.networkcultures.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 164" DestinationUniqueKey="169" Name="URL 164" DestinationURL="http://medamo.nl/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 165" DestinationUniqueKey="170" Name="URL 165" DestinationURL="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 166" DestinationUniqueKey="171" Name="URL 166" DestinationURL="https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 167" DestinationUniqueKey="172" Name="URL 167" DestinationURL="http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 168" DestinationUniqueKey="173" Name="URL 168" DestinationURL="http://ago.mo.gov/VehicleStops/2013/reports/161.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 169" DestinationUniqueKey="174" Name="URL 169" DestinationURL="https://www.e-mail-made-in-germany.de/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 170" DestinationUniqueKey="175" Name="URL 170" DestinationURL="http://xkcd.com/386/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 171" DestinationUniqueKey="176" Name="URL 171" DestinationURL="http://library.fes.de/pdf-files/dialog/10861.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 172" DestinationUniqueKey="177" Name="URL 172" DestinationURL="https://www.startnext.de/ctrlverlust/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 173" DestinationUniqueKey="178" Name="URL 173" DestinationURL="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 174" DestinationUniqueKey="179" Name="URL 174" DestinationURL="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 175" DestinationUniqueKey="180" Name="URL 175" DestinationURL="https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 176" DestinationUniqueKey="181" Name="URL 176" DestinationURL="http://www.wired.com/2014/08/edward-snowden" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 177" DestinationUniqueKey="182" Name="URL 177" DestinationURL="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 178" DestinationUniqueKey="183" Name="URL 178" DestinationURL="" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 179" DestinationUniqueKey="184" Name="URL 179" DestinationURL="publications" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 180" DestinationUniqueKey="185" Name="URL 180" DestinationURL="www.networkcultures.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 181" DestinationUniqueKey="186" Name="URL 181" DestinationURL="http://medamo.nl/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 182" DestinationUniqueKey="187" Name="URL 182" DestinationURL="http://www.nzz.ch/aktuell/startseite/die-toten-vor-europas-tueren-1.18272891" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 183" DestinationUniqueKey="188" Name="URL 183" DestinationURL="https://connected.tante.cc/2014/08/25/digitale-souveraenitaet/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 184" DestinationUniqueKey="189" Name="URL 184" DestinationURL="http://gigaom.com/2010/03/14/sxsw-shirkys-new-opportunities-in-public-sharing/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 185" DestinationUniqueKey="190" Name="URL 185" DestinationURL="http://ago.mo.gov/VehicleStops/2013/reports/161.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 186" DestinationUniqueKey="191" Name="URL 186" DestinationURL="https://www.e-mail-made-in-germany.de/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 187" DestinationUniqueKey="192" Name="URL 187" DestinationURL="http://xkcd.com/386/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 188" DestinationUniqueKey="193" Name="URL 188" DestinationURL="http://library.fes.de/pdf-files/dialog/10861.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 189" DestinationUniqueKey="194" Name="URL 189" DestinationURL="https://www.startnext.de/ctrlverlust/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 190" DestinationUniqueKey="195" Name="URL 190" DestinationURL="http://boingboing.net/2012/01/30/brits-deported-from-u-s-for-t.html" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 191" DestinationUniqueKey="196" Name="URL 191" DestinationURL="https://www.econstor.eu/bitstream/10419/56724/1/654787352.pdf" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 192" DestinationUniqueKey="197" Name="URL 192" DestinationURL="http://www.wired.com/2014/08/edward-snowden" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 193" DestinationUniqueKey="198" Name="URL 193" DestinationURL="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1789749" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 194" DestinationUniqueKey="199" Name="URL 194" DestinationURL="publications" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 195" DestinationUniqueKey="200" Name="URL 195" DestinationURL="www.networkcultures.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 196" DestinationUniqueKey="201" Name="URL 196" DestinationURL="http://medamo.nl/" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 197" DestinationUniqueKey="202" Name="URL 197" DestinationURL="publications" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 198" DestinationUniqueKey="203" Name="URL 198" DestinationURL="www.networkcultures.org" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/URL 199" DestinationUniqueKey="204" Name="URL 199" DestinationURL="http://medamo.nl/" Hidden="false" />
+	<Hyperlink Self="uc9ac" Name="http://medamo.nl/" Source="uc9a6" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="1">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="object">HyperlinkURLDestination/http%3a//www.leon-loes.nl</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="uc9ad" Name="www.networkcultures.org" Source="uc9a9" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="203">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="object">HyperlinkURLDestination/URL 198</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="uc9ae" Name="publications" Source="uc9aa" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="202">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="object">HyperlinkURLDestination/URL 197</Destination>
+		</Properties>
+	</Hyperlink>
+	<Hyperlink Self="uc9af" Name="http://wtfpdl.net/" Source="uc9ab" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="163">
+		<Properties>
+			<BorderColor type="enumeration">Black</BorderColor>
+			<Destination type="object">HyperlinkURLDestination/link</Destination>
+		</Properties>
+	</Hyperlink>
 </Document>

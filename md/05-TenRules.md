@@ -1,5 +1,8 @@
 # Acknowledgements
 
+Dit is een test om te kijken of er automatisch geupdate wordt met behoud van paragraphstijlen, in indesign.
+
+
 Many of the ideas presented here were developed over a number of years
 and in constant exchange with others on the net. More so, the entire
 project rests on the shoulders of many, as it was realized with a
